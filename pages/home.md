@@ -3,1192 +3,364 @@ title: Home
 slug: home
 pageSettings:
   language: pt-BR
-  link_pt_br: /layout
-  link_en: /layout-en
-  link_es: /layout-es
+  link_pt_br: '#'
+  link_en: '#'
+  link_es: '#'
   animations: enable_all
-  direction: right
-  seoTitle: ''
-  seoDescription: ''
-  seoKeywords: []
+  direction: left
+  seoTitle: homepage documental
+  seoDescription: Homepage da plataforma documental.xyz
+  seoKeywords:
+    - keyword: documental
+    - keyword: documental.xyz
+    - keyword: agência autônoma
+    - keyword: autônoma advocacy
   seoImage: ''
 pageTheme:
-  primaryColor: '#454040'
+  primaryColor: ''
   secondaryColor: '#ffffff'
-  highlightColor: '#9c5454'
-  auxiliaryColor: '#3f3899'
-  displayFont: ''
-  textFont: ''
+  highlightColor: '#3c8bc8'
+  auxiliaryColor: '#000000'
+  displayFont: https://fonts.googleapis.com/css2?family=Roboto&display=swap
+  textFont: https://fonts.googleapis.com/css2?family=Roboto&display=swap
   spacingPatterns:
-    - name: Teste
+    - name: default
       mobile: '10'
-      tablet: '11'
-      desktop: '12'
+      tablet: '10'
+      desktop: '10'
 mapbox:
   type: MapBox
-  style: mapbox://styles/marlus/cjyt3uyhf15mr1cthc2942wxz
-  token: pk.eyJ1IjoibWFybHVzIiwiYSI6IjlmYlhtaEkifQ.vMxORYorRKnueDl3E5itEQ
-  centerLng: '-58.569363795'
-  centerLat: '-1.917321274'
-  zoom: '2'
+  style: mapbox://styles/studio-autonoma/cmdgcs27u019101sa29ytbsps
+  token: pk.eyJ1Ijoic3R1ZGlvLWF1dG9ub21hIiwiYSI6ImNtY3V2d3dtMTA0ZXgycnB4OW01cjlqb2QifQ.3NMaRt1maLlqTv6nlVqVHA
+  centerLng: '10.706'
+  centerLat: '29.771'
+  zoom: '1.40'
   bearing: '0'
   pitch: '0'
   layers: ''
   columnAlign: left
-  floatingText: true
-  views:
-    - id: map1_view1
-      centerLng: '-58.569363795'
-      centerLat: '-1.917321274'
-      zoom: '3'
-      mobileZoom: ''
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        amazonia-limites
-        mineracaoamazonia
-      title: ''
-      notes: ''
-      items:
-        - icon: show_chart
-          colorIcon: '#bffa80ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Legend_Text_1
-        - icon: square
-          colorIcon: '#e31c1cff'
-          typeIcon: outlined
-          iconFill: true
-          text: Legend_Text_2
-    - id: map1_view2
-      centerLng: '-58.569363795000015'
-      centerLat: '-1.917321274000017'
-      zoom: '3.5'
-      mobileZoom: ''
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        amazonia-limites
-        mineracaoamazonia
-        anpamazonia
-        tiamazonia
-      title: ''
-      notes: ''
-      items: []
-    - id: map1_view3
-      centerLng: '-77.921'
-      centerLat: '-2.038'
-      zoom: '6'
-      mobileZoom: ''
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        mineracaoamazonia
-        amazonia-limites
-        ecuador-limites
-        tiamazonia
-        anpamazonia
-      title: ''
-      notes: ''
-      items: []
-    - id: map1_view4
-      centerLng: '-78.195'
-      centerLat: '-3.893'
-      zoom: '7'
-      mobileZoom: ''
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        mineracaoamazonia[pais==Ecuador]
-        ecuador-limites
-        expulsion-regions
-        tiamazonia[pais==Ecuador]
-        anpamazonia[pais==Ecuador]
-      title: ''
-      notes: ''
-      items: []
-    - id: map2_view1
-      centerLng: '-78.465'
-      centerLat: '-3.584'
-      zoom: '12.2'
-      mobileZoom: ''
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        sat-2013
-        expulsion-regions
-        desajolos-mirador[Tipo==Comunidad]
-      title: ''
-      notes: ''
-      items: []
-    - id: map2_view2
-      centerLng: '-78.465'
-      centerLat: '-3.584'
-      zoom: '12.2'
-      mobileZoom: ''
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        desajolos-mirador
-        expulsion-regions
-        sat-2013
-      title: ''
-      notes: ''
-      items: []
-    - id: map2_view3
-      centerLng: '-78.465'
-      centerLat: '-3.584'
-      zoom: '12.2'
-      mobileZoom: ''
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        desajolos-mirador
-        expulsion-regions
-        sat-2018
-      title: ''
-      notes: ''
-      items: []
-  center:
-    lng: -54.875
-    lat: -2.53
-  mapView: ''
+  floatingText: false
+  views: []
 components:
   - type: Group
-    id: Grupo 01
-    shortTitle: Grupo 01
-    longTitle: ''
+    id: Capa
+    shortTitle: Capa
+    longTitle: Home
     description: ''
     showInMenu: true
     animations: true
     txtColor: Secondary
     customTxtColor: ''
-    bgColor: Highlight
-    customBgColor: ''
+    bgColor: Custom
+    customBgColor: '#1691c5ff'
     backgroundMedia:
-      - type: backgroundVideo
-        videoSrc: https://documental.xyz/assets/main/expulsion/expulsiones-intro-low.mp4
-    overlay: dark
-    components:
-      - type: ColumnSticky
-        txtColor: ''
-        bgColor: ''
-        paddingTop: true
-        paddingBottom: true
-        layout: text-bigger
-        title: 'BLOCO: COLUMN STICKY _ LAYOUT: TEXT-BIGGER!!@'
-        components:
-          - type: Spacer
-            desktop: 800px
-            tablet: 800px
-            mobile: 800px
-          - type: Text
-            hasDropCap: false
-            content: |-
-              Bloco: Column Sticky_Background: Video_Overlay: Dark_Padding: Top + Bottom_Bloco Spacer: 800px_Bloco: Text_Content_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt_Bloco Spacer: 150px.
-          - type: Spacer
-            desktop: 100px
-            tablet: 100px
-            mobile: 100px
-    layout: default
-  - type: Group
-    id: Grupo 02
-    shortTitle: Grupo 02
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Column
-        txtColor: ''
-        bgColor: ''
-        paddingTop: false
-        paddingBottom: false
-        layout: text-bigger
-        title: 'BLOCO: COLUMN STICKY_TÍTULO: TEXT-BIGGER'
-        components:
-          - type: Text
-            hasDropCap: false
-            content: |-
-              # BLOCO: COLUMN_BLOCO: TEXT_FONTE: HEADING 1
-
-              Bloco: Text_Content_Fonte: Paragraph: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim **ipsam voluptatem** quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-
-              - Bloco: Text_Content_Bulleted list_Sed ut perspiciatis unde omnis
-              - Sed ut perspiciatis unde omnis
-              - Sed ut perspiciatis unde omnis
-
-              1. Bloco: Text_Content_Numbered list_Nemo enim ipsam voluptatem
-              2. Nemo enim ipsam voluptatem
-              3. Nemo enim ipsam voluptatem
-
-              Link: [Sed ut perspiciatis unde omnis iste natus error](https://documental.xyz/) sit voluptatem accusantium doloremque laudantium, _totam rem aperiam, eaque ipsa quae ab_ illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-
-              > Bloco: Text_Content_Block Quote_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-          - type: Pullquote
-            content: 'Bloco: Pullquote _ Content _ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.'
-            txtColor: ''
-            bgColor: ''
-            byline: 'Bloco: Pullquote_Byline'
-          - type: InnerColumns
-            column1:
-              components:
-                - type: Text
-                  hasDropCap: false
-                  content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-            column2:
-              components:
-                - type: Text
-                  hasDropCap: false
-                  content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-    layout: default
-  - type: Group
-    id: Grupo 03
-    shortTitle: Grupo 03
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Secondary
-    customTxtColor: ''
-    bgColor: Highlight
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: ColumnSticky
-        txtColor: ''
-        bgColor: ''
-        paddingTop: false
-        paddingBottom: false
-        layout: text-bigger
-        title: 'BLOCO: COLUMN STICKY_ LAYOUT: TEXT-BIGGER'
-        components:
-          - type: Text
-            hasDropCap: false
-            content: |-
-              Bloco: Text_Content_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-
-              ###### 
-
-              ###### Fonte: Heading 6_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-
-              ##### Fonte: Heading 5_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-
-              #### Fonte: Heading 4_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-
-              ### Fonte: Heading 3_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-    layout: default
-  - type: Group
-    id: Grupo 04
-    shortTitle: Grupo 04
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia: []
+      - type: backgroundImage
+        imgSrc: /uploads/territorios-de-excecao.jpg
     overlay: ''
     components:
       - type: Columns
-        paddingTop: false
+        paddingTop: true
         paddingBottom: false
         invertOnMobile: false
         columnsAlign: 33-66
         column1:
           components:
-            - type: Spacer
-              desktop: 390px
-              tablet: 390px
-              mobile: 390px
             - type: ImageBlock
-              wideImage: true
-              src: /uploads/arqueological-remains_05.jpg
-              alt: 'Bloco: Image Block_Alt Test'
-              description: 'Bloco: Image Block_Wide: On_Description_Sed ut perspiciatis unde omnis iste natus error'
-            - type: Pullquote
-              content: 'Bloco: Pullquote _ Content_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.'
-              txtColor: '#660808ff'
-              bgColor: ''
-              byline: 'Bloco: Pullquote_Caption'
+              wideImage: false
+              src: /uploads/documental.png
+              alt: ''
+              description: ''
+        column2:
+          components:
+            - type: Spacer
+              desktop: 200px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: '# UMA PLATAFORMA DE CÓDIGO ABERTO E CUSTOMIZÁVEL PARA A CRIAÇÃO E PUBLICAÇÃO DE NARRATIVAS CARTOGRÁFICAS MULTIMÍDIA.'
+            - type: Spacer
+              desktop: 200px
+              tablet: ''
+              mobile: ''
+  - type: Group
+    id: O que a plataforma faz?
+    shortTitle: O que a plataforma faz?
+    longTitle: ''
+    description: ''
+    showInMenu: false
+    animations: true
+    txtColor: Primary
+    customTxtColor: ''
+    bgColor: Secondary
+    customBgColor: ''
+    backgroundMedia: []
+    overlay: ''
+    components:
+      - type: Columns
+        paddingTop: true
+        paddingBottom: false
+        invertOnMobile: false
+        columnsAlign: 33-66
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '# O QUE A PLATAFORMA FAZ?'
         column2:
           components:
             - type: Text
-              hasDropCap: true
-              content: |-
-                Bloco: Columns_Bigger right_Bloco: Text_Dropcap: On_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, **totam rem aperiam**, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            - type: ImageBlock
-              wideImage: true
-              src: /uploads/arqueological-remains_02.jpg
-              alt: 'Bloco: Image Block_Wide: On_Alt Text'
-              description: 'Bloco: Image Block_Wide: On_Description'
-        desktop: 200px
-        tablet: ''
-        mobile: ''
-    layout: default
+              hasDropCap: false
+              content: '### **Através de uma interface intuitiva e de fácil manipulação, Documental.xyz possibilita a combinação de diferentes conteúdos multimídia (texto, imagem, dados, áudio e vídeo) com mapeamento de dados, gerando narrativas cartográficas visualmente envolventes e interativas.**'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: '### Desenhada para atender a realidade de movimentos sociais e organizações de defesa de direitos, a plataforma é um aplicativo gratuito e seu uso não exige conhecimento técnico avançado.'
   - type: Group
-    id: Grupo 05
-    shortTitle: Grupo 05
+    id: O que a plataforma faz?_2
+    shortTitle: O que a plataforma faz?_2
     longTitle: ''
     description: ''
-    showInMenu: true
+    showInMenu: false
     animations: true
-    txtColor: Secondary
+    txtColor: Highlight
     customTxtColor: ''
-    bgColor: Custom
-    customBgColor: '#a05454a1'
-    backgroundMedia:
-      - type: backgroundImage
-        imgSrc: /uploads/expulsion-san-marcos.jpg
+    bgColor: Secondary
+    customBgColor: ''
+    backgroundMedia: []
     overlay: ''
     components:
-      - type: ColumnSticky
-        txtColor: ''
-        bgColor: ''
-        paddingTop: true
+      - type: Column
+        paddingTop: false
         paddingBottom: true
-        layout: title-bottom
-        title: 'BLOCO: COLUMN STICKY _ LAYOUT: TITLE-BOTTOM'
         components:
           - type: Text
             hasDropCap: false
-            content: 'Background: Image_Background Color: Custom_Bloco: Text_Content_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.'
-    layout: default
+            content: |-
+              # Documental.xyz é software livre: 
+
+              # não tem custos de instalação, atualização, e pode ser usado, copiado, estudado, modificado e redistribuído sem quaisquer restrições.
+          - type: Spacer
+            desktop: 50px
+            tablet: ''
+            mobile: ''
+          - type: Button
+            link:
+              url: https://www.advocacia.autonoma.xyz/
+              target: _self
+              text: Download
+            icon: ''
+            size: ''
   - type: Group
-    id: Grupo 06
-    shortTitle: Grupo 06
+    id: Como a plataforma funciona?
+    shortTitle: Como a plataforma funciona?
     longTitle: ''
     description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Columns
-        paddingTop: false
-        paddingBottom: false
-        invertOnMobile: false
-        columnsAlign: 66-33
-        column1:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: |-
-                ##### Bloco: Columns _ Bigger Left _ Bloco: Text _ Fonte: Heading 5_Sed ut perspiciatis unde omnis iste natus
-
-                Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit
-            - type: VideoEmbed
-              wideVideo: true
-              videoUrl: https://player.vimeo.com/video/350133875?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479
-              videoCaption: 'Bloco: Video Embed_Wide: On_Video Caption'
-            - type: Text
-              hasDropCap: false
-              content: |-
-                Bloco: Text_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-        column2:
-          components:
-            - type: Timeline
-              components:
-                - type: TimelineBullet
-                  text: Bloco:Timeline_Timeline Bullet 1_Text
-                  content: |-
-                    ###### Timeline Bullet 1_Content_Fonte: Heading 6_Sed ut perspiciatis unde omnis 
-
-                    Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                - type: TimelineBullet
-                  text: Timeline Bullet 2_Text
-                  content: |-
-                    ###### Timeline Bullet 2_Content_Fonte: Heading 6
-
-                    Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
-                - type: TimelineBullet
-                  text: Timeline Bullet 3_Text
-                  content: Timeline Bullet 3_Content_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                - type: TimelineBullet
-                  text: Timeline Bullet 4_Text
-                  content: Timeline Bullet 4_Content_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                - type: TimelineBullet
-                  text: Timeline Bullet 5_Text
-                  content: |-
-                    ###### Timeline Bullet 5_Content_Fonte: Heading 6
-
-                    Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                - type: TimelineBullet
-                  text: ''
-                  content: ''
-            - type: ImageBlock
-              wideImage: true
-              src: /uploads/arqueological-remains_07.jpg
-              alt: 'Bloco: Image Block_Wide: On_Alt Text'
-              description: 'Bloco: Image Block_Wide: On_Description'
-      - type: ImageBlock
-        wideImage: false
-        src: /uploads/expulsion-san-marcos.jpg
-        alt: ''
-        description: 'Bloco: Image Block_Description'
-      - type: Column
-        paddingTop: true
-        paddingBottom: false
-        components:
-          - type: ImageBlock
-            wideImage: true
-            src: /uploads/expulsion-san-marcos.jpg
-            alt: 'Bloco: Image Block_Wide: On_Alt Text'
-            description: 'Bloco: Column_ Bloco: Image Block_Wide: On_Description'
-  - type: Group
-    id: Grupo 07
-    shortTitle: Grupo 07
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Secondary
-    customTxtColor: ''
-    bgColor: Primary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Slider
-        slides:
-          - image: /uploads/arqueological-remains_03.jpg
-            caption: 'Bloco: Slider_Caption'
-          - image: /uploads/arqueological-remains_07.jpg
-            caption: 'Bloco: Slider_Caption_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-          - image: /uploads/arqueological-remains_02.jpg
-            caption: 'Bloco: Slider_Caption_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium'
-  - type: Group
-    id: Grupo  08
-    shortTitle: Grupo 08
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Columns
-        paddingTop: false
-        paddingBottom: false
-        invertOnMobile: false
-        columnsAlign: 66-33
-        column1:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '##### Bloco: Columns _ Bigger Left _ Bloco: Text _ Content _ Fonte: Heading 5 _ Sed ut perspiciatis unde omnis iste natus'
-            - type: InnerColumns
-              column1:
-                components:
-                  - type: Text
-                    hasDropCap: false
-                    content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              column2:
-                components:
-                  - type: Text
-                    hasDropCap: false
-                    content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            - type: Timeline
-              desktop: '10'
-              tablet: '10'
-              mobile: '10'
-              components:
-                - type: TimelineBullet
-                  text: 'Bloco: Timeline_Timeline Bullet 1_Text'
-                  content: |-
-                    ###### Timeline Bullet_Content_Fonte: Heading 6_Sed ut perspiciatis unde omnis iste 
-
-                    Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                - type: TimelineBullet
-                  text: Timeline Bullet 2_Text
-                  content: 'Timeline Bullet_Content_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-                - type: TimelineBullet
-                  text: Timeline Bullet 3_Text
-                  content: |-
-                    ###### Timeline Bullet_Content_Fonte: Heading 6_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
-
-                    Timeline Bullet_Content_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                - type: TimelineBullet
-                  text: Timeline Bullet 4_Text
-                  content: 'Timeline Bullet_Content_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.'
-                - type: TimelineBullet
-                  text: Timeline Bullet 5_Text
-                  content: 'Timeline Bullet_Content_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-            - type: Gallery
-              description: 'Bloco: Gallery_Description_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.'
-              uniqid: BlocoGalleryUniqueID1
-              images:
-                - image: /uploads/arqueological-remains_03.jpg
-                  caption: 'Bloco: Gallery_Image 1_Caption_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-                - image: /uploads/arqueological-remains_07.jpg
-                  caption: 'Bloco: Gallery_Image 2_Caption_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-                - image: /uploads/arqueological-remains_02.jpg
-                  caption: 'Bloco: Gallery_Image 3_Caption_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-        column2:
-          components:
-            - type: Spacer
-              desktop: 550px
-              tablet: 550px
-              mobile: 550px
-            - type: Gallery
-              description: 'Bloco: Gallery_Description_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium'
-              uniqid: BlocoGalleryUniqueID2
-              images:
-                - image: /uploads/expulsion-arch-3.jpeg
-                  caption: 'Bloco: Gallery_Image 1_Caption_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-                - image: /uploads/bWFpbi9leHB1bHNpb24vZXhwdWxzaW9uLWFyY2gtNC5qcGVn.jpeg
-                  caption: 'Bloco: Gallery_Image 2_Caption_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-                - image: /uploads/expulsion-border-peru-ecuador.jpg
-                  caption: 'Bloco: Gallery_Image 3_Caption_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-            - type: Spacer
-              desktop: 400px
-              tablet: 400px
-              mobile: 400px
-            - type: BigNumbers
-              alignment: caption-bottom
-              items:
-                - number: '500'
-                  caption: 'Bloco: Big Numbers_Caption'
-                - number: '600'
-                  caption: 'Bloco: Big Numbers_Caption'
-                - number: '700'
-                  caption: 'Bloco: Big Numbers_Caption'
-    layout: default
-  - type: Group
-    id: Grupo 09
-    shortTitle: Grupo 09
-    longTitle: ''
-    description: ''
-    showInMenu: true
+    showInMenu: false
     animations: true
     txtColor: Secondary
     customTxtColor: ''
     bgColor: Highlight
     customBgColor: ''
-    backgroundMedia:
-      - type: backgroundImage
-        imgSrc: /uploads/expulsion-san-marcos.jpg
-    overlay: dark
-    components:
-      - type: ColumnSticky
-        txtColor: ''
-        bgColor: ''
-        paddingTop: true
-        paddingBottom: true
-        layout: title-bottom
-        title: 'BLOCO: COLUMN STICKY _ LAYOUT: TITLE-BOTTOM _ TITLE'
-        components:
-          - type: Spacer
-            hasDropCap: false
-            content: |-
-              # BLOCO: COLUMN / FONTE: HEADING 1 / SED UT PERSPICIATIS UNDE OMNIS ISTE
-
-              Bloco Column_Bloco Text_Paragraph: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-            desktop: 800px
-            tablet: 800px
-            mobile: 800px
-          - type: Text
-            hasDropCap: false
-            content: |-
-              Bloco Column Sticky_Background: Image_Overlay: Dark_Padding: Top + Bottom
-
-              Bloco Spacer: 800px
-
-
-              Bloco Text_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-            imageLeft: /uploads/toxicriver_before2.png
-            imageRight: /uploads/toxicriver_after2.png
-            caption: 'Bloco: Compare\_Caption\_Fonte: Paragraph'
-    layout: default
-  - type: Group
-    id: Grupo 10
-    shortTitle: Grupo 10
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
     backgroundMedia: []
     overlay: ''
     components:
       - type: Columns
-        paddingTop: false
-        paddingBottom: false
+        paddingTop: true
+        paddingBottom: true
         invertOnMobile: false
         columnsAlign: 66-33
         column1:
           components:
-            - type: ChartPercentage
-              chartPercentageTitle: 'Bloco: Columns _ Bloco: Chart Percentage _Title'
-              chartPercentageNotes: 'Bloco: Chart Percentage _ Chart Notes'
-              chartPercentageValues:
-                - label: Value _ Label 1
-                  color: '#b06d6dff'
-                  number: 20
-                - label: Value _ Label 2
-                  color: '#be3c3cff'
-                  number: 30
-                - label: Value _ Label 3
-                  color: '#7c1818ff'
-                  number: 40
-                - label: Value _ Label 4
-                  color: '#4e0808ff'
-                  number: 10
-            - type: InnerColumns
-              column1:
-                components:
-                  - type: Text
-                    hasDropCap: false
-                    content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              column2:
-                components:
-                  - type: Text
-                    hasDropCap: false
-                    content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            - type: ChartBar
-              chartTitle: 'Bloco: Chart Bar _ Title'
-              chartNotes: 'Bloco: Chart Bar _ Chart Notes _ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium'
-              chartBars:
-                - label: Chart Bar _ Label 1
-                  color: '#ac7272ff'
-                  number: 60
-                  numberPercent: 60
-                - label: Chart Bar _ Label 2
-                  color: '#b14e4eff'
-                  number: 40
-                  numberPercent: 40
-                - label: Chart Bar _ Label 3
-                  color: '#b32929ff'
-                  number: 20
-                  numberPercent: 40
-                - label: Chart Bar _ Label 4
-                  color: '#650606ff'
-                  number: 50
-                  numberPercent: 50
-        column2:
-          components:
+            - type: Text
+              hasDropCap: false
+              content: |-
+                ##### Documental.xyz utiliza recursos de "scrollytelling" integrados com navegação em dados GIS.
+
+                ##### ######
             - type: Spacer
-              chartTitle: 'Bloco: Columns _ Bloco: Chart Bar _ Title'
-              chartNotes: Chart Notes_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
-              chartBars:
-                - label: Chart Bart _ Label 1
-                  color: '#c44545ff'
-                  number: 26
-                  numberPercent: 26
-                - label: Chart Bart _ Label 2
-                  color: '#7b0a0aff'
-                  number: 52.5
-                  numberPercent: 52
-                - label: Chart Bart _ Label 3
-                  color: '#cd9d9dff'
-                  number: 78.6
-                  numberPercent: 78
-                - label: Chart Bart _ Label 4
-                  color: '#5e1212ff'
-                  number: 63.2
-                  numberPercent: 63
-              desktop: 250px
-              tablet: 250px
-              mobile: 250px
-            - type: ChartBar
-              chartTitle: 'Bloco: Columns _ Bloco: Chart Bar _ Title'
-              chartNotes: Chart Notes_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
-              chartBars:
-                - label: Chart Bar _ Label 1
-                  color: '#c44545ff'
-                  number: 26
-                  numberPercent: 26
-                - label: Chart Bar _ Label 2
-                  color: '#7b0a0aff'
-                  number: 52.5
-                  numberPercent: 52
-                - label: Chart Bar _ Label 3
-                  color: '#cd9d9dff'
-                  number: 78.6
-                  numberPercent: 78
-                - label: Chart Bar _ Label 4
-                  color: '#5e1212ff'
-                  number: 63.2
-                  numberPercent: 63
-              desktop: 400px
+              desktop: 50px
               tablet: ''
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            - type: ChartPercentage
-              chartPercentageTitle: 'Bloco: Chart Percentage _ Title'
-              chartPercentageNotes: 'Bloco: Chart Percentage _ Chart Notes'
-              chartPercentageValues:
-                - label: Value _ Label 1
-                  color: '#9c1111ff'
-                  number: 30
-                - label: Value _ Label 2
-                  color: '#c45a5aff'
-                  number: 20
-                - label: Value _ Label 3
-                  color: '#4f0d0dff'
-                  number: 50
-    layout: default
+              content: '##### "Scrollytelling" é uma técnica de web design para criar histórias multimídia que se desenrolam à medida que o usuário percorre a página. A plataforma oferece uma interface que permite a inclusão de conteúdos e o controle de dinâmica do "scrollytelling" combinados com a visualização de dados em mapas interativos.'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: '##### Através de parâmetros facilmente customizáveis na interface gráfica, a plataforma permite que o usuário tenha total controle sobre o design do conteúdo, oferecendo um recurso poderoso para a criação de narrativas visuais nos mais diversos formatos.'
+        column2:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '# COMO A PLATAFORMA FUNCIONA?'
   - type: Group
-    id: Grupo 11
-    shortTitle: Grupo 11
+    id: Portfólio_Como usar a plataforma
+    shortTitle: Portfólio_Como usar a plataforma
     longTitle: ''
     description: ''
-    showInMenu: true
+    showInMenu: false
     animations: true
-    txtColor: Secondary
-    customTxtColor: ''
-    bgColor: Primary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: ChartPercentage
-        chartPercentageTitle: 'Bloco: Chart Percentage _ Title'
-        chartPercentageNotes: 'Bloco: Chart Percentage _ Chart Notes _ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-        chartPercentageValues:
-          - label: Value _ Label 1
-            color: '#baa0a0ff'
-            number: 20
-          - label: Value _ Label 2
-            color: '#9e6161ff'
-            number: 30
-          - label: Value _ Label 3
-            color: '#ed7e7eff'
-            number: 10
-          - label: Value _ Label 4
-            color: '#bb3a3aff'
-            number: 10
-          - label: Value _ Label 5
-            color: '#991a1aff'
-            number: 20
-          - label: Value _ Label 6
-            color: '#570a0aff'
-            number: 10
-      - type: ChartBar
-        chartTitle: 'Bloco: Chart Bar_Title'
-        chartNotes: 'Bloco: Chart Bar_Chart Notes_ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-        chartBars:
-          - label: Chart Bar _ Label 1
-            color: '#bc9f9fff'
-            number: 60
-            numberPercent: 60
-          - label: Chart Bar _ Label 2
-            color: '#bc9f9fff'
-            number: 40
-            numberPercent: 40
-          - label: Chart Bar _ Label 3
-            color: '#bc9f9fff'
-            number: 70
-            numberPercent: 70
-          - label: Chart Bar _ Label 4
-            color: '#bc9f9fff'
-            number: 80
-            numberPercent: 80
-          - label: Chart Bar _ Label 5
-            color: '#bc9f9fff'
-            number: 30
-            numberPercent: 30
-  - type: Group
-    id: Grupo 12
-    shortTitle: Grupo 12
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
+    txtColor: Custom
+    customTxtColor: '#1c4878ff'
     bgColor: Secondary
     customBgColor: ''
     backgroundMedia: []
     overlay: ''
     components:
-      - type: Column
+      - type: Columns
         paddingTop: false
         paddingBottom: false
-        components:
-          - type: Text
-            hasDropCap: false
-            content: |-
-              # Bloco: Columns _ Bloco: Text _ Fonte: Heading 1
-
-              Fonte: Paragraph _ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-          - type: Compare
-            imageLeft: /uploads/map.png
-            imageRight: /uploads/map-1.png
-            caption: 'Bloco: Compare _ Caption _ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium'
-  - type: Group
-    id: Grupo 13
-    shortTitle: Grupo 13
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Compare
-        imageLeft: /uploads/map.png
-        imageRight: /uploads/map-1.png
-        caption: 'Bloco: Compare _ Caption _ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium'
-  - type: Group
-    id: Grupo 14
-    shortTitle: Grupo 14
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Secondary
-    customTxtColor: ''
-    bgColor: ''
-    customBgColor: ''
-    backgroundMedia:
-      - type: backgroundImage
-        imgSrc: /uploads/expulsion-san-marcos.jpg
-    overlay: dark
-    components:
-      - type: ColumnSticky
-        txtColor: ''
-        bgColor: ''
+        invertOnMobile: false
+        columnsAlign: 66-33
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '# PORTFÓLIO'
+            - type: Spacer
+              desktop: 25px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: '##### projetos realizados com a plataforma'
+        column2:
+          components:
+            - type: Spacer
+              desktop: 10px
+              tablet: ''
+              mobile: ''
+      - type: CardsCall
+        cardsCallArr:
+          - link:
+              url: https://v1.documental.xyz/pt/alter-ameacada
+              target: ''
+              customTarget: ''
+            img:
+              src: /uploads/alter-do-chao-azul.png
+              alt: ''
+            title: Alter do Chão Ameaçada
+            text: O projeto Alter do Chão Ameaçada, produzido pela Frente de Comunicação Indígena Borari e publicado na plataforma Documental com mentoria de Adriano Belisário (MediaLab/UFRJ), investiga a ameaça ao povo indígena Borari, em Santarém, no Pará, devido à especulação imobiliária e ocupação desordenada da região. Através da análise de mapas e imagens de satélite, a pesquisa mapeou o território Borari e seus sítios arqueológicos, assim como os danos ambientais causados aos igarapés e nascentes, como forma de visualizar a extensão das violações causadas e pleitear pela demarcação da Terra Indígena.
+          - link:
+              url: https://documental.xyz/territorios-de-excecao/
+              target: ''
+              customTarget: ''
+            img:
+              src: /uploads/territorios-de-excecao-azul.png
+              alt: ''
+            title: Territórios de Exceção
+            text: Uma parceria entre a agência autônoma e o MediaLab (UFRJ), o caso Territórios da Exceção investigou o uso de helicópteros como plataforma de disparos da polícia militar nas favelas do Rio de Janeiro para compreender a dinâmica e os impactos deste tipo de operação sobre os direitos fundamentais das populações e comunidades atingidas. Utilizando ciência de visualização de dados, dados governamentais e de mídias sociais, investigações de campo e técnicas de arquitetura forense, a pesquisa apresenta as evidências por meio de vídeos, animações, imagens em 3D e informações georreferenciadas, oferecendo uma experiência imersiva dentro dos mapas e localidades.
+      - type: CardsCall
+        cardsCallArr:
+          - link:
+              url: https://documental.xyz/expulsions/
+              target: ''
+              customTarget: ''
+            img:
+              src: /uploads/expulsion-san-marcos-azul.png
+              alt: ''
+            title: Expulsões
+            text: O caso Expulsões, realizado através da parceria entre a agência autônoma e o Forensic Architecture, investiga violações de direitos humanos e ambientais decorrentes da implantação de um megaprojeto de mineração na região da Cordilheira de Cóndor, na Amazônia Equatoriana. Através da análise de imagens de satélite e de testemunhos das vítimas, com o apoio de atores locais, a investigação mapeou processos de despossessão de comunidades e povos indígenas, desmatamento e destruição de sítios arqueológicos, demonstrando as dinâmicas espaciais de uma ação coordenada de violações sistemáticas.
+          - link:
+              url: https://documental.xyz/nhanderekoa/
+              target: ''
+              customTarget: ''
+            img:
+              src: /uploads/imagem_16_ocupacao_antena-azul.png
+              alt: ''
+            title: Nhanderekoa
+            text: 'O projeto Arquiteturas da Reparação: São Paulo Terra Indígena foi desenvolvido no âmbito das instituições agência autônoma, Chão Coletivo e Plataforma Práticas Espaciais / Escola da Cidade, com apoio do CAU/SP. Ele apresenta uma cartografia da Terra Indígena Guarani do Jaraguá, em São Paulo, no momento de sua demarcação física entre julho e setembro de 2025. Esse território preserva um dos últimos fragmentos de Mata Atlântica na cidade, e carrega enorme importância ambiental, climática e espiritual para os povos Guarani, que habitam a região desde tempos imemoriais. Nhanderekoa – “onde nossa cultura vive”, nome dado ao conjunto de cartografias e análises mostradas aqui, combina análise de dados geoespaciais, cartografia participativa, entrevistas e arquivos históricos para traçar um panorama das práticas de defesa, cuidado e reparação das florestas do Jaraguá, ao mesmo tempo em que identifica ameaças atuais ao território. Nhanderekoa expressa o entendimento Guarani de que a floresta – com seus animais, plantas e espíritos – é parte inseparável do modo de vida, constituindo uma extensão de moradia compartilhada entre seres humanos e não humanos.'
+      - type: Columns
         paddingTop: true
-        paddingBottom: true
-        layout: title-bottom
-        title: 'BLOCO: COLUMN STICKY _ LAYOUT: TITLE-BOTTOM _ TÍTULO _ SED UT PERSPICIATIS UNDE OMNIS ISTE NATUS ERROR SIT VOLUPTATEM'
-        components:
-          - type: Text
-            hasDropCap: false
-            content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-  - type: Map
-    id: Mapa 1
-    shortTitle: Mapa 1
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Secondary
-    customTxtColor: ''
-    bgColor: Primary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: MapView
-        txtColor: ''
-        bgColor: ''
-        paddingTop: false
         paddingBottom: false
-        components:
-          - type: VideoEmbed
-            wideImage: true
-            src: /uploads/arqueological-remains_07.jpg
-            alt: 'Bloco: Column_Bloco: Image Block_Wide: On_Alt Text'
-            description: 'Bloco: Column_Bloco: Image Block_Wide: On_Description'
-            wideVideo: true
-            videoUrl: https://player.vimeo.com/video/350133875?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479
-            videoCaption: 'Bloco: Video Embed_Wide: On_Video Caption'
-          - type: VideoEmbed
-            wideVideo: true
-            videoUrl: https://player.vimeo.com/video/350133875?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479
-            videoCaption: 'Bloco: Video Embed_Wide: On_Video Caption'
-        mapView: map1_view1
-      - type: Text
-        hasDropCap: false
-        content: |-
-          ##### Bloco: Map_Column Align: Left_Bloco: MapView 1_Bloco: Text_Fonte: Heading 5_Sed ut perspiciatis unde omnis iste natus error
+        invertOnMobile: false
+        columnsAlign: 66-33
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '# COMO USAR A PLATAFORMA?'
+            - type: Spacer
+              desktop: 150px
+              tablet: ''
+              mobile: ''
+            - type: Timeline
+              components:
+                - type: TimelineBullet
+                  text: NO SEU SERVIDOR
+                  content: '##### Instale a plataforma em seu servidor usando o código base da Documental disponível no repositório do Github. A integração com o seu servidor requer conhecimento técnico avançado. A arquitetura de instalação está detalhada na documentação oficial da Documental.'
+                - type: Spacer
+                  desktop: 50px
+                  tablet: ''
+                  mobile: ''
+                - type: TimelineBullet
+                  text: EM NOSSO SERVIDOR
+                  content: |-
+                    Seu projeto pode utilizar a plataforma em nosso servidor, sem necessidade de instalação. Oferecemos infraestrutura e suporte técnico para a implementação e utilização da plataforma para movimentos sociais e entidades de defesa de direitos humanos e ambientais.
 
-          Fonte: Paragraph _ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      - type: Spacer
-        desktop: 300px
-        tablet: 300px
-        mobile: 300px
-      - type: Text
-        hasDropCap: false
-        content: |-
-          ###### Fonte: Heading 6 _ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-    columnAlign: left
-    floatingText: true
-    layout: default
-  - type: Map
-    id: Mapa 2
-    shortTitle: Mapa 2
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Secondary
-    customTxtColor: ''
-    bgColor: Primary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: MapView
-        txtColor: ''
-        bgColor: ''
-        desktop: 500px
-        tablet: ''
-        mobile: ''
-        mapView: map1_view3
-      - type: Text
-        hasDropCap: false
-        content: |-
-          ##### Bloco: Map_Column Align: Right_Bloco: MapView 3_Bloco: Text_Fonte: Heading 5_Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-
-          Bloco: Text_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      - type: Spacer
-        desktop: 300px
-        tablet: 300px
-        mobile: 300px
-      - type: Text
-        hasDropCap: false
-        content: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      - type: Spacer
-        desktop: 300px
-        tablet: 300px
-        mobile: 300px
-      - type: MapView
-        txtColor: ''
-        bgColor: ''
-        mapView: map1_view4
-      - type: Text
-        hasDropCap: false
-        content: 'Bloco: MapView 4_Bloco: Text_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-      - type: ImageBlock
-        wideImage: false
-        src: /uploads/expulsion-tendetza-antun_16x9edit.jpg
-        alt: Image Block_Alt Text
-        description: 'Bloco: Image Block_Description'
-      - type: VideoEmbed
-        wideVideo: false
-        videoUrl: https://www.youtube.com/watch?v=u3TpsrmdcSE
-        videoCaption: ''
-      - type: Timeline
-        components:
-          - type: TimelineBullet
-            content: Ea incididunt sunt quis dolor cupidatat velit ipsum officia ullamco sunt id laboris fugiat pariatur sint. Voluptate anim id reprehenderit labore officia laborum enim ea nostrud in. Ullamco sit officia dolore cillum laborum adipisicing. Elit ex ex excepteur exercitation excepteur officia sunt incididunt irure nisi amet.
-            text: Lorem Ispmi
-    columnAlign: right
-    floatingText: true
-  - type: Map
-    id: Mapa 3
-    shortTitle: Mapa 3
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Primary
-    bgColor: Secondary
-    components:
-      - type: MapView
-        txtColor: ''
-        bgColor: ''
-        mapView: map2_view1
-      - type: Text
-        hasDropCap: false
-        content: |-
-          ##### Bloco: Map_Bloco: MapView 1_Bloco: Text_Fonte: Heading 5_Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-
-          Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
-      - type: Spacer
-        desktop: 300px
-        tablet: 300px
-        mobile: 300px
-      - type: Timeline
-        components:
-          - type: Text
-            hasDropCap: false
-            content: '**Bloco: Timeline_Bloco: Text**'
-          - type: TimelineBullet
-            content: |-
-              ###### Bloco: Timeline_Content_Fonte: Heading 6_Sed ut perspiciatis unde omnis iste natus error 
-
-              Fonte: Paragraph_sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            text: 'Bloco: Timeline_Timeline Bullet 1_Text'
-          - type: TimelineBullet
-            content: 'Bloco: Timeline_Content_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium'
-            text: 'Bloco: Timeline_Timeline Bullet 2_Text'
-          - type: TimelineBullet
-            content: 'Bloco: Timeline_Content_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-            text: 'Bloco: Timeline_Timeline Bullet 3_Text'
-      - type: Spacer
-        desktop: 400px
-        tablet: 400px
-        mobile: 400px
-      - type: MapView
-        txtColor: ''
-        bgColor: ''
-        mapView: map2_view2
-      - type: Timeline
-        components:
-          - type: TimelineBullet
-            content: 'Bloco: Timeline_Content_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium'
-            text: 'Bloco: Timeline_Timeline Bullet 4_Text'
-          - type: TimelineBullet
-            content: 'Bloco: Timeline_Content_Fonte: Paragraph_Sed ut perspiciatis unde'
-            text: 'Bloco: Timeline_Timeline Bullet 5_Text'
-          - type: TimelineBullet
-            content: 'Bloco: Timeline_Content_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium'
-            text: 'Bloco: Timeline_Timeline Bullet 6_Text'
-      - type: Spacer
-        desktop: 400px
-        tablet: 400px
-        mobile: 400px
-      - type: MapView
-        txtColor: ''
-        bgColor: ''
-        mapView: map2_view3
-      - type: Timeline
-        components:
-          - type: TimelineBullet
-            content: |-
-              ###### Bloco: Timeline_Content_Fonte: Heading 6_Sed ut perspiciatis unde omnis iste natus error 
-
-              Fonte: Paragraph_sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            text: 'Bloco: Timeline_Timeline Bullet 7_Text'
-          - type: TimelineBullet
-            content: 'Bloco: Timeline_Content_Fonte: Paragraph_Sed ut perspiciatis unde'
-            text: 'Bloco: Timeline_Timeline Bullet 8_Text'
-          - type: TimelineBullet
-            content: 'Bloco: Timeline_Content_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium'
-            text: 'Bloco: Timeline_Timeline Bullet 9_Text'
-      - type: Spacer
-        desktop: 400px
-        tablet: 400px
-        mobile: 400px
-      - type: Text
-        hasDropCap: false
-        content: 'Bloco: Text_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo'
-      - type: Spacer
-        desktop: 400px
-        tablet: 400px
-        mobile: 400px
-    columnAlign: right
-    floatingText: false
-  - type: Map
-    id: Mapa 4
-    shortTitle: Mapa 4
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Secondary
-    customTxtColor: ''
-    bgColor: ''
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Spacer
-        desktop: 600px
-        tablet: 600px
-        mobile: 600px
-      - type: Text
-        hasDropCap: false
-        content: '##### Bloco: Map_Column Align: Center_Bloco: Text_Fonte: Heading 5_Sed ut perspiciatis unde omnis iste natus error'
-        desktop: 500px
-        tablet: ''
-        mobile: ''
-      - type: MapView
-        txtColor: ''
-        bgColor: ''
-        mapView: map2_view3
-      - type: Spacer
-        desktop: 600px
-        tablet: 600px
-        mobile: 600px
-      - type: Text
-        hasDropCap: false
-        content: 'Bloco: Text_Fonte: Paragraph_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
-      - type: Spacer
-        desktop: 600px
-        tablet: 600px
-        mobile: 600px
-    columnAlign: center
-    floatingText: true
-  - type: Cta
-    id: Grupo 15
-    shortTitle: Grupo 15
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Secondary
-    bgColor: Primary
-    ctaText: 'Bloco: CTA_CTA Text_Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.'
-    highlightedText: Sed ut perspiciatis unde omnis iste natus error
-    link:
-      url: '#'
-      target: _self
-      text: Link_Text_Sed ut perspiciatis unde omnis iste
-    imgBg: /uploads/arqueological-remains_03.jpg
+                    Projetos podem ser submetidos através do email **contato@documental.xyz**
+                - type: Spacer
+                  desktop: 50px
+                  tablet: ''
+                  mobile: ''
+                - type: TimelineBullet
+                  text: NO GITHUB PAGES
+                  content: Documental.xyz roda diretamente no GitHub pages, sem necessidade de servidor.  O passo a passo para a clonagem do repositório base da Documental e publicação no GitHub pages está detalhado na documentação oficial da Documental.
+        column2:
+          components:
+            - type: Spacer
+              desktop: 150px
+              tablet: ''
+              mobile: ''
+            - type: Cards
+              cardsArr:
+                - Card:
+                    type: Card
+                    title: Github
+                    text: Código aberto e livre para uso. Você pode baixar o código em nosso repositório github e instalar Documental.xxyz em seu servidor
+                    link:
+                      url: https://www.advocacia.autonoma.xyz/
+                      target: ''
+                      customTarget: ''
+                      text: Acesse aqui
+                    icon: ''
+                - Card:
+                    type: Card
+                    title: Documentação
+                    text: Documentação completa sobre como instalar e usar o Documental.xyz. Baixe o código e verifique o repositório de documentação para obter informações detalhadas.
+                    link:
+                      url: https://www.advocacia.autonoma.xyz/
+                      target: ''
+                      customTarget: ''
+                      text: Acesse aqui
+                    icon: ''
+                - Card:
+                    type: Card
+                    title: Licença
+                    text: Aqui você encontra a licença de uso do Documental.xyz
+                    link:
+                      url: https://www.advocacia.autonoma.xyz/
+                      target: ''
+                      customTarget: ''
+                      text: Acesse aqui
+                    icon: ''
   - type: Group
-    id: Grupo 16
-    shortTitle: Grupo 16
+    id: Qual é o objetivo do projeto?
+    shortTitle: Qual é o objetivo do projeto?
     longTitle: ''
     description: ''
-    showInMenu: true
+    showInMenu: false
     animations: true
-    txtColor: Primary
+    txtColor: Secondary
     customTxtColor: ''
-    bgColor: Secondary
+    bgColor: Highlight
     customBgColor: ''
     backgroundMedia: []
     overlay: ''
@@ -1202,283 +374,173 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '### Bloco: Columns _ Bigger Right _ Bloco: Text _ Fonte: Heading 3'
-            - type: Text
-              hasDropCap: false
-              content: |-
-                Fonte: Paragraph _ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-                Sed ut perspiciatis unde omnis 
-
-                Sed ut perspiciatis unde omnis 
-
-                Sed ut perspiciatis unde omnis 
-
-                Sed ut perspiciatis unde omnis 
-
-                Sed ut perspiciatis unde omnis 
-
-                Sed ut perspiciatis unde omnis
+              content: '###### Documental.xyz foi originalmente pensada e desenhada como instrumento de defesa de direitos humanos e ambientais.'
             - type: Spacer
-              desktop: 300px
-              tablet: 300px
-              mobile: 300px
+              desktop: 50px
+              tablet: ''
+              mobile: ''
             - type: Text
               hasDropCap: false
-              content: '#### Bloco: Text _ Fonte: Heading 4'
+              content: '###### O objetivo da plataforma é oferecer uma ferramenta open-source para movimentos sociais, organizações civis e jornalistas documentarem e comunicarem histórias locais para audiências globais de forma socialmente envolvente e visualmente impactante.'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: '###### A plataforma busca contribuir para a construção da capacidade da sociedade civil em investigar e documentar violações de direitos cometidas por estados e corporações, empoderando atores locais para comunicarem suas histórias através de novas tecnologias de visualização e mapeamento de dados, ao mesmo tempo que ampliando o debate público sobre justiça social e ambiental.'
+        column2:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '# Qual é o objetivo do projeto?'
+  - type: Group
+    id: Download e Documentação
+    shortTitle: Download e Documentação
+    longTitle: ''
+    description: ''
+    showInMenu: true
+    animations: true
+    txtColor: Primary
+    customTxtColor: ''
+    bgColor: Secondary
+    customBgColor: ''
+    backgroundMedia: []
+    overlay: ''
+    components:
+      - type: Columns
+        paddingTop: false
+        paddingBottom: false
+        invertOnMobile: false
+        columnsAlign: 66-33
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '### Download e Documentação'
+        column2:
+          components: []
+      - type: Cards
+        cardsArr:
+          - Card:
+              type: Card
+              title: Github
+              text: Código aberto e livre para uso. Você pode baixar o código em nosso repositório github e instalar Documental.xxyz em seu servidor
+              link:
+                url: https://www.advocacia.autonoma.xyz/
+                target: ''
+                customTarget: ''
+                text: Acesse aqui
+              icon: ''
+          - Card:
+              type: Card
+              title: Documentação
+              text: Documentação completa sobre como instalar e usar o Documental.xyz. Baixe o código e verifique o repositório de documentação para obter informações detalhadas.
+              link:
+                url: https://www.advocacia.autonoma.xyz/
+                target: ''
+                customTarget: ''
+                text: Acesse aqui
+              icon: ''
+          - Card:
+              type: Card
+              title: Licença
+              text: Aqui você encontra a licença de uso do Documental.xyz
+              link:
+                url: https://www.advocacia.autonoma.xyz/
+                target: ''
+                customTarget: ''
+                text: Acesse aqui
+              icon: ''
+      - type: Column
+        paddingTop: false
+        paddingBottom: false
+        components:
+          - type: VideoEmbed
+            wideVideo: false
+            videoUrl: https://www.youtube.com/embed/8tPnX7OPo0Q?si=avGZ530ghpTIZ16z
+            videoCaption: ''
+      - type: Columns
+        paddingTop: false
+        paddingBottom: false
+        invertOnMobile: false
+        columnsAlign: 66-33
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '### Arquitetura técnica do back end'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: Documental.xyz é baseada na integração de recursos do sistema de publicação Sveltia com o serviço de mapas online Mapbox. A plataforma é rodada através de uma arquitetura leve e facilmente compreensíve. Esta arquitetura é ampliada para outras possíveis utilidades, tornando-se o projeto BASE Document.you
+        column2:
+          components: []
+  - type: Group
+    id: Créditos
+    shortTitle: Créditos
+    longTitle: ''
+    description: ''
+    showInMenu: false
+    animations: true
+    txtColor: Primary
+    customTxtColor: ''
+    bgColor: Highlight
+    customBgColor: ''
+    backgroundMedia: []
+    overlay: ''
+    components:
+      - type: Columns
+        paddingTop: false
+        paddingBottom: false
+        invertOnMobile: false
+        columnsAlign: 66-33
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '**Documental.xyz** foi originalmente desenvolvida em 2019 pela agência **Autônoma** e pelo **MediaLab UFRJ**, em colaboração com a **Rede LAVITS**.'
             - type: LogosGroup
               logos:
-                - image: /uploads/logo-1.jpg
+                - image: /uploads/autonoma-black-redim.png
                   link:
-                    url: https://documental.xyz/
-                    target: _blank
+                    url: https://www.advocacia.autonoma.xyz/
+                    target: ''
+                    customTarget: ''
+                    title: ''
+                - image: /uploads/medialab-redim-semfundo.png
+                  link:
+                    url: https://medialabufrj.net/
+                    target: ''
                     customTarget: ''
                     title: ''
                 - image: /uploads/logo-2.png
                   link:
-                    url: https://documental.xyz/
-                    target: _blank
-                    customTarget: ''
-                    title: ''
-                - image: /uploads/favicon.svg
-                  link:
-                    url: https://documental.xyz/
-                    target: _blank
-                    customTarget: ''
-                    title: ''
-            - type: Text
-              hasDropCap: false
-              content: '#### Bloco: Text _ Fonte: Heading 4'
-            - type: LogosGroup
-              logos:
-                - image: /uploads/Captura de Tela-20241220084110-267x93.png
-                  link:
-                    url: https://documental.xyz/
-                    target: _blank
-                    customTarget: ''
-                    title: ''
-                - image: /uploads/logo-3.png
-                  link:
-                    url: https://documental.xyz/
-                    target: _blank
-                    customTarget: ''
-                    title: ''
-                - image: /uploads/Captura de Tela-20241220084110-267x93.png
-                  link:
-                    url: https://documental.xyz/
-                    target: _blank
-                    customTarget: ''
-                    title: ''
-                - image: /uploads/logo-3.png
-                  link:
-                    url: https://documental.xyz/
-                    target: _blank
-                    customTarget: ''
-                    title: ''
-                - image: /uploads/Captura de Tela-20241220084110-267x93.png
-                  link:
-                    url: https://documental.xyz/
-                    target: _blank
+                    url: https://lavits.org/
+                    target: ''
                     customTarget: ''
                     title: ''
         column2:
           components:
+            - type: Text
+              hasDropCap: false
+              content: '#### CRÉDITOS'
             - type: Spacer
-              desktop: '10'
+              desktop: 50px
               tablet: ''
               mobile: ''
-  - type: Group
-    id: grupo-17
-    shortTitle: Grupo 17
-    longTitle: Grupo 17
-    description: ''
-    showInMenu: false
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: VideoEmbed
-        wideVideo: false
-        videoUrl: https://www.youtube.com/watch?v=1HNkgkL7hDo
-        videoCaption: Lorem ipsum dolor sit
-      - type: VideoEmbed
-        wideVideo: true
-        videoUrl: https://www.youtube.com/watch?v=1HNkgkL7hDo
-        videoCaption: Lorem ipsum dolor sit
-      - type: LogosGroup
-        logos:
-          - image: /uploads/Captura de Tela-20241220083834-158x147.png
-            link:
-              url: '#'
-              customTarget: ''
-              title: ''
-          - image: /uploads/Captura de Tela-20241220084024-224x105.png
-            link:
-              url: '#'
-              customTarget: ''
-              title: ''
-          - image: /uploads/Captura de Tela-20241220084110-267x93.png
-            link:
-              url: '#'
-              customTarget: ''
-              title: ''
-      - type: CardsCall
-        cardsCallArr:
-          - link:
-              url: '#'
-              target: ''
-              customTarget: ''
-            img:
-              src: /uploads/arqueological-remains_01.jpg
-              alt: ''
-            title: Lorem I[sium
-            text: Minim sint in nostrud pariatur veniam amet mollit in ex duis fugiat adipisicing ea occaecat. In laboris mollit minim officia eiusmod dolore fugiat dolore pariatur fugiat enim aute est excepteur.
-          - link:
-              url: '#'
-              target: ''
-              customTarget: ''
-            img:
-              src: /uploads/arqueological-remains_05.jpg
-              alt: ''
-            title: Dolor sit amet
-            text: Minim sint in nostrud pariatur veniam amet mollit in ex duis fugiat adipisicing ea occaecat. In laboris mollit minim officia eiusmod dolore fugiat dolore pariatur fugiat enim aute est excepteur.
-      - type: BigNumbers
-        alignment: caption-bottom
-        items:
-          - number: '134234'
-            caption: Lorem Ispum dolor
-          - number: '7136'
-            caption: Dolor sit amter
-          - number: '76956'
-            caption: Sigm sod lort
-      - type: Spacer
-        desktop: 200px
-        tablet: 200px
-        mobile: 200px
-  - type: Group
-    id: teste1
-    shortTitle: teste1
-    longTitle: ''
-    description: ''
-    showInMenu: false
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Column
-        paddingTop: false
-        paddingBottom: false
-        components:
-          - type: Button
-            link:
-              url: https://google.com
-              target: _blank
-              text: Google
-            icon: <span class="material-symbols-outlined"> search </span>
-            size: ''
-          - type: Timeline
-            components:
-              - type: TimelineBullet
-                text: Teste 1
-                content: ''
-              - type: ImageBlock
-                wideImage: false
-                src: /uploads/arqueological-remains_01.jpg
-                alt: ''
-                description: ''
-              - type: TimelineBullet
-                text: Teste 2
-                content: ''
-  - type: Cta
-    id: CTA
-    shortTitle: CTA
-    longTitle: ''
-    description: ''
-    showInMenu: false
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Custom
-    customBgColor: '#d78989ff'
-    backgroundMedia: []
-    overlay: ''
-    ctaText: Este é um exemplo de CTA com **layout de texto** e cor de destaque (Highlight). O texto destacado aparece à esquerda e o conteúdo à direita.
-    highlightedText: CTA Texto Simples
-    link:
-      url: '#'
-      target: _self
-      text: Saiba Mais
-  - type: Cta
-    id: cta-exemplo-2
-    shortTitle: CTA com Mídia
-    longTitle: ''
-    description: ''
-    showInMenu: false
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    ctaMedia:
-      - type: ctaImage
-        src: /uploads/casa_afonso_sardinha.jpg
-    ctaText: Este é um exemplo de CTA com **layout de mídia** — a imagem aparece à esquerda e o texto com botão à direita.
-    highlightedText: ''
-    link:
-      url: '#'
-      target: _blank
-      text: Ver Detalhes
-  - type: Cta
-    id: cta-exemplo-3
-    shortTitle: CTA com Background
-    longTitle: ''
-    description: ''
-    showInMenu: false
-    animations: true
-    txtColor: Secondary
-    customTxtColor: ''
-    bgColor: Primary
-    customBgColor: ''
-    backgroundMedia:
-      - type: backgroundImage
-        imgSrc: /uploads/group-bg.png
-    overlay: dark
-    ctaText: Este é um exemplo de CTA com **imagem de background**, overlay escuro e texto claro sobreposto. Demonstra a integração com `backgroundMedia` e `overlay`.
-    highlightedText: CTA com Background
-    link:
-      url: '#'
-      target: _self
-      text: Explorar
-  - type: Cta
-    id: '222'
-    shortTitle: Tap1
-    longTitle: Thiago Paixao
-    description: ''
-    showInMenu: false
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia:
-      - type: backgroundImage
-        imgSrc: /uploads/casa_afonso_sardinha.jpg
-    overlay: dark
-    ctaMedia:
-      - type: ctaImage
-        src: /uploads/2013_01_10_ISA.jpg
-        externalUrl: ''
-    ctaText: fsdfsdfsdfd fsdfsd sf sfdf fsdf fsd fsd sfdf sdf wesdvfwegmkadnfrrweuo weoin nwenuo rnweuo rnweruion vsdaeior iwenior ier dsffsdd
-    highlightedText: Teste de CTA2
-    link: null
+            - type: Text
+              hasDropCap: false
+              content: |-
+                Coordenação: **Paulo Tavares, Fernanda Bruno e Paula Marujo**
+
+                Design e front end: **atonal.studio**
+
+                Back end e documentação: **Thiago Paixão**
+
+                Implementação e documentação:**&#32;Julia Veras**
 ---
+
