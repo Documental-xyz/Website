@@ -24,647 +24,647 @@ pageTheme:
       mobile: '10'
       tablet: '11'
       desktop: '12'
-mapbox:
-  type: MapBox
-  style: mapbox://styles/studio-autonoma/cmdgctyq702ww01s4dyd42dyc
-  token: pk.eyJ1Ijoic3R1ZGlvLWF1dG9ub21hIiwiYSI6ImNtY3V2d3dtMTA0ZXgycnB4OW01cjlqb2QifQ.3NMaRt1maLlqTv6nlVqVHA
-  centerLng: '-46.782'
-  centerLat: '-23.461'
-  zoom: '13.25'
-  bearing: '0'
-  pitch: '0'
-  layers: |-
-    ti-jaragua
-    aldeias-jaragua
-    satelite
-  columnAlign: center
-  floatingText: false
-  views:
-    - id: map1_ti
-      centerLng: '-46.782'
-      centerLat: '-23.461'
-      zoom: '13.26'
-      mobileZoom: '13.26'
-      duration: '3000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        aldeias-jaragua
-        pe-jaragua
-        memoria-guarani
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-        - icon: show_chart
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Terra Indígena Jaraguá
-        - icon: circle
-          colorIcon: '#a3f339ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Pontos de Memória Indígena
-        - icon: show_chart
-          colorIcon: '#9d1b1bff'
-          typeIcon: outlined
-          iconFill: true
-          text: Limite do Parque Estadual Jaraguá
-    - id: map1_ytu
-      centerLng: '-46.754'
-      centerLat: '-23.464'
-      zoom: '16.95'
-      mobileZoom: '16.95'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        aldeias-jaragua-label[nome_aldei==Ytu]
-        aldeias-jaragua
-        pe-jaragua
-        memoria-guarani
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#106013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-    - id: map1_pyau
-      centerLng: '-46.752'
-      centerLat: '-23.465'
-      zoom: '16.80'
-      mobileZoom: '16.80'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        aldeias-jaragua-label[nome_aldei==Pyau]
-        aldeias-jaragua
-        pe-jaragua
-        memoria-guarani
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#106013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-    - id: map1_itakupe
-      centerLng: '-46.763'
-      centerLat: '-23.446'
-      zoom: '15.60'
-      mobileZoom: '15.60'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        aldeias-jaragua-label[nome_aldei==Itakupe]
-        aldeias-jaragua
-        pe-jaragua
-        memoria-guarani
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#106013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-    - id: map1_itawera
-      centerLng: '-46.754'
-      centerLat: '-23.463'
-      zoom: '16.97'
-      mobileZoom: '16.97'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        aldeias-jaragua-label[nome_aldei==Itawera]
-        aldeias-jaragua
-        pe-jaragua
-        memoria-guarani
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#106013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-    - id: map1_itaendy
-      centerLng: '-46.777'
-      centerLat: '-23.462'
-      zoom: '15.94'
-      mobileZoom: '15.94'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        aldeias-jaragua-label[nome_aldei==Ita Endy]
-        aldeias-jaragua
-        pe-jaragua
-        memoria-guarani
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#106013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-    - id: map1_yvypora
-      centerLng: '-46.757'
-      centerLat: '-23.465'
-      zoom: '16.40'
-      mobileZoom: '16.40'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        aldeias-jaragua-label[nome_aldei==Yvy Porã]
-        aldeias-jaragua
-        pe-jaragua
-        memoria-guarani
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#106013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-    - id: map1_pindomirim
-      centerLng: '-46.780'
-      centerLat: '-23.450'
-      zoom: '15.81'
-      mobileZoom: '15.81'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        aldeias-jaragua-label[nome_aldei==Pindo Mirim]
-        aldeias-jaragua
-        pe-jaragua
-        memoria-guarani
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#106013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-    - id: map1_mirim
-      centerLng: '-46.753'
-      centerLat: '-23.461'
-      zoom: '16.38'
-      mobileZoom: '16.38'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        aldeias-jaragua-label[nome_aldei==Tekoa mirim]
-        aldeias-jaragua
-        pe-jaragua
-        memoria-guarani
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#106013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-    - id: map1_kaaguymirim
-      centerLng: '-46.753'
-      centerLat: '-23.460'
-      zoom: '16.53'
-      mobileZoom: '16.53'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        aldeias-jaragua-label[nome_aldei==Ka'aguy mirim]
-        aldeias-jaragua
-        pe-jaragua
-        memoria-guarani
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#106013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-    - id: map2_jaraguasp
-      centerLng: '-46.888'
-      centerLat: '-23.574'
-      zoom: '9.22'
-      mobileZoom: '9.22'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        exploracao-ouro-sp
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: show_chart
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Terra Indígena Jaraguá
-        - icon: circle
-          colorIcon: '#d0353574'
-          typeIcon: outlined
-          iconFill: true
-          text: Áreas de exploração do ouro em São Paulo
-    - id: map2_jaraguaspzoom
-      centerLng: '-46.760'
-      centerLat: '-23.511'
-      zoom: '11.36'
-      mobileZoom: '11.36'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        patrimonio-colonial[fid==70]
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: show_chart
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Terra Indígena Jaraguá
-        - icon: circle
-          colorIcon: '#d03535ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Pateo do Collegio
-    - id: map2_pateo
-      centerLng: '-46.635'
-      centerLat: '-23.548'
-      zoom: '16.47'
-      mobileZoom: '16.47'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        patrimonio-colonial[fid==70]
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#d03535ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Pateo do Collegio
-    - id: map2_jaraguaspzoom2
-      centerLng: '-46.760'
-      centerLat: '-23.511'
-      zoom: '11.36'
-      mobileZoom: '11.36'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        patrimonio-colonial[fid==70]
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: show_chart
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Terra Indígena Jaraguá
-    - id: map2_barueri
-      centerLng: '-46.859'
-      centerLat: '-23.494'
-      zoom: '11.81'
-      mobileZoom: '11.81'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        capela-barueri
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: show_chart
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Terra Indígena Jaraguá
-        - icon: circle
-          colorIcon: '#d03535ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeamento de Barueri
-    - id: map2_ourojaragua
-      centerLng: '-46.781'
-      centerLat: '-23.458'
-      zoom: '13.52'
-      mobileZoom: '13.52'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        casa-afonso-sardinha
-        patrimonio-colonial
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: show_chart
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Terra Indígena Jaraguá
-        - icon: circle
-          colorIcon: '#3741f6ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Casa-Grande Senzala de Afonso Sardinha
-        - icon: circle
-          colorIcon: '#d03535ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Estruturas da exploração do ouro no Brasil Colônia
-    - id: map4_jaragua
-      centerLng: '-46.782'
-      centerLat: '-23.461'
-      zoom: '13.26'
-      mobileZoom: '13.26'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        pe-jaragua
-        aldeias-jaragua
-        memoria-guarani
-        casa-afonso-sardinha
-        estacao-jaragua
-        patrimonio-colonial[fid==132]
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-        - icon: show_chart
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Terra Indígena Jaraguá
-        - icon: show_chart
-          colorIcon: '#9d1b1bff'
-          typeIcon: outlined
-          iconFill: true
-          text: Parque Estadual do Jaraguá
-        - icon: circle
-          colorIcon: '#9d1b1bff'
-          typeIcon: outlined
-          iconFill: true
-          text: Patrimônio colonial
-        - icon: circle
-          colorIcon: '#a3f339ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Lugares de memória Guarani
-    - id: map4_afonsosardinha
-      centerLng: '-46.758'
-      centerLat: '-23.462'
-      zoom: '16.57'
-      mobileZoom: '16.57'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        pe-jaragua
-        aldeias-jaragua
-        casa-afonso-sardinha
-        casa-afonso-sardinha-label
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#9d1b1bff'
-          typeIcon: outlined
-          iconFill: true
-          text: Patrimônio colonial
-    - id: map4_jaraguaestacao
-      centerLng: '-46.760'
-      centerLat: '-23.458'
-      zoom: '13.45'
-      mobileZoom: '13.45'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        pe-jaragua
-        aldeias-jaragua
-        memoria-guarani
-        casa-afonso-sardinha
-        estacao-jaragua
-        patrimonio-colonial[fid==132]
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-        - icon: show_chart
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Terra Indígena Jaraguá
-        - icon: show_chart
-          colorIcon: '#9d1b1bff'
-          typeIcon: outlined
-          iconFill: true
-          text: Parque Estadual do Jaraguá
-        - icon: circle
-          colorIcon: '#9d1b1bff'
-          typeIcon: outlined
-          iconFill: true
-          text: Patrimônio colonial
-        - icon: circle
-          colorIcon: '#a3f339ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Lugares de memória Guarani
-    - id: map5_jaragua
-      centerLng: '-46.766'
-      centerLat: '-23.461'
-      zoom: '13.26'
-      mobileZoom: '13.26'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        pe-jaragua
-        aldeias-jaragua
-        memoria-guarani
-        casa-afonso-sardinha
-        estacao-jaragua
-        patrimonio-colonial[fid==132]
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-        - icon: show_chart
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Terra Indígena Jaraguá
-        - icon: show_chart
-          colorIcon: '#9d1b1bff'
-          typeIcon: outlined
-          iconFill: true
-          text: Parque Estadual do Jaraguá
-        - icon: circle
-          colorIcon: '#9d1b1bff'
-          typeIcon: outlined
-          iconFill: true
-          text: Patrimônio colonial
-        - icon: circle
-          colorIcon: '#a3f339ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Lugares de memória Guarani
-    - id: map5_cacicajandira
-      centerLng: '-46.753'
-      centerLat: '-23.464'
-      zoom: '17.23'
-      mobileZoom: '17.23'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        pe-jaragua
-        aldeias-jaragua
-        memoria-guarani
-        cacica-jandira-label
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-        - icon: show_chart
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Terra Indígena Jaraguá
-        - icon: show_chart
-          colorIcon: '#9d1b1bff'
-          typeIcon: outlined
-          iconFill: true
-          text: Parque Estadual do Jaraguá
-        - icon: circle
-          colorIcon: '#a3f339ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Lugares de memória Guarani
-    - id: map5_memoria
-      centerLng: '-46.752'
-      centerLat: '-23.464'
-      zoom: '16.47'
-      mobileZoom: '16.47'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        ti-jaragua
-        pe-jaragua
-        aldeias-jaragua
-        memoria-guarani
-        cacica-jandira-label
-        ato-label
-        satelite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Aldeias
-        - icon: show_chart
-          colorIcon: '#0e9013ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Terra Indígena Jaraguá
-        - icon: show_chart
-          colorIcon: '#9d1b1bff'
-          typeIcon: outlined
-          iconFill: true
-          text: Parque Estadual do Jaraguá
-        - icon: circle
-          colorIcon: '#a3f339ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Lugares de memória Guarani
+modules:
+  - type: MapBox
+    style: mapbox://styles/studio-autonoma/cmdgctyq702ww01s4dyd42dyc
+    token: pk.eyJ1Ijoic3R1ZGlvLWF1dG9ub21hIiwiYSI6ImNtY3V2d3dtMTA0ZXgycnB4OW01cjlqb2QifQ.3NMaRt1maLlqTv6nlVqVHA
+    centerLng: '-46.782'
+    centerLat: '-23.461'
+    zoom: '13.25'
+    bearing: '0'
+    pitch: '0'
+    layers: |-
+      ti-jaragua
+      aldeias-jaragua
+      satelite
+    columnAlign: center
+    floatingText: false
+    views:
+      - id: map1_ti
+        centerLng: '-46.782'
+        centerLat: '-23.461'
+        zoom: '13.26'
+        mobileZoom: '13.26'
+        duration: '3000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          aldeias-jaragua
+          pe-jaragua
+          memoria-guarani
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+          - icon: show_chart
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Terra Indígena Jaraguá
+          - icon: circle
+            colorIcon: '#a3f339ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Pontos de Memória Indígena
+          - icon: show_chart
+            colorIcon: '#9d1b1bff'
+            typeIcon: outlined
+            iconFill: true
+            text: Limite do Parque Estadual Jaraguá
+      - id: map1_ytu
+        centerLng: '-46.754'
+        centerLat: '-23.464'
+        zoom: '16.95'
+        mobileZoom: '16.95'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          aldeias-jaragua-label[nome_aldei==Ytu]
+          aldeias-jaragua
+          pe-jaragua
+          memoria-guarani
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#106013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+      - id: map1_pyau
+        centerLng: '-46.752'
+        centerLat: '-23.465'
+        zoom: '16.80'
+        mobileZoom: '16.80'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          aldeias-jaragua-label[nome_aldei==Pyau]
+          aldeias-jaragua
+          pe-jaragua
+          memoria-guarani
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#106013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+      - id: map1_itakupe
+        centerLng: '-46.763'
+        centerLat: '-23.446'
+        zoom: '15.60'
+        mobileZoom: '15.60'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          aldeias-jaragua-label[nome_aldei==Itakupe]
+          aldeias-jaragua
+          pe-jaragua
+          memoria-guarani
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#106013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+      - id: map1_itawera
+        centerLng: '-46.754'
+        centerLat: '-23.463'
+        zoom: '16.97'
+        mobileZoom: '16.97'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          aldeias-jaragua-label[nome_aldei==Itawera]
+          aldeias-jaragua
+          pe-jaragua
+          memoria-guarani
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#106013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+      - id: map1_itaendy
+        centerLng: '-46.777'
+        centerLat: '-23.462'
+        zoom: '15.94'
+        mobileZoom: '15.94'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          aldeias-jaragua-label[nome_aldei==Ita Endy]
+          aldeias-jaragua
+          pe-jaragua
+          memoria-guarani
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#106013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+      - id: map1_yvypora
+        centerLng: '-46.757'
+        centerLat: '-23.465'
+        zoom: '16.40'
+        mobileZoom: '16.40'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          aldeias-jaragua-label[nome_aldei==Yvy Porã]
+          aldeias-jaragua
+          pe-jaragua
+          memoria-guarani
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#106013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+      - id: map1_pindomirim
+        centerLng: '-46.780'
+        centerLat: '-23.450'
+        zoom: '15.81'
+        mobileZoom: '15.81'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          aldeias-jaragua-label[nome_aldei==Pindo Mirim]
+          aldeias-jaragua
+          pe-jaragua
+          memoria-guarani
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#106013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+      - id: map1_mirim
+        centerLng: '-46.753'
+        centerLat: '-23.461'
+        zoom: '16.38'
+        mobileZoom: '16.38'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          aldeias-jaragua-label[nome_aldei==Tekoa mirim]
+          aldeias-jaragua
+          pe-jaragua
+          memoria-guarani
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#106013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+      - id: map1_kaaguymirim
+        centerLng: '-46.753'
+        centerLat: '-23.460'
+        zoom: '16.53'
+        mobileZoom: '16.53'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          aldeias-jaragua-label[nome_aldei==Ka'aguy mirim]
+          aldeias-jaragua
+          pe-jaragua
+          memoria-guarani
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#106013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+      - id: map2_jaraguasp
+        centerLng: '-46.888'
+        centerLat: '-23.574'
+        zoom: '9.22'
+        mobileZoom: '9.22'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          exploracao-ouro-sp
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: show_chart
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Terra Indígena Jaraguá
+          - icon: circle
+            colorIcon: '#d0353574'
+            typeIcon: outlined
+            iconFill: true
+            text: Áreas de exploração do ouro em São Paulo
+      - id: map2_jaraguaspzoom
+        centerLng: '-46.760'
+        centerLat: '-23.511'
+        zoom: '11.36'
+        mobileZoom: '11.36'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          patrimonio-colonial[fid==70]
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: show_chart
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Terra Indígena Jaraguá
+          - icon: circle
+            colorIcon: '#d03535ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Pateo do Collegio
+      - id: map2_pateo
+        centerLng: '-46.635'
+        centerLat: '-23.548'
+        zoom: '16.47'
+        mobileZoom: '16.47'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          patrimonio-colonial[fid==70]
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#d03535ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Pateo do Collegio
+      - id: map2_jaraguaspzoom2
+        centerLng: '-46.760'
+        centerLat: '-23.511'
+        zoom: '11.36'
+        mobileZoom: '11.36'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          patrimonio-colonial[fid==70]
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: show_chart
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Terra Indígena Jaraguá
+      - id: map2_barueri
+        centerLng: '-46.859'
+        centerLat: '-23.494'
+        zoom: '11.81'
+        mobileZoom: '11.81'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          capela-barueri
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: show_chart
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Terra Indígena Jaraguá
+          - icon: circle
+            colorIcon: '#d03535ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeamento de Barueri
+      - id: map2_ourojaragua
+        centerLng: '-46.781'
+        centerLat: '-23.458'
+        zoom: '13.52'
+        mobileZoom: '13.52'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          casa-afonso-sardinha
+          patrimonio-colonial
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: show_chart
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Terra Indígena Jaraguá
+          - icon: circle
+            colorIcon: '#3741f6ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Casa-Grande Senzala de Afonso Sardinha
+          - icon: circle
+            colorIcon: '#d03535ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Estruturas da exploração do ouro no Brasil Colônia
+      - id: map4_jaragua
+        centerLng: '-46.782'
+        centerLat: '-23.461'
+        zoom: '13.26'
+        mobileZoom: '13.26'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          pe-jaragua
+          aldeias-jaragua
+          memoria-guarani
+          casa-afonso-sardinha
+          estacao-jaragua
+          patrimonio-colonial[fid==132]
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+          - icon: show_chart
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Terra Indígena Jaraguá
+          - icon: show_chart
+            colorIcon: '#9d1b1bff'
+            typeIcon: outlined
+            iconFill: true
+            text: Parque Estadual do Jaraguá
+          - icon: circle
+            colorIcon: '#9d1b1bff'
+            typeIcon: outlined
+            iconFill: true
+            text: Patrimônio colonial
+          - icon: circle
+            colorIcon: '#a3f339ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Lugares de memória Guarani
+      - id: map4_afonsosardinha
+        centerLng: '-46.758'
+        centerLat: '-23.462'
+        zoom: '16.57'
+        mobileZoom: '16.57'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          pe-jaragua
+          aldeias-jaragua
+          casa-afonso-sardinha
+          casa-afonso-sardinha-label
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#9d1b1bff'
+            typeIcon: outlined
+            iconFill: true
+            text: Patrimônio colonial
+      - id: map4_jaraguaestacao
+        centerLng: '-46.760'
+        centerLat: '-23.458'
+        zoom: '13.45'
+        mobileZoom: '13.45'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          pe-jaragua
+          aldeias-jaragua
+          memoria-guarani
+          casa-afonso-sardinha
+          estacao-jaragua
+          patrimonio-colonial[fid==132]
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+          - icon: show_chart
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Terra Indígena Jaraguá
+          - icon: show_chart
+            colorIcon: '#9d1b1bff'
+            typeIcon: outlined
+            iconFill: true
+            text: Parque Estadual do Jaraguá
+          - icon: circle
+            colorIcon: '#9d1b1bff'
+            typeIcon: outlined
+            iconFill: true
+            text: Patrimônio colonial
+          - icon: circle
+            colorIcon: '#a3f339ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Lugares de memória Guarani
+      - id: map5_jaragua
+        centerLng: '-46.766'
+        centerLat: '-23.461'
+        zoom: '13.26'
+        mobileZoom: '13.26'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          pe-jaragua
+          aldeias-jaragua
+          memoria-guarani
+          casa-afonso-sardinha
+          estacao-jaragua
+          patrimonio-colonial[fid==132]
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+          - icon: show_chart
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Terra Indígena Jaraguá
+          - icon: show_chart
+            colorIcon: '#9d1b1bff'
+            typeIcon: outlined
+            iconFill: true
+            text: Parque Estadual do Jaraguá
+          - icon: circle
+            colorIcon: '#9d1b1bff'
+            typeIcon: outlined
+            iconFill: true
+            text: Patrimônio colonial
+          - icon: circle
+            colorIcon: '#a3f339ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Lugares de memória Guarani
+      - id: map5_cacicajandira
+        centerLng: '-46.753'
+        centerLat: '-23.464'
+        zoom: '17.23'
+        mobileZoom: '17.23'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          pe-jaragua
+          aldeias-jaragua
+          memoria-guarani
+          cacica-jandira-label
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+          - icon: show_chart
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Terra Indígena Jaraguá
+          - icon: show_chart
+            colorIcon: '#9d1b1bff'
+            typeIcon: outlined
+            iconFill: true
+            text: Parque Estadual do Jaraguá
+          - icon: circle
+            colorIcon: '#a3f339ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Lugares de memória Guarani
+      - id: map5_memoria
+        centerLng: '-46.752'
+        centerLat: '-23.464'
+        zoom: '16.47'
+        mobileZoom: '16.47'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          ti-jaragua
+          pe-jaragua
+          aldeias-jaragua
+          memoria-guarani
+          cacica-jandira-label
+          ato-label
+          satelite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Aldeias
+          - icon: show_chart
+            colorIcon: '#0e9013ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Terra Indígena Jaraguá
+          - icon: show_chart
+            colorIcon: '#9d1b1bff'
+            typeIcon: outlined
+            iconFill: true
+            text: Parque Estadual do Jaraguá
+          - icon: circle
+            colorIcon: '#a3f339ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Lugares de memória Guarani
 components:
   - type: Group
     id: home

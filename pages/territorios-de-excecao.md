@@ -27,501 +27,502 @@ pageTheme:
       tablet: '10'
       desktop: '10'
   type: pageTheme
-mapbox:
-  style: mapbox://styles/medialabufrj/cl1fupuh7001j15rucb3rc4qd
-  token: pk.eyJ1IjoibWVkaWFsYWJ1ZnJqIiwiYSI6ImNsMWVheGZscTBwaXAzb2xndDBzdDBuN20ifQ.K-OyBzLTY80PjEmrSxrErQ
-  centerLng: '-43.4096'
-  centerLat: '-22.9035'
-  zoom: '3'
-  bearing: '0'
-  pitch: '0'
-  layers: ''
-  columnAlign: center
-  views:
-    - id: map1_view1
-      centerLng: '-43.2196'
-      centerLat: '-22.9035'
-      zoom: '2.5'
-      mobileZoom: '2.5'
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: mapbox-satellite
-      title: ''
-      notes: ''
-      items: []
-    - id: map1_view2
-      centerLng: '-43.4096'
-      centerLat: '-22.9035'
-      zoom: '10'
-      mobileZoom: '10'
-      duration: '6000'
-      bearing: '2'
-      pitch: '0'
-      layers: |-
-        contorno-rio
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items:
-        - icon: show_chart
-          colorIcon: '#ffffffff'
-          typeIcon: outlined
-          iconFill: true
-          text: Cidade do Rio de Janeiro
-    - id: map1_view3
-      centerLng: '-43.4096'
-      centerLat: '-22.9035'
-      zoom: '10'
-      mobileZoom: '10'
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        operacoes-disparo
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#fc0303ff'
-          typeIcon: outlined
-          iconFill: true
-          text: 1 operação
-        - icon: circle
-          colorIcon: '#fc0303ff'
-          typeIcon: outlined
-          iconFill: true
-          text: 8 operações
-    - id: map1_view4
-      centerLng: '-43.281'
-      centerLat: '-22.851'
-      zoom: '12'
-      mobileZoom: '12'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        rotulos-bairros
-        mare-fronteiras-geral
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items:
-        - icon: show_chart
-          colorIcon: '#ffffffff'
-          typeIcon: outlined
-          iconFill: true
-          text: Comunidades da Maré
-    - id: map1_view5
-      centerLng: '-43.281'
-      centerLat: '-22.851'
-      zoom: '12'
-      mobileZoom: '12'
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        viasrj
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items:
-        - icon: show_chart
-          colorIcon: '#ff0000ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Rodovia Linha Vermelha
-        - icon: show_chart
-          colorIcon: '#fbff00ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Rodovia Linha Amarela
-        - icon: show_chart
-          colorIcon: '#00ff2aff'
-          typeIcon: outlined
-          iconFill: true
-          text: Avenida Brasil
-    - id: map1_view6
-      centerLng: '-43.241'
-      centerLat: '-22.851'
-      zoom: '13.7'
-      mobileZoom: '13.7'
-      duration: '2000'
-      bearing: '70'
-      pitch: '0'
-      layers: |-
-        equipamentos
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#def278ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Culturais e educacionais
-        - icon: circle
-          colorIcon: '#3f75fdff'
-          typeIcon: outlined
-          iconFill: true
-          text: Saúde
-        - icon: circle
-          colorIcon: '#33a02cff'
-          typeIcon: outlined
-          iconFill: true
-          text: Religiosos e lazer
-    - id: map2_view1
-      centerLng: '-43.241'
-      centerLat: '-22.869'
-      zoom: '15'
-      mobileZoom: '15'
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        equipamentos
-        mare-fronteiras[Name==Conjunto Salsa e Merengue]
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items:
-        - icon: show_chart
-          colorIcon: '#fd1c1cff'
-          typeIcon: outlined
-          iconFill: true
-          text: Conjunto Salsa e Merengue
-    - id: map2_view2
-      centerLng: '-43.2345'
-      centerLat: '-22.87058'
-      zoom: '18.5'
-      mobileZoom: '18.5'
-      duration: '6000'
-      bearing: '25'
-      pitch: '20'
-      layers: |-
-        tiros-200818[Name==tiros_em1]
-        equipamentos
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#f83f3fff'
-          typeIcon: outlined
-          iconFill: true
-          text: Localização aprox. das fotos
-        - icon: circle
-          colorIcon: '#def278ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Escolas do Amanhã
-    - id: map3_view1
-      centerLng: '-43.235259'
-      centerLat: '-22.870211'
-      zoom: '18'
-      mobileZoom: '18'
-      duration: '5000'
-      bearing: '115'
-      pitch: '10'
-      layers: |-
-        mapbox-satellite
-        tiros-200818[Name==rajada3]
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#f90b0bff'
-          typeIcon: outlined
-          iconFill: true
-          text: Local aprox. do registro dos disparos
-    - id: map4_view1
-      centerLng: '-43.234919'
-      centerLat: '-22.868435'
-      zoom: '16.27'
-      mobileZoom: '16.27'
-      duration: '2000'
-      bearing: '110'
-      pitch: '50'
-      layers: |-
-        mapbox-satellite
-        200618-execucoes[Name==Local execucao 5 jovens]
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#f83f3fff'
-          typeIcon: outlined
-          iconFill: true
-          text: Local de execuções
-    - id: map5_view1
-      centerLng: '-43.235'
-      centerLat: '-22.867'
-      zoom: '16.5'
-      mobileZoom: '16.5'
-      duration: '8000'
-      bearing: '0'
-      pitch: '20'
-      layers: |-
-        mapbox-satellite
-        200618-execucoes[Name==Marcus Vincius]
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#f83f3fff'
-          typeIcon: outlined
-          iconFill: true
-          text: Execução de Marcus Vinícius
-    - id: map5_view2
-      centerLng: '-43.239738'
-      centerLat: '-22.860074'
-      zoom: '18.5'
-      mobileZoom: '18.5'
-      duration: '6000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        mapbox-satellite
-        equipamentos[name==Projeto Uere]
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#def278ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Projeto Uerê
-    - id: map6_view1
-      centerLng: '-43.25'
-      centerLat: '-22.867'
-      zoom: '13'
-      mobileZoom: '13'
-      duration: '4000'
-      bearing: '1'
-      pitch: '15'
-      layers: |-
-        op-helicoptero
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items:
-        - icon: square
-          colorIcon: '#ffffd4ff'
-          typeIcon: outlined
-          iconFill: true
-          text: 1-10 operações
-        - icon: square
-          colorIcon: '#fed98eff'
-          typeIcon: outlined
-          iconFill: true
-          text: 11-20
-        - icon: square
-          colorIcon: '#fe9929ff'
-          typeIcon: outlined
-          iconFill: true
-          text: 21-30
-        - icon: square
-          colorIcon: '#cc4c02ff'
-          typeIcon: outlined
-          iconFill: true
-          text: 30 ou mais
-    - id: map6_view2
-      centerLng: '-43.50'
-      centerLat: '-22.95'
-      zoom: '11'
-      mobileZoom: '11'
-      duration: '5000'
-      bearing: '5'
-      pitch: '25'
-      layers: |-
-        rotulos-bairros
-        op-helicoptero
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items:
-        - icon: square
-          colorIcon: '#ffffd4ff'
-          typeIcon: outlined
-          iconFill: true
-          text: 1-10 operações
-        - icon: square
-          colorIcon: '#fed98eff'
-          typeIcon: outlined
-          iconFill: true
-          text: 11-20
-        - icon: square
-          colorIcon: '#fe9929ff'
-          typeIcon: outlined
-          iconFill: true
-          text: 21-30
-        - icon: square
-          colorIcon: '#cc4c02ff'
-          typeIcon: outlined
-          iconFill: true
-          text: 30 ou mais
-    - id: map7_view1
-      centerLng: '-43.445'
-      centerLat: '-22.95'
-      zoom: '10'
-      mobileZoom: '10'
-      duration: '5000'
-      bearing: '5'
-      pitch: '30'
-      layers: |-
-        contorno-rio
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items: []
-    - id: map7_view2
-      centerLng: '-43.445'
-      centerLat: '-22.95'
-      zoom: '10.2'
-      mobileZoom: '10.2'
-      duration: '2000'
-      bearing: '5'
-      pitch: '30'
-      layers: |-
-        faccoes
-        contorno-rio
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items:
-        - icon: square
-          colorIcon: '#3967dbff'
-          typeIcon: outlined
-          iconFill: true
-          text: Milícia
-        - icon: square
-          colorIcon: '#f83535ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Comando Vermelho
-        - icon: square
-          colorIcon: '#33c00cff'
-          typeIcon: outlined
-          iconFill: true
-          text: TCP
-        - icon: square
-          colorIcon: '#f8db72ff'
-          typeIcon: outlined
-          iconFill: true
-          text: ADA
-    - id: map7_view3
-      centerLng: '-43.445'
-      centerLat: '-22.88'
-      zoom: '10'
-      mobileZoom: '10'
-      duration: '3000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        op-policial
-        faccoes
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items: []
-    - id: map7_view4
-      centerLng: '-43.60'
-      centerLat: '-22.95'
-      zoom: '10.2'
-      mobileZoom: '10.2'
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        op-policial
-        faccoes
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#f6f4f4ff'
-          typeIcon: outlined
-          iconFill: true
-          text: 1-9 casos
-        - icon: circle
-          colorIcon: '#f6f4f4ff'
-          typeIcon: outlined
-          iconFill: true
-          text: 10-19 casos
-        - icon: circle
-          colorIcon: '#f6f4f4ff'
-          typeIcon: outlined
-          iconFill: true
-          text: 20-42 casos
-        - icon: square
-          colorIcon: '#3967dbff'
-          typeIcon: outlined
-          iconFill: true
-          text: Milícias
-        - icon: square
-          colorIcon: '#f83535ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Comando Vermelho
-        - icon: square
-          colorIcon: '#f8db72ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Amigo dos Amigos
-        - icon: square
-          colorIcon: '#33c00cff'
-          typeIcon: outlined
-          iconFill: true
-          text: Terceiro Comando Puro
-    - id: map7_view5
-      centerLng: '-43.445'
-      centerLat: '-22.88'
-      zoom: '11'
-      mobileZoom: '11'
-      duration: '5000'
-      bearing: '5'
-      pitch: '30'
-      layers: |-
-        op-policial
-        faccoes
-        mapbox-satellite
-        rotulos-bairros
-      title: ''
-      notes: ''
-      items: []
-    - id: map7_view6
-      centerLng: '-43.369'
-      centerLat: '-22.947'
-      zoom: '13'
-      mobileZoom: '13'
-      duration: '2000'
-      bearing: '5'
-      pitch: '0'
-      layers: |-
-        rotulos-bairros
-        op-policial
-        faccoes
-        mapbox-satellite
-      title: ''
-      notes: ''
-      items:
-        - icon: square
-          colorIcon: '#3967dbff'
-          typeIcon: outlined
-          iconFill: true
-          text: Milícia
-        - icon: square
-          colorIcon: '#f83535ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Comando Vermelho
-        - icon: circle
-          colorIcon: '#a09c9cff'
-          typeIcon: outlined
-          iconFill: true
-          text: 20-42 casos
+modules:
+  - type: MapBox
+    style: mapbox://styles/medialabufrj/cl1fupuh7001j15rucb3rc4qd
+    token: pk.eyJ1IjoibWVkaWFsYWJ1ZnJqIiwiYSI6ImNsMWVheGZscTBwaXAzb2xndDBzdDBuN20ifQ.K-OyBzLTY80PjEmrSxrErQ
+    centerLng: '-43.4096'
+    centerLat: '-22.9035'
+    zoom: '3'
+    bearing: '0'
+    pitch: '0'
+    layers: ''
+    columnAlign: center
+    views:
+      - id: map1_view1
+        centerLng: '-43.2196'
+        centerLat: '-22.9035'
+        zoom: '2.5'
+        mobileZoom: '2.5'
+        duration: '2000'
+        bearing: '0'
+        pitch: '0'
+        layers: mapbox-satellite
+        title: ''
+        notes: ''
+        items: []
+      - id: map1_view2
+        centerLng: '-43.4096'
+        centerLat: '-22.9035'
+        zoom: '10'
+        mobileZoom: '10'
+        duration: '6000'
+        bearing: '2'
+        pitch: '0'
+        layers: |-
+          contorno-rio
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items:
+          - icon: show_chart
+            colorIcon: '#ffffffff'
+            typeIcon: outlined
+            iconFill: true
+            text: Cidade do Rio de Janeiro
+      - id: map1_view3
+        centerLng: '-43.4096'
+        centerLat: '-22.9035'
+        zoom: '10'
+        mobileZoom: '10'
+        duration: '2000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          operacoes-disparo
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#fc0303ff'
+            typeIcon: outlined
+            iconFill: true
+            text: 1 operação
+          - icon: circle
+            colorIcon: '#fc0303ff'
+            typeIcon: outlined
+            iconFill: true
+            text: 8 operações
+      - id: map1_view4
+        centerLng: '-43.281'
+        centerLat: '-22.851'
+        zoom: '12'
+        mobileZoom: '12'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          rotulos-bairros
+          mare-fronteiras-geral
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items:
+          - icon: show_chart
+            colorIcon: '#ffffffff'
+            typeIcon: outlined
+            iconFill: true
+            text: Comunidades da Maré
+      - id: map1_view5
+        centerLng: '-43.281'
+        centerLat: '-22.851'
+        zoom: '12'
+        mobileZoom: '12'
+        duration: '2000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          viasrj
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items:
+          - icon: show_chart
+            colorIcon: '#ff0000ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Rodovia Linha Vermelha
+          - icon: show_chart
+            colorIcon: '#fbff00ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Rodovia Linha Amarela
+          - icon: show_chart
+            colorIcon: '#00ff2aff'
+            typeIcon: outlined
+            iconFill: true
+            text: Avenida Brasil
+      - id: map1_view6
+        centerLng: '-43.241'
+        centerLat: '-22.851'
+        zoom: '13.7'
+        mobileZoom: '13.7'
+        duration: '2000'
+        bearing: '70'
+        pitch: '0'
+        layers: |-
+          equipamentos
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#def278ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Culturais e educacionais
+          - icon: circle
+            colorIcon: '#3f75fdff'
+            typeIcon: outlined
+            iconFill: true
+            text: Saúde
+          - icon: circle
+            colorIcon: '#33a02cff'
+            typeIcon: outlined
+            iconFill: true
+            text: Religiosos e lazer
+      - id: map2_view1
+        centerLng: '-43.241'
+        centerLat: '-22.869'
+        zoom: '15'
+        mobileZoom: '15'
+        duration: '2000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          equipamentos
+          mare-fronteiras[Name==Conjunto Salsa e Merengue]
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items:
+          - icon: show_chart
+            colorIcon: '#fd1c1cff'
+            typeIcon: outlined
+            iconFill: true
+            text: Conjunto Salsa e Merengue
+      - id: map2_view2
+        centerLng: '-43.2345'
+        centerLat: '-22.87058'
+        zoom: '18.5'
+        mobileZoom: '18.5'
+        duration: '6000'
+        bearing: '25'
+        pitch: '20'
+        layers: |-
+          tiros-200818[Name==tiros_em1]
+          equipamentos
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#f83f3fff'
+            typeIcon: outlined
+            iconFill: true
+            text: Localização aprox. das fotos
+          - icon: circle
+            colorIcon: '#def278ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Escolas do Amanhã
+      - id: map3_view1
+        centerLng: '-43.235259'
+        centerLat: '-22.870211'
+        zoom: '18'
+        mobileZoom: '18'
+        duration: '5000'
+        bearing: '115'
+        pitch: '10'
+        layers: |-
+          mapbox-satellite
+          tiros-200818[Name==rajada3]
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#f90b0bff'
+            typeIcon: outlined
+            iconFill: true
+            text: Local aprox. do registro dos disparos
+      - id: map4_view1
+        centerLng: '-43.234919'
+        centerLat: '-22.868435'
+        zoom: '16.27'
+        mobileZoom: '16.27'
+        duration: '2000'
+        bearing: '110'
+        pitch: '50'
+        layers: |-
+          mapbox-satellite
+          200618-execucoes[Name==Local execucao 5 jovens]
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#f83f3fff'
+            typeIcon: outlined
+            iconFill: true
+            text: Local de execuções
+      - id: map5_view1
+        centerLng: '-43.235'
+        centerLat: '-22.867'
+        zoom: '16.5'
+        mobileZoom: '16.5'
+        duration: '8000'
+        bearing: '0'
+        pitch: '20'
+        layers: |-
+          mapbox-satellite
+          200618-execucoes[Name==Marcus Vincius]
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#f83f3fff'
+            typeIcon: outlined
+            iconFill: true
+            text: Execução de Marcus Vinícius
+      - id: map5_view2
+        centerLng: '-43.239738'
+        centerLat: '-22.860074'
+        zoom: '18.5'
+        mobileZoom: '18.5'
+        duration: '6000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          mapbox-satellite
+          equipamentos[name==Projeto Uere]
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#def278ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Projeto Uerê
+      - id: map6_view1
+        centerLng: '-43.25'
+        centerLat: '-22.867'
+        zoom: '13'
+        mobileZoom: '13'
+        duration: '4000'
+        bearing: '1'
+        pitch: '15'
+        layers: |-
+          op-helicoptero
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items:
+          - icon: square
+            colorIcon: '#ffffd4ff'
+            typeIcon: outlined
+            iconFill: true
+            text: 1-10 operações
+          - icon: square
+            colorIcon: '#fed98eff'
+            typeIcon: outlined
+            iconFill: true
+            text: 11-20
+          - icon: square
+            colorIcon: '#fe9929ff'
+            typeIcon: outlined
+            iconFill: true
+            text: 21-30
+          - icon: square
+            colorIcon: '#cc4c02ff'
+            typeIcon: outlined
+            iconFill: true
+            text: 30 ou mais
+      - id: map6_view2
+        centerLng: '-43.50'
+        centerLat: '-22.95'
+        zoom: '11'
+        mobileZoom: '11'
+        duration: '5000'
+        bearing: '5'
+        pitch: '25'
+        layers: |-
+          rotulos-bairros
+          op-helicoptero
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items:
+          - icon: square
+            colorIcon: '#ffffd4ff'
+            typeIcon: outlined
+            iconFill: true
+            text: 1-10 operações
+          - icon: square
+            colorIcon: '#fed98eff'
+            typeIcon: outlined
+            iconFill: true
+            text: 11-20
+          - icon: square
+            colorIcon: '#fe9929ff'
+            typeIcon: outlined
+            iconFill: true
+            text: 21-30
+          - icon: square
+            colorIcon: '#cc4c02ff'
+            typeIcon: outlined
+            iconFill: true
+            text: 30 ou mais
+      - id: map7_view1
+        centerLng: '-43.445'
+        centerLat: '-22.95'
+        zoom: '10'
+        mobileZoom: '10'
+        duration: '5000'
+        bearing: '5'
+        pitch: '30'
+        layers: |-
+          contorno-rio
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items: []
+      - id: map7_view2
+        centerLng: '-43.445'
+        centerLat: '-22.95'
+        zoom: '10.2'
+        mobileZoom: '10.2'
+        duration: '2000'
+        bearing: '5'
+        pitch: '30'
+        layers: |-
+          faccoes
+          contorno-rio
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items:
+          - icon: square
+            colorIcon: '#3967dbff'
+            typeIcon: outlined
+            iconFill: true
+            text: Milícia
+          - icon: square
+            colorIcon: '#f83535ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Comando Vermelho
+          - icon: square
+            colorIcon: '#33c00cff'
+            typeIcon: outlined
+            iconFill: true
+            text: TCP
+          - icon: square
+            colorIcon: '#f8db72ff'
+            typeIcon: outlined
+            iconFill: true
+            text: ADA
+      - id: map7_view3
+        centerLng: '-43.445'
+        centerLat: '-22.88'
+        zoom: '10'
+        mobileZoom: '10'
+        duration: '3000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          op-policial
+          faccoes
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items: []
+      - id: map7_view4
+        centerLng: '-43.60'
+        centerLat: '-22.95'
+        zoom: '10.2'
+        mobileZoom: '10.2'
+        duration: '2000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          op-policial
+          faccoes
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#f6f4f4ff'
+            typeIcon: outlined
+            iconFill: true
+            text: 1-9 casos
+          - icon: circle
+            colorIcon: '#f6f4f4ff'
+            typeIcon: outlined
+            iconFill: true
+            text: 10-19 casos
+          - icon: circle
+            colorIcon: '#f6f4f4ff'
+            typeIcon: outlined
+            iconFill: true
+            text: 20-42 casos
+          - icon: square
+            colorIcon: '#3967dbff'
+            typeIcon: outlined
+            iconFill: true
+            text: Milícias
+          - icon: square
+            colorIcon: '#f83535ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Comando Vermelho
+          - icon: square
+            colorIcon: '#f8db72ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Amigo dos Amigos
+          - icon: square
+            colorIcon: '#33c00cff'
+            typeIcon: outlined
+            iconFill: true
+            text: Terceiro Comando Puro
+      - id: map7_view5
+        centerLng: '-43.445'
+        centerLat: '-22.88'
+        zoom: '11'
+        mobileZoom: '11'
+        duration: '5000'
+        bearing: '5'
+        pitch: '30'
+        layers: |-
+          op-policial
+          faccoes
+          mapbox-satellite
+          rotulos-bairros
+        title: ''
+        notes: ''
+        items: []
+      - id: map7_view6
+        centerLng: '-43.369'
+        centerLat: '-22.947'
+        zoom: '13'
+        mobileZoom: '13'
+        duration: '2000'
+        bearing: '5'
+        pitch: '0'
+        layers: |-
+          rotulos-bairros
+          op-policial
+          faccoes
+          mapbox-satellite
+        title: ''
+        notes: ''
+        items:
+          - icon: square
+            colorIcon: '#3967dbff'
+            typeIcon: outlined
+            iconFill: true
+            text: Milícia
+          - icon: square
+            colorIcon: '#f83535ff'
+            typeIcon: outlined
+            iconFill: true
+            text: Comando Vermelho
+          - icon: circle
+            colorIcon: '#a09c9cff'
+            typeIcon: outlined
+            iconFill: true
+            text: 20-42 casos
 components:
   - type: Group
     id: TERRITÓRIOS DE EXCEÇÃO

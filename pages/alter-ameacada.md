@@ -22,38 +22,39 @@ pageTheme:
       mobile: '10'
       tablet: '11'
       desktop: '12'
-mapbox:
-  columnAlign: left
-  floatingText: false
-  style: mapbox://styles/comborari/ckr4wi3k80fpl17qo34th6kk2
-  center:
-    lng: -54.875
-    lat: -2.53
-  zoom: 1.1
-  bearing: 0
-  pitch: 0
-  layers: []
-  token: pk.eyJ1IjoiY29tYm9yYXJpIiwiYSI6ImNrcjR3OWczMjBhaWEyeHIyaWhwMnUzNHcifQ.Yv7o7kj1ImyC9Rn-egF0TQ
-  views:
-    - id: view_0
-      center:
-        lng: -58.911
-        lat: -6.315
-      duration: 4500
-      zoom: 4
-      bearing: 0
-      pitch: 0
-      mobile:
-        zoom: 3.5
-      captions:
-        title: false
-        notes: false
-        items:
-          - icon: <span class="material-symbols-outlined fill" style="color:white">show_chart</span>
-            text: Brazil's Legal Amazon
-      layers:
-        - amazonialegal
-  mapView: ''
+modules:
+  - type: MapBox
+    columnAlign: left
+    floatingText: false
+    style: mapbox://styles/comborari/ckr4wi3k80fpl17qo34th6kk2
+    center:
+      lng: -54.875
+      lat: -2.53
+    zoom: 1.1
+    bearing: 0
+    pitch: 0
+    layers: []
+    token: pk.eyJ1IjoiY29tYm9yYXJpIiwiYSI6ImNrcjR3OWczMjBhaWEyeHIyaWhwMnUzNHcifQ.Yv7o7kj1ImyC9Rn-egF0TQ
+    views:
+      - id: view_0
+        center:
+          lng: -58.911
+          lat: -6.315
+        duration: 4500
+        zoom: 4
+        bearing: 0
+        pitch: 0
+        mobile:
+          zoom: 3.5
+        captions:
+          title: false
+          notes: false
+          items:
+            - icon: <span class="material-symbols-outlined fill" style="color:white">show_chart</span>
+              text: Brazil's Legal Amazon
+        layers:
+          - amazonialegal
+    mapView: ''
 components:
   - type: Group
     shortTitle: '-'

@@ -1,6 +1,7 @@
 ---
-title: Home
+title: Home (em construção)
 slug: em-contrucao
+projeto: ''
 pageSettings:
   language: pt-BR
   link_pt_br: /home
@@ -22,47 +23,48 @@ pageTheme:
       mobile: '10'
       tablet: '11'
       desktop: '12'
-mapbox:
-  style: mapbox://styles/comborari/ckr4wi3k80fpl17qo34th6kk2
-  token: '10'
-  centerLng: '1'
-  centerLat: '1'
-  zoom: '1'
-  bearing: ''
-  pitch: ''
-  layers: ''
-  columnAlign: left
-  floatingText: false
-  views:
-    - id: view_0
-      centerLng: '1'
-      centerLat: '1'
-      zoom: '1'
-      mobileZoom: ''
-      duration: ''
-      bearing: ''
-      pitch: ''
-      layers: ''
-      title: ''
-      notes: ''
-      center:
-        lng: -58.911
-        lat: -6.315
-      mobile:
-        zoom: 3.5
-      captions:
-        title: false
-        notes: false
-        items:
-          - icon: circle
-            colorIcon: '#d37c17ff'
-            typeIcon: outlined
-            iconFill: true
-            text: archaeologic sites
-  center:
-    lng: -54.875
-    lat: -2.53
-  mapView: ''
+modules:
+  - type: MapBox
+    style: mapbox://styles/comborari/ckr4wi3k80fpl17qo34th6kk2
+    token: '10'
+    centerLng: '1'
+    centerLat: '1'
+    zoom: '1'
+    bearing: ''
+    pitch: ''
+    layers: ''
+    columnAlign: left
+    floatingText: false
+    views:
+      - id: view_0
+        centerLng: '1'
+        centerLat: '1'
+        zoom: '1'
+        mobileZoom: ''
+        duration: ''
+        bearing: ''
+        pitch: ''
+        layers: ''
+        title: ''
+        notes: ''
+        captions:
+          items:
+            - text: archaeologic sites
+              iconFill: true
+              typeIcon: outlined
+              colorIcon: '#d37c17ff'
+              icon: circle
+          notes: false
+          title: false
+        mobile:
+          zoom: 3.5
+        center:
+          lat: -6.315
+          lng: -58.911
+    mapView: ''
+    center:
+      lat: -2.53
+      lng: -54.875
 components:
   - type: Group
     id: group_1
@@ -97,11 +99,11 @@ components:
               Seu objetivo é apoiar investigações baseadas em dados sobre violações de direitos humanos, territoriais e ambientais, causadas pelo Estado e por corporações, para fins de advocacia e reparação histórica.
             txtColor: ''
             bgColor: ''
-            customTxtColor: ''
             customBgColor: ''
-        customTxtColor: ''
-        customBgColor: ''
+            customTxtColor: ''
         body: ''
+        customBgColor: ''
+        customTxtColor: ''
     layout: default
   - type: Group
     id: group_2
@@ -131,14 +133,14 @@ components:
                 Em um contexto de crescente proliferação midiática e novas tecnologias de produção e disseminação de fake news, a visibilização espacial da violência e a composição de fragmentos de informações em um conjunto verificado e referenciado de dados se torna cada vez mais importante para a compreensão de sua dimensão e consequências. Neste sentido, a plataforma Documental busca contribuir para a construção de uma capacidade civil de investigação, de resposta e de defesa de casos de violações de direitos, com o objetivo de promover o concernimento e o debate públicos sobre justiça social e ambiental.
               txtColor: ''
               bgColor: ''
-              customTxtColor: ''
               customBgColor: ''
+              customTxtColor: ''
         column2:
           components:
             - type: Spacer
               desktop: 0px
-    backgroundImage: ''
     layout: default
+    backgroundImage: ''
   - type: Group
     id: group_3
     shortTitle: group_3
@@ -164,8 +166,8 @@ components:
               content: '### COMO FUNCIONA A DOCUMENTAL?'
               txtColor: ''
               bgColor: ''
-              customTxtColor: ''
               customBgColor: ''
+              customTxtColor: ''
         column2:
           components:
             - type: Timeline
@@ -215,8 +217,8 @@ components:
               content: '### ALGUMAS INVESTIGAÇÕES PUBLICADAS NA PLATAFORMA'
               txtColor: ''
               bgColor: ''
-              customTxtColor: ''
               customBgColor: ''
+              customTxtColor: ''
         column2:
           components:
             - type: Spacer
@@ -307,8 +309,8 @@ components:
               content: '**Documental.xyz** foi originalmente desenvolvida em 2019 pela agência **Autônoma** e pelo **MediaLab UFRJ**, em colaboração com a **Rede LAVITS**.'
               txtColor: ''
               bgColor: ''
-              customTxtColor: ''
               customBgColor: ''
+              customTxtColor: ''
             - type: LogosGroup
               logos:
                 - image: /uploads/autonoma-black-redim.png
@@ -343,4 +345,3 @@ components:
                 Back end e documentação: **Thiago Paixão**
     layout: default
 ---
-

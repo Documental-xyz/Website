@@ -1,6 +1,7 @@
 ---
 title: Home
 slug: home
+projeto: ''
 pageSettings:
   language: pt-BR
   link_pt_br: '#'
@@ -28,19 +29,19 @@ pageTheme:
       mobile: '10'
       tablet: '10'
       desktop: '10'
-mapbox:
-  type: MapBox
-  style: mapbox://styles/studio-autonoma/cmdgcs27u019101sa29ytbsps
-  token: pk.eyJ1Ijoic3R1ZGlvLWF1dG9ub21hIiwiYSI6ImNtY3V2d3dtMTA0ZXgycnB4OW01cjlqb2QifQ.3NMaRt1maLlqTv6nlVqVHA
-  centerLng: '10.706'
-  centerLat: '29.771'
-  zoom: '1.40'
-  bearing: '0'
-  pitch: '0'
-  layers: ''
-  columnAlign: left
-  floatingText: false
-  views: []
+modules:
+  - type: MapBox
+    style: mapbox://styles/studio-autonoma/cmdgcs27u019101sa29ytbsps
+    token: pk.eyJ1Ijoic3R1ZGlvLWF1dG9ub21hIiwiYSI6ImNtY3V2d3dtMTA0ZXgycnB4OW01cjlqb2QifQ.3NMaRt1maLlqTv6nlVqVHA
+    centerLng: '10.706'
+    centerLat: '29.771'
+    zoom: '1.40'
+    bearing: '0'
+    pitch: '0'
+    layers: ''
+    columnAlign: left
+    floatingText: false
+    views: []
 components:
   - type: Group
     id: Capa
@@ -452,14 +453,6 @@ components:
                 customTarget: ''
                 text: Acesse aqui
               icon: ''
-      - type: Column
-        paddingTop: false
-        paddingBottom: false
-        components:
-          - type: VideoEmbed
-            wideVideo: false
-            videoUrl: https://www.youtube.com/embed/8tPnX7OPo0Q?si=avGZ530ghpTIZ16z
-            videoCaption: ''
       - type: Columns
         paddingTop: false
         paddingBottom: false
@@ -543,4 +536,3 @@ components:
 
                 Implementação e documentação:**&#32;Julia Veras**
 ---
-

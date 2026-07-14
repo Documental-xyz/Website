@@ -24,43 +24,30 @@ pageTheme:
       mobile: '10'
       tablet: '11'
       desktop: '12'
-mapbox:
-  style: mapbox://styles/marlus/cjyt3uyhf15mr1cthc2942wxz
-  token: pk.eyJ1IjoibWFybHVzIiwiYSI6IjlmYlhtaEkifQ.vMxORYorRKnueDl3E5itEQ
-  centerLng: '-58.569363795'
-  centerLat: '-1.917321274'
-  zoom: '2'
-  bearing: '0'
-  pitch: '0'
-  layers: ''
-  columnAlign: center
-  floatingText: true
-  views:
-    - id: map1_view1
-      centerLng: '-58.569363795'
-      centerLat: '-1.917321274'
-      zoom: '3'
-      mobileZoom: ''
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        amazonia-limites
-        mineracaoamazonia
-      title: ''
-      notes: ''
-      items:
-        - icon: show_chart
-          colorIcon: '#bffa80ff'
-          typeIcon: outlined
-          iconFill: true
-          text: Amazon limits
-        - icon: square
-          colorIcon: '#e31c1cff'
-          typeIcon: outlined
-          iconFill: true
-          text: Mining concessions
-      captions:
+modules:
+  - type: MapBox
+    style: mapbox://styles/marlus/cjyt3uyhf15mr1cthc2942wxz
+    token: pk.eyJ1IjoibWFybHVzIiwiYSI6IjlmYlhtaEkifQ.vMxORYorRKnueDl3E5itEQ
+    centerLng: '-58.569363795'
+    centerLat: '-1.917321274'
+    zoom: '2'
+    bearing: '0'
+    pitch: '0'
+    layers: ''
+    columnAlign: center
+    floatingText: true
+    views:
+      - id: map1_view1
+        centerLng: '-58.569363795'
+        centerLat: '-1.917321274'
+        zoom: '3'
+        mobileZoom: ''
+        duration: '2000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          amazonia-limites
+          mineracaoamazonia
         title: ''
         notes: ''
         items:
@@ -70,116 +57,121 @@ mapbox:
             iconFill: true
             text: Amazon limits
           - icon: square
-            colorIcon: '#e21212ff'
+            colorIcon: '#e31c1cff'
             typeIcon: outlined
             iconFill: true
             text: Mining concessions
-    - id: map1_view2
-      centerLng: '-58.569363795000015'
-      centerLat: '-1.917321274000017'
-      zoom: '3.5'
-      mobileZoom: ''
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        amazonia-limites
-        mineracaoamazonia
-        anpamazonia
-        tiamazonia
-      title: ''
-      notes: ''
-      captions:
+        captions:
+          title: ''
+          notes: ''
+          items:
+            - icon: show_chart
+              colorIcon: '#bffa80ff'
+              typeIcon: outlined
+              iconFill: true
+              text: Amazon limits
+            - icon: square
+              colorIcon: '#e21212ff'
+              typeIcon: outlined
+              iconFill: true
+              text: Mining concessions
+      - id: map1_view2
+        centerLng: '-58.569363795000015'
+        centerLat: '-1.917321274000017'
+        zoom: '3.5'
+        mobileZoom: ''
+        duration: '2000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          amazonia-limites
+          mineracaoamazonia
+          anpamazonia
+          tiamazonia
         title: ''
         notes: ''
-        items:
-          - icon: square
-            colorIcon: '#e21212ff'
-            typeIcon: outlined
-            iconFill: true
-            text: Mining concessions
-          - icon: circle
-            colorIcon: '#797429ff'
-            typeIcon: outlined
-            iconFill: true
-            text: Indigenous Territory
-          - icon: circle
-            colorIcon: '#b2b520ff'
-            typeIcon: outlined
-            iconFill: true
-            text: Ecological reserves
-    - id: map1_view3
-      centerLng: '-77.921'
-      centerLat: '-2.038'
-      zoom: '6'
-      mobileZoom: ''
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        mineracaoamazonia
-        amazonia-limites
-        ecuador-limites
-        tiamazonia
-        anpamazonia
-      title: ''
-      notes: ''
-      captions:
+        captions:
+          title: ''
+          notes: ''
+          items:
+            - icon: square
+              colorIcon: '#e21212ff'
+              typeIcon: outlined
+              iconFill: true
+              text: Mining concessions
+            - icon: circle
+              colorIcon: '#797429ff'
+              typeIcon: outlined
+              iconFill: true
+              text: Indigenous Territory
+            - icon: circle
+              colorIcon: '#b2b520ff'
+              typeIcon: outlined
+              iconFill: true
+              text: Ecological reserves
+      - id: map1_view3
+        centerLng: '-77.921'
+        centerLat: '-2.038'
+        zoom: '6'
+        mobileZoom: ''
+        duration: '2000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          mineracaoamazonia
+          amazonia-limites
+          ecuador-limites
+          tiamazonia
+          anpamazonia
         title: ''
         notes: ''
-        items:
-          - icon: square
-            colorIcon: '#e21212ff'
-            typeIcon: outlined
-            iconFill: true
-            text: Mining Concessions
-          - icon: circle
-            colorIcon: '#797429ff'
-            typeIcon: outlined
-            iconFill: true
-            text: Indigenous Territory
-          - icon: circle
-            colorIcon: '#b2b520ff'
-            typeIcon: outlined
-            iconFill: true
-            text: Ecological Reserves
-    - id: map1_view4
-      centerLng: '-78.195'
-      centerLat: '-3.893'
-      zoom: '7'
-      mobileZoom: ''
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        mineracaoamazonia[pais==Ecuador]
-        ecuador-limites
-        expulsion-regions
-        tiamazonia[pais==Ecuador]
-        anpamazonia[pais==Ecuador]
-      title: ''
-      notes: ''
-    - id: map2_view1
-      centerLng: '-78.465'
-      centerLat: '-3.584'
-      zoom: '12.2'
-      mobileZoom: ''
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        sat-2013
-        expulsion-regions
-        desajolos-mirador[Tipo==Comunidad]
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#dbce48ff'
-          typeIcon: outlined
-          iconFill: true
-          text: comunity centers
-      captions:
+        captions:
+          title: ''
+          notes: ''
+          items:
+            - icon: square
+              colorIcon: '#e21212ff'
+              typeIcon: outlined
+              iconFill: true
+              text: Mining Concessions
+            - icon: circle
+              colorIcon: '#797429ff'
+              typeIcon: outlined
+              iconFill: true
+              text: Indigenous Territory
+            - icon: circle
+              colorIcon: '#b2b520ff'
+              typeIcon: outlined
+              iconFill: true
+              text: Ecological Reserves
+      - id: map1_view4
+        centerLng: '-78.195'
+        centerLat: '-3.893'
+        zoom: '7'
+        mobileZoom: ''
+        duration: '2000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          mineracaoamazonia[pais==Ecuador]
+          ecuador-limites
+          expulsion-regions
+          tiamazonia[pais==Ecuador]
+          anpamazonia[pais==Ecuador]
+        title: ''
+        notes: ''
+      - id: map2_view1
+        centerLng: '-78.465'
+        centerLat: '-3.584'
+        zoom: '12.2'
+        mobileZoom: ''
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          sat-2013
+          expulsion-regions
+          desajolos-mirador[Tipo==Comunidad]
         title: ''
         notes: ''
         items:
@@ -188,184 +180,193 @@ mapbox:
             typeIcon: outlined
             iconFill: true
             text: comunity centers
-    - id: map2_view2
-      centerLng: '-78.465'
-      centerLat: '-3.584'
-      zoom: '12.2'
-      mobileZoom: ''
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        desajolos-mirador
-        expulsion-regions
-        sat-2013
-      title: ''
-      notes: ''
-      items:
-        - icon: close
-          colorIcon: '#d11515ff'
-          typeIcon: outlined
-          iconFill: true
-          text: evicted families
-      captions:
+        captions:
+          title: ''
+          notes: ''
+          items:
+            - icon: circle
+              colorIcon: '#dbce48ff'
+              typeIcon: outlined
+              iconFill: true
+              text: comunity centers
+      - id: map2_view2
+        centerLng: '-78.465'
+        centerLat: '-3.584'
+        zoom: '12.2'
+        mobileZoom: ''
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          desajolos-mirador
+          expulsion-regions
+          sat-2013
         title: ''
         notes: ''
         items:
           - icon: close
-            colorIcon: '#d81313ff'
+            colorIcon: '#d11515ff'
             typeIcon: outlined
             iconFill: true
             text: evicted families
-    - id: map2_view3
-      centerLng: '-78.465'
-      centerLat: '-3.584'
-      zoom: '12.2'
-      mobileZoom: ''
-      duration: '2000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        desajolos-mirador
-        expulsion-regions
-        sat-2018
-      title: ''
-      notes: ''
-      items:
-        - icon: close
-          colorIcon: '#d11515ff'
-          typeIcon: outlined
-          iconFill: true
-          text: forced evictions
-      captions:
+        captions:
+          title: ''
+          notes: ''
+          items:
+            - icon: close
+              colorIcon: '#d81313ff'
+              typeIcon: outlined
+              iconFill: true
+              text: evicted families
+      - id: map2_view3
+        centerLng: '-78.465'
+        centerLat: '-3.584'
+        zoom: '12.2'
+        mobileZoom: ''
+        duration: '2000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          desajolos-mirador
+          expulsion-regions
+          sat-2018
         title: ''
         notes: ''
         items:
           - icon: close
-            colorIcon: '#dc1e1eff'
+            colorIcon: '#d11515ff'
             typeIcon: outlined
             iconFill: true
             text: forced evictions
-    - id: map2_view4
-      centerLng: '-78.470'
-      centerLat: '-3.569'
-      zoom: '15.1'
-      mobileZoom: ''
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        desajolos-mirador[Data<2015-10-01]
-        expulsion-regions
-        sat-2018
-      title: ''
-      notes: ''
-    - id: map2_view5
-      centerLng: '-78.465'
-      centerLat: '-3.584'
-      zoom: '12.5'
-      mobileZoom: ''
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        desajolos-mirador[Data<2015-12-31]
-        expulsion-regions
-        sat-2018
-      title: ''
-      notes: ''
-    - id: map2_view6
-      centerLng: '-78.50685'
-      centerLat: '-3.57468'
-      zoom: '14'
-      mobileZoom: ''
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        desajolos-mirador
-        expulsion-regions
-        sat-2018
-      title: ''
-      notes: ''
-    - id: map3_view1
-      centerLng: '-78.465'
-      centerLat: '-3.584'
-      zoom: '12.5'
-      mobileZoom: ''
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        sat-2013
-        expulsion-regions
-      title: ''
-      notes: ''
-    - id: map3_view2
-      centerLng: '-78.465'
-      centerLat: '-3.584'
-      zoom: '12.5'
-      mobileZoom: ''
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        sat-2018
-        sat-2013
-      title: ''
-      notes: ''
-      captions: null
-    - id: map4_view1
-      centerLng: '-78.465'
-      centerLat: '-3.572'
-      zoom: '12.2'
-      mobileZoom: ''
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        sitios-mirador
-        sat-2018
-      title: ''
-      notes: ''
-      items:
-        - icon: circle
-          colorIcon: '#d37c17ff'
-          typeIcon: outlined
-          iconFill: true
-          text: archaeologic sites
-      captions: null
-    - id: map4_view2
-      centerLng: '-78.465'
-      centerLat: '-3.572'
-      zoom: '14'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        sitios-mirador
-        sat-2018
-    - id: map4_view3
-      centerLng: '-78.500'
-      centerLat: '-3.572'
-      zoom: '14'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        sitios-mirador
-        sat-2018
-    - id: map4_view4
-      centerLng: '-78.466'
-      centerLat: '-3.583'
-      zoom: '14'
-      duration: '4000'
-      bearing: '0'
-      pitch: '0'
-      layers: |-
-        sitios-mirador[ID==Z6D3-020]
-        sat-2018
-  mapView: ''
+        captions:
+          title: ''
+          notes: ''
+          items:
+            - icon: close
+              colorIcon: '#dc1e1eff'
+              typeIcon: outlined
+              iconFill: true
+              text: forced evictions
+      - id: map2_view4
+        centerLng: '-78.470'
+        centerLat: '-3.569'
+        zoom: '15.1'
+        mobileZoom: ''
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          desajolos-mirador[Data<2015-10-01]
+          expulsion-regions
+          sat-2018
+        title: ''
+        notes: ''
+      - id: map2_view5
+        centerLng: '-78.465'
+        centerLat: '-3.584'
+        zoom: '12.5'
+        mobileZoom: ''
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          desajolos-mirador[Data<2015-12-31]
+          expulsion-regions
+          sat-2018
+        title: ''
+        notes: ''
+      - id: map2_view6
+        centerLng: '-78.50685'
+        centerLat: '-3.57468'
+        zoom: '14'
+        mobileZoom: ''
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          desajolos-mirador
+          expulsion-regions
+          sat-2018
+        title: ''
+        notes: ''
+      - id: map3_view1
+        centerLng: '-78.465'
+        centerLat: '-3.584'
+        zoom: '12.5'
+        mobileZoom: ''
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          sat-2013
+          expulsion-regions
+        title: ''
+        notes: ''
+      - id: map3_view2
+        centerLng: '-78.465'
+        centerLat: '-3.584'
+        zoom: '12.5'
+        mobileZoom: ''
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          sat-2018
+          sat-2013
+        title: ''
+        notes: ''
+        captions: null
+      - id: map4_view1
+        centerLng: '-78.465'
+        centerLat: '-3.572'
+        zoom: '12.2'
+        mobileZoom: ''
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          sitios-mirador
+          sat-2018
+        title: ''
+        notes: ''
+        items:
+          - icon: circle
+            colorIcon: '#d37c17ff'
+            typeIcon: outlined
+            iconFill: true
+            text: archaeologic sites
+        captions: null
+      - id: map4_view2
+        centerLng: '-78.465'
+        centerLat: '-3.572'
+        zoom: '14'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          sitios-mirador
+          sat-2018
+      - id: map4_view3
+        centerLng: '-78.500'
+        centerLat: '-3.572'
+        zoom: '14'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          sitios-mirador
+          sat-2018
+      - id: map4_view4
+        centerLng: '-78.466'
+        centerLat: '-3.583'
+        zoom: '14'
+        duration: '4000'
+        bearing: '0'
+        pitch: '0'
+        layers: |-
+          sitios-mirador[ID==Z6D3-020]
+          sat-2018
+    mapView: ''
 components:
   - type: Group
     id: EXPULSIONS
