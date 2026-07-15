@@ -1170,9 +1170,9 @@ components:
   - type: Include
     id: '1'
     shortTitle: ''
-    slug: nhanderekoa2
+    slug: nhanderekoa-2
   - type: Include
-    id: '2'
+    id: ''
     shortTitle: ''
-    slug: nhanderekoa3
+    slug: nhanderekoa-3
 ---

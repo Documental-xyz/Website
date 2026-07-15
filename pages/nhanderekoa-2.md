@@ -3,6 +3,8 @@ standalone: true
 title: Nhanderekoa Parte 2
 slug: nhanderekoa2
 projeto: Nhanderekoa
+pageInclude:
+  mainSlug: nhanderekoa
 components:
   - type: Group
     id: home
