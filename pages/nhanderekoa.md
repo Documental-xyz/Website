@@ -1168,11 +1168,7 @@ modules:
             text: Área do núcleo turístico do Jaraguá
 components:
   - type: Include
-    id: '1'
-    shortTitle: ''
-    slug: nhanderekoa-2
+    slug: nhanderekoa2
   - type: Include
-    id: ''
-    shortTitle: ''
-    slug: nhanderekoa-3
+    slug: nhanderekoa3
 ---
