@@ -1,7 +1,7 @@
 ---
 title: Home
 slug: home
-projeto: ''
+projeto: Landing Page
 pageSettings:
   language: pt-BR
   link_pt_br: '#'
@@ -93,9 +93,9 @@ components:
               mobile: ''
             - type: Button
               link:
-                url: https://www.advocacia.autonoma.xyz/
-                target: _self
-                text: Faça o download
+                url: /download
+                target: _blank
+                text: Baixar no GitHub
               icon: ''
               size: ''
             - type: Spacer
@@ -104,8 +104,8 @@ components:
               mobile: ''
             - type: Button
               link:
-                url: https://www.advocacia.autonoma.xyz/
-                target: _self
+                url: /docs
+                target: _blank
                 text: Guia de Instalação e Uso
               icon: ''
               size: ''
@@ -145,19 +145,33 @@ components:
             - type: Text
               hasDropCap: false
               content: '##### Desenhada para a realidade de movimentos sociais e organizações de defesa de direitos, a Documental é gratuita e não exige conhecimento técnico avançado: qualquer pessoa pode criar e publicar uma investigação visual, sem saber programar.'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '##### DESTAQUE – Documental é um software livre: não tem custos de instalação ou atualização, e pode ser usado, copiado, estudado, modificado e redistribuído sem quaisquer restrições.'
+  - type: Group
+    id: Destaque
+    shortTitle: Destaque
+    longTitle: ''
+    description: ''
+    showInMenu: false
+    animations: true
+    txtColor: Highlight
+    customTxtColor: ''
+    bgColor: Secondary
+    customBgColor: ''
+    backgroundMedia: []
+    overlay: ''
+    components:
+      - type: Column
+        paddingTop: false
+        paddingBottom: false
+        components:
+          - type: Text
+            hasDropCap: false
+            content: '### Documental é um software livre: não tem custos de instalação ou atualização, e pode ser usado, copiado, estudado, modificado e redistribuído sem quaisquer restrições.'
   - type: Group
     id: Qual o objetivo da plataforma?
     shortTitle: Qual o objetivo da plataforma?
     longTitle: ''
     description: ''
-    showInMenu: false
+    showInMenu: true
     animations: true
     txtColor: Secondary
     customTxtColor: ''
@@ -170,12 +184,17 @@ components:
         paddingTop: true
         paddingBottom: true
         invertOnMobile: false
-        columnsAlign: 66-33
+        columnsAlign: 33-66
         column1:
           components:
             - type: Text
               hasDropCap: false
-              content: '##### A Documental foi pensada como instrumento de defesa de direitos humanos e ambientais: uma ferramenta open-source para que movimentos sociais, organizações civis e jornalistas documentem e comuniquem histórias locais a audiências globais, de forma envolvente e visualmente impactante.'
+              content: '# Qual o objetivo da plataforma?'
+        column2:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '##### Pensada como instrumento de defesa de direitos humanos e ambientais, a Documental opera como uma ferramenta open-source para que movimentos sociais, organizações civis e jornalistas documentem e comuniquem histórias locais a audiências globais, de forma envolvente e visualmente impactante.'
             - type: Spacer
               desktop: 50px
               tablet: ''
@@ -190,17 +209,12 @@ components:
             - type: Text
               hasDropCap: false
               content: ''
-        column2:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '# Qual o objetivo da plataforma?'
   - type: Group
     id: Como a plataforma funciona?
     shortTitle: Como a plataforma funciona?
     longTitle: ''
     description: ''
-    showInMenu: false
+    showInMenu: true
     animations: true
     txtColor: Primary
     customTxtColor: ''
@@ -213,12 +227,17 @@ components:
         paddingTop: true
         paddingBottom: true
         invertOnMobile: false
-        columnsAlign: 66-33
+        columnsAlign: 33-66
         column1:
           components:
             - type: Text
               hasDropCap: false
-              content: '##### A Documental é uma plataforma aberta e totalmente customizável, que você adapta ao seu projeto sem precisar de programação avançada.'
+              content: '# Como a plataforma funciona?'
+        column2:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '##### Aberta e totalmente customizável, você adapta ao seu projeto sem precisar de programação avançada.'
             - type: Spacer
               desktop: 50px
               tablet: ''
@@ -232,7 +251,7 @@ components:
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: '##### Com parâmetros fáceis de ajustar, você tem total controle sobre o design do conteúdo, para criar narrativas visuais nos mais diversos formatos.'
+              content: '##### Com parâmetros facilmente customizáveis, a plataforma permite que o usuário tenha total controle sobre o design do conteúdo, oferecendo um recurso poderoso para criar narrativas visuais nos mais diversos formatos.'
             - type: Spacer
               desktop: 50px
               tablet: ''
@@ -240,11 +259,6 @@ components:
             - type: Text
               hasDropCap: false
               content: '##### A edição acontece no nosso aplicativo: nele você cria seu usuário, monta o ambiente de trabalho e edita o projeto mesmo sem internet, o que amplia o acesso a comunidades isoladas ou a quem não tem uma conexão contínua ou estável.'
-        column2:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '# Como a plataforma funciona?'
   - type: Group
     id: Arquitetura da plataforma
     shortTitle: Arquitetura da plataforma
@@ -268,12 +282,17 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '# ARQUITETURA DA PLATAFORMA'
+              content: '# Arquitetura da Plataforma'
         column2:
           components:
             - type: Text
               hasDropCap: false
-              content: '##### A Documental é uma plataforma de código aberto e construída, sempre que possível, sobre ferramentas livres, para que possa ser usada, copiada, adaptada e melhorada pela própria comunidade de usuários. Sua arquitetura reúne: o código da plataforma, aberto e disponível no GitHub para baixar, instalar e adaptar ao seu servidor; o Sveltia, CMS aberto usado para editar o conteúdo; o Mapbox, serviço de mapas online que dá base aos mapas interativos; e um aplicativo próprio para construir a geo-história no computador, inclusive offline. Sem custos de licença e com total transparência sobre como tudo funciona.'
+              content: |-
+                ##### A Documental é uma plataforma de código aberto e construída, sempre que possível, sobre ferramentas livres, para que possa ser usada, copiada, adaptada e melhorada pela própria comunidade de usuários. 
+
+                ##### Sua arquitetura reúne: o código da plataforma, aberto e disponível no GitHub para baixar, instalar e adaptar ao seu servidor; o Sveltia, CMS aberto usado para editar o conteúdo; o Mapbox, serviço de mapas online que dá base aos mapas interativos; e um aplicativo próprio para construir a geo-história no computador, inclusive offline.
+
+                ##### Sem custos de licença e com total transparência sobre como tudo funciona.
   - type: Group
     id: 3 formas de publicar
     shortTitle: 3 formas de publicar
@@ -297,7 +316,7 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '# 3 formas de publicar'
+              content: '# Como começar: 3 formas de publicar'
             - type: Spacer
               desktop: 50px
               tablet: ''
@@ -320,7 +339,7 @@ components:
                   mobile: ''
                 - type: TimelineBullet
                   text: 3. Em nosso servidor
-                  content: '###### Seu projeto pode utilizar a plataforma em nosso servidor, sem necessidade de instalação. Oferecemos infraestrutura e suporte técnico para a implementação e utilização da plataforma para movimentos sociais e entidades de defesa de direitos humanos e ambientais. Projetos podem ser submetidos através do email **autonoma@autonoma.xyz**.'
+                  content: '###### Seu projeto pode utilizar a plataforma em nosso servidor, sem necessidade de instalação. Oferecemos infraestrutura e suporte técnico para a implementação e utilização da plataforma para movimentos sociais e entidades de defesa de direitos humanos e ambientais. Projetos podem ser submetidos através do email [e-mail de contato].'
         column2:
           components:
             - type: Spacer
@@ -334,30 +353,30 @@ components:
                     title: GitHub
                     text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a Documental.xyz no seu servidor.
                     link:
-                      url: https://www.advocacia.autonoma.xyz/
-                      target: ''
+                      url: https://github.com/Documental-xyz/
+                      target: _blank
                       customTarget: ''
-                      text: Acesse aqui
+                      text: Acesse o repositório
                     icon: ''
                 - Card:
                     type: Card
                     title: Guia de instalação e uso
                     text: Documentação completa de como instalar e usar a Documental, com informações detalhadas e passo a passo.
                     link:
-                      url: https://www.advocacia.autonoma.xyz/
-                      target: ''
+                      url: /docs
+                      target: _blank
                       customTarget: ''
-                      text: Acesse aqui
+                      text: Acessar a documentação
                     icon: ''
                 - Card:
                     type: Card
                     title: Licença
-                    text: Termos de uso da Documental.
+                    text: Termos de uso da Documental
                     link:
-                      url: https://www.advocacia.autonoma.xyz/
-                      target: ''
+                      url: /licenca
+                      target: _blank
                       customTarget: ''
-                      text: Acesse aqui
+                      text: Ver a licença
                     icon: ''
   - type: Group
     id: Trabalhe offline
@@ -401,9 +420,9 @@ components:
           components:
             - type: Button
               link:
-                url: https://www.advocacia.autonoma.xyz/
-                target: _self
-                text: Baixar o aplicativo Documental
+                url: /download
+                target: _blank
+                text: Baixar o aplicativo Documental offline
               icon: ''
               size: ''
   - type: Group
@@ -439,8 +458,8 @@ components:
               title: Aplicativo Documental
               text: Aplicativo para criar suas geo-histórias, inclusive em modo offline. Baixe, produza no seu computador e publique quando tiver conexão.
               link:
-                url: https://www.advocacia.autonoma.xyz/
-                target: ''
+                url: /download
+                target: _blank
                 customTarget: ''
                 text: Baixar o app
               icon: ''
@@ -449,8 +468,8 @@ components:
               title: GitHub
               text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a Documental.xyz no seu servidor.
               link:
-                url: https://www.advocacia.autonoma.xyz/
-                target: ''
+                url: https://github.com/Documental-xyz/
+                target: _blank
                 customTarget: ''
                 text: Acesse aqui
               icon: ''
@@ -459,8 +478,8 @@ components:
               title: Guia de instalação e uso
               text: Documentação completa de como instalar e usar a Documental, com informações detalhadas e passo a passo.
               link:
-                url: https://www.advocacia.autonoma.xyz/
-                target: ''
+                url: /docs
+                target: _blank
                 customTarget: ''
                 text: Acesse aqui
               icon: ''
@@ -469,8 +488,8 @@ components:
               title: Licença
               text: Termos de uso da Documental
               link:
-                url: https://www.advocacia.autonoma.xyz/
-                target: ''
+                url: /licenca
+                target: _blank
                 customTarget: ''
                 text: Acesse aqui
               icon: ''
@@ -483,7 +502,7 @@ components:
     shortTitle: Faça parte da comunidade
     longTitle: ''
     description: ''
-    showInMenu: false
+    showInMenu: true
     animations: true
     txtColor: Secondary
     customTxtColor: ''
@@ -513,9 +532,9 @@ components:
               mobile: ''
             - type: Button
               link:
-                url: https://www.advocacia.autonoma.xyz/
-                target: _self
-                text: Issues
+                url: https://github.com/Documental-xyz/Core/issues
+                target: _blank
+                text: Participe
               icon: ''
               size: ''
   - type: Group
@@ -523,7 +542,7 @@ components:
     shortTitle: Projetos realizados com a plataforma
     longTitle: ''
     description: ''
-    showInMenu: false
+    showInMenu: true
     animations: true
     txtColor: Primary
     customTxtColor: ''
@@ -597,7 +616,7 @@ components:
     shortTitle: Créditos
     longTitle: ''
     description: ''
-    showInMenu: false
+    showInMenu: true
     animations: true
     txtColor: Primary
     customTxtColor: ''
@@ -616,6 +635,10 @@ components:
             - type: Text
               hasDropCap: false
               content: Documental.xyz é desenvolvida pela agência autônoma em colaboração com o MediaLab da Universidade Federal do Rio de Janeiro (UFRJ).
+            - type: Spacer
+              desktop: 40px
+              tablet: 40px
+              mobile: 40px
             - type: LogosGroup
               logos:
                 - image: /uploads/autonoma-black-redim.png
@@ -624,7 +647,7 @@ components:
                     target: ''
                     customTarget: ''
                     title: ''
-                - image: /uploads/medialab-redim-semfundo.png
+                - image: /uploads/medialab.png
                   link:
                     url: https://medialabufrj.net/
                     target: ''
@@ -654,5 +677,5 @@ components:
 
                 Design e front end: **Atonal Studio**
 
-                Programação backend e documentação: **Thiago Paixão**
+                Back end e documentação: **Thiago Paixão**
 ---

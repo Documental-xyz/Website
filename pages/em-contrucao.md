@@ -1,7 +1,7 @@
 ---
-title: Home (em construção)
+title: Em construção
 slug: em-contrucao
-projeto: ''
+projeto: Landing Page
 pageSettings:
   language: pt-BR
   link_pt_br: /home
