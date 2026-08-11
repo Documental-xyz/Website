@@ -1,114 +1,88 @@
-# Documental — Template de Site
+# A Documental
 
-### Crie seu site de geo-narrativas em minutos
+### Plataforma para criação de narrativas digitais com mapas, dados, documentos e multimídia
 
-[![Use este template](https://img.shields.io/badge/Use%20este%20template-2ea44f?style=for-the-badge&logo=github)](https://github.com/YOUR_ORG/YOUR_REPO/generate)
-[![Deploy no GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://docs.github.com/pt/pages)
+**A Documental** é uma plataforma open source criada para facilitar a produção de narrativas digitais, projetos de documentação, memória, pesquisa, jornalismo e direitos humanos.
 
----
+Este é o repositório do **site oficial da Documental**.
 
-## 📖 O que é
+## Sobre a Documental
 
-O **Documental** é um template. Isso significa que você não começa do zero: pega um site pronto, troca o conteúdo pelo seu, e publica. Sem instalar programas complicados, sem saber programar.
+A Documental foi criada para tornar mais simples a publicação de projetos que combinam diferentes formatos de informação.
 
-Ele já vem com tudo que um site de narrativa precisa: mapas interativos, linhas do tempo, galerias de imagens, gráficos e textos. Você só precisa colocar o seu conteúdo.
+A plataforma permite reunir, em uma mesma experiência:
 
-A melhor parte é o **editor visual**. Você edita tudo pelo navegador, vendo o resultado na hora. Arrasta uma imagem, escreve um texto, solta um marcador no mapa. O site vai ficando pronto enquanto você trabalha.
+* textos e documentos;
+* mapas interativos;
+* imagens e galerias;
+* vídeos;
+* gráficos e visualizações de dados;
+* linhas do tempo;
+* indicadores;
+* diferentes tipos de componentes e layouts.
 
----
+A proposta é permitir que equipes produzam projetos digitais ricos e interativos sem precisar construir toda a infraestrutura de um site do zero.
 
-## 🚀 Começando em 3 passos
+## Para quem é
 
-### Passo 1 — Usar o template
+A Documental foi pensada especialmente para projetos que trabalham com informação, território, memória e documentação.
 
-Clique no botão verde **"Use este template"** lá no topo deste repositório no GitHub. Ele cria uma cópia do site só pra você.
+Entre os possíveis usos estão:
 
-### Passo 2 — Editar o conteúdo
+* jornalismo e reportagens investigativas;
+* documentação de direitos humanos;
+* pesquisas acadêmicas;
+* projetos de memória;
+* atlas e mapeamentos;
+* projetos socioambientais;
+* relatórios e pesquisas institucionais;
+* exposições digitais;
+* centros de documentação;
+* projetos educacionais;
+* observatórios temáticos.
 
-Você pode editar de dois jeitos:
+## O site
 
-- **Pelo navegador**, abrindo o editor visual em `/admin` no seu site
-- **Pelos arquivos**, mexendo direto nas pastas de conteúdo (mais detalhes abaixo)
+Este repositório reúne o conteúdo e a apresentação do site oficial da Documental.
 
-### Passo 3 — Publicar
+Aqui são apresentados os principais conceitos, possibilidades e informações sobre a plataforma, além dos conteúdos que ajudam visitantes a conhecer o projeto e entender como a Documental pode ser utilizada.
 
-Tudo acontece sozinho. Quando você salva uma alteração, o GitHub publica o site automaticamente. Você só espera uns minutos e o site está no ar.
+O site também funciona como ponto de entrada para o ecossistema Documental e seus diferentes projetos.
 
----
+## Ecossistema Documental
 
-## 💻 Para rodar no seu computador (opcional)
+A Documental é composta por diferentes projetos que trabalham em conjunto.
 
-Se quiser trabalhar offline antes de publicar, rode estes comandos no terminal:
+### Documental
 
-```bash
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
-npm install
-npm run dev
-```
+A plataforma para criação e publicação de narrativas digitais.
 
-Depois abra `http://localhost:4321` no navegador. Precisa ter o [Node.js](https://nodejs.org) instalado (versão 18 ou mais nova).
+### Documental Desktop
 
----
+Aplicação que facilita a criação, edição e publicação de projetos utilizando a plataforma.
 
-## 📁 Onde fica seu conteúdo
+### Documental Template
 
-| Pasta | O que vai aqui |
-|-------|---------------|
-| `pages/` | Suas páginas (arquivos `.md`) |
-| `public/uploads/` | Imagens, vídeos e outros arquivos de mídia |
-| `blog/` | Posts do blog |
-| `docs/` | Documentação e textos de apoio |
+Ponto de partida para projetos que desejam criar um novo site utilizando a Documental.
 
-Não quer mexer em arquivos? Tudo isso também dá pra fazer pelo editor visual em `http://localhost:4321/admin`. Ele cuida de criar, mover e organizar os arquivos pra você.
+### Documental Core
 
----
+Base compartilhada que reúne os componentes e recursos utilizados pelos projetos do ecossistema.
 
-## ✏️ Editando pelo CMS
+## Open Source
 
-O template já vem com um editor visual embutido, o **Sveltia**. É tipo um WordPress moderno, bem simples de usar.
+A Documental é um projeto open source.
 
-**Para edição local** (no seu computador):
+A proposta é desenvolver uma ferramenta aberta que possa ser utilizada por jornalistas, pesquisadores, organizações da sociedade civil, instituições culturais, universidades e outras equipes que trabalham com informação e documentação.
 
-1. Rode `npm run dev`
-2. Abra `http://localhost:4321/admin`
-3. Escolha o modo **"Work with local repository"**
-4. Edite, salve, e veja o resultado na hora
+Contribuições, melhorias e novos usos fazem parte da evolução do projeto.
 
-**Para edição direto do navegador** (sem instalar nada):
+## Links
 
-Configure o GitHub backend uma única vez. Depois, você edita pelo `/admin` do seu site publicado, de qualquer computador, e as mudanças vão direto pro ar.
-
-Em ambos os casos, você não encosta em código.
-
----
-
-## 🌐 Deploy automático
-
-O template traz dois modos de publicação. Escolha um.
-
-### GitHub Pages (recomendado, grátis)
-
-1. No seu repositório, vá em **Settings → Pages → Source: GitHub Actions**
-2. Faça um push pra branch **`preview`**
-3. Pronto. Seu site fica em `https://seu-usuario.github.io/seu-repo/`
-
-### Servidor próprio
-
-1. Configure as secrets no repositório (`SSH_HOST`, `SSH_USER`, `SSH_KEY`, e demais variáveis do seu servidor)
-2. Faça um push pra branch **`main`**
-3. O deploy acontece via SSH automaticamente
+* [Site oficial](https://documental.xyz)
+* [Organização no GitHub](https://github.com/Documental-xyz)
 
 ---
 
-## 📄 Licença
-
-**GPL 2.0** — você pode usar, modificar e distribuir livremente. Incluindo uso comercial. Veja o arquivo [LICENSE](LICENSE) para os detalhes completos.
-
----
-
-<div align="center">
-
-Feito com cuidado pra democratizar narrativas de direitos humanos.
-
-</div>
+**A Documental**
+Criando novas possibilidades para narrativas digitais, documentação e memória.
