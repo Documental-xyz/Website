@@ -210,334 +210,6 @@ components:
               hasDropCap: false
               content: ''
   - type: Group
-    id: Como a plataforma funciona?
-    shortTitle: Como a plataforma funciona?
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Columns
-        paddingTop: true
-        paddingBottom: true
-        invertOnMobile: false
-        columnsAlign: 33-66
-        column1:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '# Como a plataforma funciona?'
-        column2:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '##### Aberta e totalmente customizável, você adapta ao seu projeto sem precisar de programação avançada.'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '##### Ela combina scrollytelling – técnica de web design para criar histórias multimídia que se desenrolam à medida que o usuário percorre a página – com a navegação em dados GIS (Sistema de Informação Geográfica). Na interface, você monta os conteúdos e controla a dinâmica do scroll, integrados à visualização de dados em mapas interativos.'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '##### Com parâmetros facilmente customizáveis, a plataforma permite que o usuário tenha total controle sobre o design do conteúdo, oferecendo um recurso poderoso para criar narrativas visuais nos mais diversos formatos.'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '##### A edição acontece no nosso aplicativo: nele você cria seu usuário, monta o ambiente de trabalho e edita o projeto mesmo sem internet, o que amplia o acesso a comunidades isoladas ou a quem não tem uma conexão contínua ou estável.'
-  - type: Group
-    id: Arquitetura da plataforma
-    shortTitle: Arquitetura da plataforma
-    longTitle: ''
-    description: ''
-    showInMenu: false
-    animations: true
-    txtColor: Secondary
-    customTxtColor: ''
-    bgColor: Highlight
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Columns
-        paddingTop: true
-        paddingBottom: true
-        invertOnMobile: false
-        columnsAlign: 33-66
-        column1:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '# Arquitetura da Plataforma'
-        column2:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: |-
-                ##### A Documental é uma plataforma de código aberto e construída, sempre que possível, sobre ferramentas livres, para que possa ser usada, copiada, adaptada e melhorada pela própria comunidade de usuários. 
-
-                ##### Sua arquitetura reúne: o código da plataforma, aberto e disponível no GitHub para baixar, instalar e adaptar ao seu servidor; o Sveltia, CMS aberto usado para editar o conteúdo; o Mapbox, serviço de mapas online que dá base aos mapas interativos; e um aplicativo próprio para construir a geo-história no computador, inclusive offline.
-
-                ##### Sem custos de licença e com total transparência sobre como tudo funciona.
-  - type: Group
-    id: 3 formas de publicar
-    shortTitle: 3 formas de publicar
-    longTitle: ''
-    description: ''
-    showInMenu: false
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Columns
-        paddingTop: true
-        paddingBottom: true
-        invertOnMobile: false
-        columnsAlign: 66-33
-        column1:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '# Como começar: 3 formas de publicar'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Timeline
-              components:
-                - type: TimelineBullet
-                  text: 1. GitHub Pages
-                  content: '###### Para histórias simples, você publica de forma gratuita usando o próprio GitHub Pages, sem precisar de servidor.'
-                - type: Spacer
-                  desktop: 50px
-                  tablet: ''
-                  mobile: ''
-                - type: TimelineBullet
-                  text: 2. No seu próprio servidor
-                  content: '###### Copie o código do GitHub e instale a plataforma no servidor da sua organização, com controle total sobre os dados.'
-                - type: Spacer
-                  desktop: 50px
-                  tablet: ''
-                  mobile: ''
-                - type: TimelineBullet
-                  text: 3. Em nosso servidor
-                  content: '###### Seu projeto pode utilizar a plataforma em nosso servidor, sem necessidade de instalação. Oferecemos infraestrutura e suporte técnico para a implementação e utilização da plataforma para movimentos sociais e entidades de defesa de direitos humanos e ambientais. Projetos podem ser submetidos através do email [e-mail de contato].'
-        column2:
-          components:
-            - type: Spacer
-              desktop: 150px
-              tablet: ''
-              mobile: ''
-            - type: Cards
-              cardsArr:
-                - Card:
-                    type: Card
-                    title: GitHub
-                    text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a Documental.xyz no seu servidor.
-                    link:
-                      url: https://github.com/Documental-xyz/
-                      target: _blank
-                      customTarget: ''
-                      text: Acesse o repositório
-                    icon: ''
-                - Card:
-                    type: Card
-                    title: Guia de instalação e uso
-                    text: Documentação completa de como instalar e usar a Documental, com informações detalhadas e passo a passo.
-                    link:
-                      url: /docs
-                      target: _blank
-                      customTarget: ''
-                      text: Acessar a documentação
-                    icon: ''
-                - Card:
-                    type: Card
-                    title: Licença
-                    text: Termos de uso da Documental
-                    link:
-                      url: /licenca
-                      target: _blank
-                      customTarget: ''
-                      text: Ver a licença
-                    icon: ''
-  - type: Group
-    id: Trabalhe offline
-    shortTitle: Trabalhe offline
-    longTitle: ''
-    description: ''
-    showInMenu: false
-    animations: true
-    txtColor: Secondary
-    customTxtColor: ''
-    bgColor: Highlight
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Columns
-        paddingTop: true
-        paddingBottom: true
-        invertOnMobile: false
-        columnsAlign: 66-33
-        column1:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '# Trabalhe offline'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '##### Criamos um aplicativo para você baixar e produzir sua geo-história sem precisar estar conectado à internet. Você trabalha direto em uma pasta no seu computador, e só precisa de conexão na hora de publicar.'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '##### Esse recurso atende quem tem acesso limitado à internet e comunidades isoladas, permitindo produzir a geo-história localmente e publicá-la quando houver conexão disponível.'
-        column2:
-          components:
-            - type: Button
-              link:
-                url: /download
-                target: _blank
-                text: Baixar o aplicativo Documental offline
-              icon: ''
-              size: ''
-  - type: Group
-    id: Download e Documentação
-    shortTitle: Download e Documentação
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Columns
-        paddingTop: false
-        paddingBottom: false
-        invertOnMobile: false
-        columnsAlign: 66-33
-        column1:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '# Download e documentação'
-        column2:
-          components: []
-      - type: Cards
-        cardsArr:
-          - Card:
-              type: Card
-              title: Aplicativo Documental
-              text: Aplicativo para criar suas geo-histórias, inclusive em modo offline. Baixe, produza no seu computador e publique quando tiver conexão.
-              link:
-                url: /download
-                target: _blank
-                customTarget: ''
-                text: Baixar o app
-              icon: ''
-          - Card:
-              type: Card
-              title: GitHub
-              text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a Documental.xyz no seu servidor.
-              link:
-                url: https://github.com/Documental-xyz/
-                target: _blank
-                customTarget: ''
-                text: Acesse aqui
-              icon: ''
-          - Card:
-              type: Card
-              title: Guia de instalação e uso
-              text: Documentação completa de como instalar e usar a Documental, com informações detalhadas e passo a passo.
-              link:
-                url: /docs
-                target: _blank
-                customTarget: ''
-                text: Acesse aqui
-              icon: ''
-          - Card:
-              type: Card
-              title: Licença
-              text: Termos de uso da Documental
-              link:
-                url: /licenca
-                target: _blank
-                customTarget: ''
-                text: Acesse aqui
-              icon: ''
-      - type: Spacer
-        desktop: 100px
-        tablet: ''
-        mobile: ''
-  - type: Group
-    id: Faça parte da comunidade
-    shortTitle: Faça parte da comunidade
-    longTitle: ''
-    description: ''
-    showInMenu: true
-    animations: true
-    txtColor: Secondary
-    customTxtColor: ''
-    bgColor: Highlight
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Columns
-        paddingTop: true
-        paddingBottom: true
-        invertOnMobile: false
-        columnsAlign: 66-33
-        column1:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '# Faça parte da comunidade'
-        column2:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '##### A Documental é mantida por uma comunidade aberta. Participe: tire dúvidas, troque experiências e formas de fazer, faça sugestão de melhorias, traduza ou contribua com o desenvolvimento.'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Button
-              link:
-                url: https://github.com/Documental-xyz/Core/issues
-                target: _blank
-                text: Participe
-              icon: ''
-              size: ''
-  - type: Group
     id: Projetos realizados com a plataforma
     shortTitle: Projetos realizados com a plataforma
     longTitle: ''
@@ -607,6 +279,253 @@ components:
               alt: ''
             title: Nhanderekoa
             text: 'Cartografia da Terra Indígena Guarani do Jaraguá (SP) na sua demarcação: defesa, cuidado e reparação da floresta.'
+      - type: Spacer
+        desktop: 100px
+        tablet: ''
+        mobile: ''
+  - type: Group
+    id: Como a plataforma funciona?
+    shortTitle: Como a plataforma funciona?
+    longTitle: ''
+    description: ''
+    showInMenu: true
+    animations: true
+    txtColor: Secondary
+    customTxtColor: ''
+    bgColor: Highlight
+    customBgColor: ''
+    backgroundMedia: []
+    overlay: ''
+    components:
+      - type: Columns
+        paddingTop: true
+        paddingBottom: true
+        invertOnMobile: false
+        columnsAlign: 33-66
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '# Como a plataforma funciona?'
+        column2:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '##### Aberta e totalmente customizável, você adapta ao seu projeto sem precisar de programação avançada.'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: '##### Ela combina scrollytelling – técnica de web design para criar histórias multimídia que se desenrolam à medida que o usuário percorre a página – com a navegação em dados GIS (Sistema de Informação Geográfica). Na interface, você monta os conteúdos e controla a dinâmica do scroll, integrados à visualização de dados em mapas interativos.'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: '##### Com parâmetros facilmente customizáveis, a plataforma permite que o usuário tenha total controle sobre o design do conteúdo, oferecendo um recurso poderoso para criar narrativas visuais nos mais diversos formatos.'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: '##### A edição acontece no nosso aplicativo: nele você cria seu usuário, monta o ambiente de trabalho e edita o projeto mesmo sem internet, o que amplia o acesso a comunidades isoladas ou a quem não tem uma conexão contínua ou estável.'
+  - type: Group
+    id: 3 formas de publicar
+    shortTitle: 3 formas de publicar
+    longTitle: ''
+    description: ''
+    showInMenu: false
+    animations: true
+    txtColor: Primary
+    customTxtColor: ''
+    bgColor: Secondary
+    customBgColor: ''
+    backgroundMedia: []
+    overlay: ''
+    components:
+      - type: Columns
+        paddingTop: true
+        paddingBottom: true
+        invertOnMobile: false
+        columnsAlign: 66-33
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '# Como começar: 3 formas de publicar'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Timeline
+              components:
+                - type: TimelineBullet
+                  text: 1. GitHub Pages
+                  content: '###### Para histórias simples, você publica de forma gratuita usando o próprio GitHub Pages, sem precisar de servidor.'
+                - type: Spacer
+                  desktop: 50px
+                  tablet: ''
+                  mobile: ''
+                - type: TimelineBullet
+                  text: 2. No seu próprio servidor
+                  content: '###### Copie o código do GitHub e instale a plataforma no servidor da sua organização, com controle total sobre os dados.'
+                - type: Spacer
+                  desktop: 50px
+                  tablet: ''
+                  mobile: ''
+                - type: TimelineBullet
+                  text: 3. Em nosso servidor
+                  content: '###### Seu projeto pode utilizar a plataforma em nosso servidor, sem necessidade de instalação. Oferecemos infraestrutura e suporte técnico para a implementação e utilização da plataforma para movimentos sociais e entidades de defesa de direitos humanos e ambientais. Projetos podem ser submetidos através do email [e-mail de contato].'
+        column2:
+          components:
+            - type: Spacer
+              desktop: 150px
+              tablet: ''
+              mobile: ''
+            - type: Cards
+              cardsArr:
+                - Card:
+                    type: Card
+                    title: GitHub
+                    text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a Documental no seu servidor.
+                    link:
+                      url: https://github.com/Documental-xyz/
+                      target: _blank
+                      customTarget: ''
+                      text: Acesse o repositório
+                    icon: ''
+                - Card:
+                    type: Card
+                    title: Guia de instalação e uso
+                    text: Documentação completa de como instalar e usar a Documental, com informações detalhadas e passo a passo.
+                    link:
+                      url: /docs
+                      target: _blank
+                      customTarget: ''
+                      text: Acessar a documentação
+                    icon: ''
+                - Card:
+                    type: Card
+                    title: Licença
+                    text: Termos de uso da Documental
+                    link:
+                      url: /licenca
+                      target: _blank
+                      customTarget: ''
+                      text: Ver a licença
+                    icon: ''
+  - type: Group
+    id: Faça parte da comunidade
+    shortTitle: Faça parte da comunidade
+    longTitle: ''
+    description: ''
+    showInMenu: true
+    animations: true
+    txtColor: Secondary
+    customTxtColor: ''
+    bgColor: Highlight
+    customBgColor: ''
+    backgroundMedia: []
+    overlay: ''
+    components:
+      - type: Columns
+        paddingTop: true
+        paddingBottom: true
+        invertOnMobile: false
+        columnsAlign: 66-33
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '# Faça parte da comunidade'
+        column2:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '##### A Documental é mantida por uma comunidade aberta. Participe: tire dúvidas, troque experiências e formas de fazer, faça sugestão de melhorias, traduza ou contribua com o desenvolvimento.'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Button
+              link:
+                url: https://github.com/Documental-xyz/Core/issues
+                target: _blank
+                text: Participe
+              icon: ''
+              size: ''
+  - type: Group
+    id: Download e Documentação
+    shortTitle: Download e Documentação
+    longTitle: ''
+    description: ''
+    showInMenu: true
+    animations: true
+    txtColor: Primary
+    customTxtColor: ''
+    bgColor: Secondary
+    customBgColor: ''
+    backgroundMedia: []
+    overlay: ''
+    components:
+      - type: Columns
+        paddingTop: false
+        paddingBottom: false
+        invertOnMobile: false
+        columnsAlign: 66-33
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '# Download e documentação'
+        column2:
+          components: []
+      - type: Cards
+        cardsArr:
+          - Card:
+              type: Card
+              title: Aplicativo Documental
+              text: Aplicativo para criar suas geo-histórias, inclusive em modo offline. Baixe, produza no seu computador e publique quando tiver conexão.
+              link:
+                url: /download
+                target: _blank
+                customTarget: ''
+                text: Baixar o app
+              icon: ''
+          - Card:
+              type: Card
+              title: GitHub
+              text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a Documental no seu servidor.
+              link:
+                url: https://github.com/Documental-xyz/
+                target: _blank
+                customTarget: ''
+                text: Acesse aqui
+              icon: ''
+          - Card:
+              type: Card
+              title: Guia de instalação e uso
+              text: Documentação completa de como instalar e usar a Documental, com informações detalhadas e passo a passo.
+              link:
+                url: /docs
+                target: _blank
+                customTarget: ''
+                text: Acesse aqui
+              icon: ''
+          - Card:
+              type: Card
+              title: Licença
+              text: Termos de uso da Documental
+              link:
+                url: /licenca
+                target: _blank
+                customTarget: ''
+                text: Acesse aqui
+              icon: ''
       - type: Spacer
         desktop: 100px
         tablet: ''
