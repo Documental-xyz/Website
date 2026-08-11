@@ -307,6 +307,17 @@ components:
             - type: Text
               hasDropCap: false
               content: '# Como a plataforma funciona?'
+            - type: Spacer
+              desktop: 20px
+              tablet: 20px
+              mobile: 20px
+            - type: Button
+              link:
+                url: /download
+                target: _blank
+                text: Baixar o aplicativo da Documental
+              icon: ''
+              size: wide
         column2:
           components:
             - type: Text
@@ -379,7 +390,7 @@ components:
                   mobile: ''
                 - type: TimelineBullet
                   text: 3. Em nosso servidor
-                  content: '###### Seu projeto pode utilizar a plataforma em nosso servidor, sem necessidade de instalação. Oferecemos infraestrutura e suporte técnico para a implementação e utilização da plataforma para movimentos sociais e entidades de defesa de direitos humanos e ambientais. Projetos podem ser submetidos através do email [e-mail de contato].'
+                  content: '###### Seu projeto pode utilizar a plataforma em nosso servidor, sem necessidade de instalação. Oferecemos infraestrutura e suporte técnico para a implementação e utilização da plataforma para movimentos sociais e entidades de defesa de direitos humanos e ambientais. Projetos podem ser submetidos através do email autonoma@autonoma.xyz.'
         column2:
           components:
             - type: Spacer
