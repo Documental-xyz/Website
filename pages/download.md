@@ -1,7 +1,7 @@
 ---
 standalone: true
-title: Docs
-slug: docs
+title: Download
+slug: download
 projeto: Landing Page
 pageSettings:
   language: pt-BR
@@ -30,9 +30,9 @@ pageInclude: null
 modules: []
 components:
   - type: Group
-    id: Docs
-    shortTitle: Docs
-    longTitle: ''
+    id: Download
+    shortTitle: Download
+    longTitle: Download
     description: ''
     showInMenu: false
     animations: true
@@ -47,7 +47,7 @@ components:
         wideHtml: false
         htmlCode: |-
           <script>
-          window.location.href = "https://github.com/Documental-xyz/Docs";
+          window.location.href = "https://github.com/Documental-xyz/App-Desktop/releases";
           </script>
         htmlCaption: ''
 ---

@@ -1,13 +1,12 @@
 ---
-standalone: true
-title: Docs
-slug: docs
+title: Licença
+slug: licenca
 projeto: Landing Page
 pageSettings:
   language: pt-BR
-  link_pt_br: nhanderekoa
-  link_en: nhanderekoa-en
-  link_es: nhanderekoa-es
+  link_pt_br: '#'
+  link_en: '#'
+  link_es: '#'
   animations: enable_all
   direction: left
   seoTitle: ''
@@ -15,23 +14,21 @@ pageSettings:
   seoKeywords: []
   seoImage: ''
 pageTheme:
-  primaryColor: '#000000'
-  secondaryColor: '#78b8d4'
-  highlightColor: '#ffffff'
-  auxiliaryColor: '#484848'
+  primaryColor: ''
+  secondaryColor: ''
+  highlightColor: ''
+  auxiliaryColor: ''
   displayFont: ''
   textFont: ''
   spacingPatterns:
-    - name: Padrão
-      mobile: '10'
-      tablet: '11'
-      desktop: '12'
-pageInclude: null
-modules: []
+    - name: '0'
+      mobile: '0'
+      tablet: '0'
+      desktop: '0'
 components:
   - type: Group
-    id: Docs
-    shortTitle: Docs
+    id: Licence
+    shortTitle: Licença
     longTitle: ''
     description: ''
     showInMenu: false

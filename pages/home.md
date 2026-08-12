@@ -1,7 +1,7 @@
 ---
 title: Home
 slug: home
-projeto: ''
+projeto: Landing Page
 pageSettings:
   language: pt-BR
   link_pt_br: '#'
@@ -26,9 +26,9 @@ pageTheme:
   textFont: https://fonts.googleapis.com/css2?family=Roboto&display=swap
   spacingPatterns:
     - name: default
-      mobile: '10'
-      tablet: '10'
-      desktop: '10'
+      mobile: 10px
+      tablet: 10px
+      desktop: 10px
 modules:
   - type: MapBox
     style: mapbox://styles/studio-autonoma/cmdgcs27u019101sa29ytbsps
@@ -56,7 +56,7 @@ components:
     customBgColor: '#1691c5ff'
     backgroundMedia:
       - type: backgroundImage
-        imgSrc: /uploads/territorios-de-excecao.jpg
+        imgSrc: /uploads/capa_projeto_memoria-da-terra.png
     overlay: ''
     components:
       - type: Columns
@@ -79,14 +79,39 @@ components:
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: '# UMA PLATAFORMA DE CÓDIGO ABERTO E CUSTOMIZÁVEL PARA A CRIAÇÃO E PUBLICAÇÃO DE NARRATIVAS CARTOGRÁFICAS MULTIMÍDIA.'
+              content: '## uma plataforma digital de livre uso e código aberto para criação e publicação de narrativas cartográficas multimídia'
             - type: Spacer
-              desktop: 200px
+              desktop: 50px
               tablet: ''
               mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: A Documental apoia investigações baseadas em dados geoespaciais sobre violações de direitos humanos, territoriais e ambientais, para fins de advocacia e reparação histórica.
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Button
+              link:
+                url: /download
+                target: _blank
+                text: Baixar no GitHub
+              icon: ''
+              size: ''
+            - type: Spacer
+              desktop: 25px
+              tablet: ''
+              mobile: ''
+            - type: Button
+              link:
+                url: /docs
+                target: _blank
+                text: Guia de Instalação e Uso
+              icon: ''
+              size: ''
   - type: Group
-    id: O que a plataforma faz?
-    shortTitle: O que a plataforma faz?
+    id: Por que usar a Documental?
+    shortTitle: Por que usar a Documental?
     longTitle: ''
     description: ''
     showInMenu: false
@@ -107,22 +132,22 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '# O QUE A PLATAFORMA FAZ?'
+              content: '# Por que usar a Documental?'
         column2:
           components:
             - type: Text
               hasDropCap: false
-              content: '### **Através de uma interface intuitiva e de fácil manipulação, Documental.xyz possibilita a combinação de diferentes conteúdos multimídia (texto, imagem, dados, áudio e vídeo) com mapeamento de dados, gerando narrativas cartográficas visualmente envolventes e interativas.**'
+              content: '##### Organizar dados no espaço e no tempo traz força, clareza e credibilidade a uma investigação. Com uma interface intuitiva, a Documental combina código, imagem e cartografia para transformar conjuntos complexos de dados – textos, fotos, vídeos, imagens de satélite e mapas – em narrativas visuais interativas, em que episódios de violência aparecem como evidências conectadas, e não como casos isolados.'
             - type: Spacer
               desktop: 50px
               tablet: ''
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: '### Desenhada para atender a realidade de movimentos sociais e organizações de defesa de direitos, a plataforma é um aplicativo gratuito e seu uso não exige conhecimento técnico avançado.'
+              content: '##### Desenhada para a realidade de movimentos sociais e organizações de defesa de direitos, a Documental é gratuita e não exige conhecimento técnico avançado: qualquer pessoa pode criar e publicar uma investigação visual, sem saber programar.'
   - type: Group
-    id: O que a plataforma faz?_2
-    shortTitle: O que a plataforma faz?_2
+    id: Destaque
+    shortTitle: Destaque
     longTitle: ''
     description: ''
     showInMenu: false
@@ -136,31 +161,17 @@ components:
     components:
       - type: Column
         paddingTop: false
-        paddingBottom: true
+        paddingBottom: false
         components:
           - type: Text
             hasDropCap: false
-            content: |-
-              # Documental.xyz é software livre: 
-
-              # não tem custos de instalação, atualização, e pode ser usado, copiado, estudado, modificado e redistribuído sem quaisquer restrições.
-          - type: Spacer
-            desktop: 50px
-            tablet: ''
-            mobile: ''
-          - type: Button
-            link:
-              url: https://www.advocacia.autonoma.xyz/
-              target: _self
-              text: Download
-            icon: ''
-            size: ''
+            content: '### Documental é um software livre: não tem custos de instalação ou atualização, e pode ser usado, copiado, estudado, modificado e redistribuído sem quaisquer restrições.'
   - type: Group
-    id: Como a plataforma funciona?
-    shortTitle: Como a plataforma funciona?
+    id: Qual o objetivo da plataforma?
+    shortTitle: Qual o objetivo da plataforma?
     longTitle: ''
     description: ''
-    showInMenu: false
+    showInMenu: true
     animations: true
     txtColor: Secondary
     customTxtColor: ''
@@ -173,43 +184,40 @@ components:
         paddingTop: true
         paddingBottom: true
         invertOnMobile: false
-        columnsAlign: 66-33
+        columnsAlign: 33-66
         column1:
           components:
             - type: Text
               hasDropCap: false
-              content: |-
-                ##### Documental.xyz utiliza recursos de "scrollytelling" integrados com navegação em dados GIS.
-
-                ##### ######
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '##### "Scrollytelling" é uma técnica de web design para criar histórias multimídia que se desenrolam à medida que o usuário percorre a página. A plataforma oferece uma interface que permite a inclusão de conteúdos e o controle de dinâmica do "scrollytelling" combinados com a visualização de dados em mapas interativos.'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '##### Através de parâmetros facilmente customizáveis na interface gráfica, a plataforma permite que o usuário tenha total controle sobre o design do conteúdo, oferecendo um recurso poderoso para a criação de narrativas visuais nos mais diversos formatos.'
+              content: '# Qual o objetivo da plataforma?'
         column2:
           components:
             - type: Text
               hasDropCap: false
-              content: '# COMO A PLATAFORMA FUNCIONA?'
+              content: '##### Pensada como instrumento de defesa de direitos humanos e ambientais, a Documental opera como uma ferramenta open-source para que movimentos sociais, organizações civis e jornalistas documentem e comuniquem histórias locais a audiências globais, de forma envolvente e visualmente impactante.'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: '##### Em um cenário de excesso de informação e desinformação, reunir dados verificados e referenciados é cada vez mais importante. A plataforma busca fortalecer a capacidade da sociedade civil de investigar e documentar violações cometidas por Estados e corporações, empoderando atores locais para comunicarem suas histórias através de novas tecnologias de visualização e mapeamento de dados, e ampliando o debate públicos sobre justiça social e ambiental.'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: ''
   - type: Group
-    id: Portfólio_Como usar a plataforma
-    shortTitle: Portfólio_Como usar a plataforma
+    id: Projetos realizados com a plataforma
+    shortTitle: Projetos realizados com a plataforma
     longTitle: ''
     description: ''
-    showInMenu: false
+    showInMenu: true
     animations: true
-    txtColor: Custom
-    customTxtColor: '#1c4878ff'
+    txtColor: Primary
+    customTxtColor: ''
     bgColor: Secondary
     customBgColor: ''
     backgroundMedia: []
@@ -224,14 +232,7 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '# PORTFÓLIO'
-            - type: Spacer
-              desktop: 25px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '##### projetos realizados com a plataforma'
+              content: '# Projetos realizados com a plataforma'
         column2:
           components:
             - type: Spacer
@@ -248,7 +249,7 @@ components:
               src: /uploads/alter-do-chao-azul.png
               alt: ''
             title: Alter do Chão Ameaçada
-            text: O projeto Alter do Chão Ameaçada, produzido pela Frente de Comunicação Indígena Borari e publicado na plataforma Documental com mentoria de Adriano Belisário (MediaLab/UFRJ), investiga a ameaça ao povo indígena Borari, em Santarém, no Pará, devido à especulação imobiliária e ocupação desordenada da região. Através da análise de mapas e imagens de satélite, a pesquisa mapeou o território Borari e seus sítios arqueológicos, assim como os danos ambientais causados aos igarapés e nascentes, como forma de visualizar a extensão das violações causadas e pleitear pela demarcação da Terra Indígena.
+            text: Mapeamento por satélite do território Borari em Santarém (PA) contra a especulação imobiliária, pela demarcação da Terra Indígena.
           - link:
               url: https://documental.xyz/territorios-de-excecao/
               target: ''
@@ -257,7 +258,7 @@ components:
               src: /uploads/territorios-de-excecao-azul.png
               alt: ''
             title: Territórios de Exceção
-            text: Uma parceria entre a agência autônoma e o MediaLab (UFRJ), o caso Territórios da Exceção investigou o uso de helicópteros como plataforma de disparos da polícia militar nas favelas do Rio de Janeiro para compreender a dinâmica e os impactos deste tipo de operação sobre os direitos fundamentais das populações e comunidades atingidas. Utilizando ciência de visualização de dados, dados governamentais e de mídias sociais, investigações de campo e técnicas de arquitetura forense, a pesquisa apresenta as evidências por meio de vídeos, animações, imagens em 3D e informações georreferenciadas, oferecendo uma experiência imersiva dentro dos mapas e localidades.
+            text: Investigação sobre helicópteros como plataforma de disparos da polícia nas favelas do Rio, com dados, campo e arquitetura forense em 3D.
       - type: CardsCall
         cardsCallArr:
           - link:
@@ -268,7 +269,7 @@ components:
               src: /uploads/expulsion-san-marcos-azul.png
               alt: ''
             title: Expulsões
-            text: O caso Expulsões, realizado através da parceria entre a agência autônoma e o Forensic Architecture, investiga violações de direitos humanos e ambientais decorrentes da implantação de um megaprojeto de mineração na região da Cordilheira de Cóndor, na Amazônia Equatoriana. Através da análise de imagens de satélite e de testemunhos das vítimas, com o apoio de atores locais, a investigação mapeou processos de despossessão de comunidades e povos indígenas, desmatamento e destruição de sítios arqueológicos, demonstrando as dinâmicas espaciais de uma ação coordenada de violações sistemáticas.
+            text: 'Mineração na Cordilheira do Condor (Amazônia equatoriana): despossessão de povos indígenas, desmatamento e destruição de sítios arqueológicos.'
           - link:
               url: https://documental.xyz/nhanderekoa/
               target: ''
@@ -277,43 +278,119 @@ components:
               src: /uploads/imagem_16_ocupacao_antena-azul.png
               alt: ''
             title: Nhanderekoa
-            text: 'O projeto Arquiteturas da Reparação: São Paulo Terra Indígena foi desenvolvido no âmbito das instituições agência autônoma, Chão Coletivo e Plataforma Práticas Espaciais / Escola da Cidade, com apoio do CAU/SP. Ele apresenta uma cartografia da Terra Indígena Guarani do Jaraguá, em São Paulo, no momento de sua demarcação física entre julho e setembro de 2025. Esse território preserva um dos últimos fragmentos de Mata Atlântica na cidade, e carrega enorme importância ambiental, climática e espiritual para os povos Guarani, que habitam a região desde tempos imemoriais. Nhanderekoa – “onde nossa cultura vive”, nome dado ao conjunto de cartografias e análises mostradas aqui, combina análise de dados geoespaciais, cartografia participativa, entrevistas e arquivos históricos para traçar um panorama das práticas de defesa, cuidado e reparação das florestas do Jaraguá, ao mesmo tempo em que identifica ameaças atuais ao território. Nhanderekoa expressa o entendimento Guarani de que a floresta – com seus animais, plantas e espíritos – é parte inseparável do modo de vida, constituindo uma extensão de moradia compartilhada entre seres humanos e não humanos.'
+            text: 'Cartografia da Terra Indígena Guarani do Jaraguá (SP) na sua demarcação: defesa, cuidado e reparação da floresta.'
+      - type: Spacer
+        desktop: 100px
+        tablet: ''
+        mobile: ''
+  - type: Group
+    id: Como a plataforma funciona?
+    shortTitle: Como a plataforma funciona?
+    longTitle: ''
+    description: ''
+    showInMenu: true
+    animations: true
+    txtColor: Secondary
+    customTxtColor: ''
+    bgColor: Highlight
+    customBgColor: ''
+    backgroundMedia: []
+    overlay: ''
+    components:
       - type: Columns
         paddingTop: true
-        paddingBottom: false
+        paddingBottom: true
+        invertOnMobile: false
+        columnsAlign: 33-66
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '# Como a plataforma funciona?'
+            - type: Spacer
+              desktop: 20px
+              tablet: 20px
+              mobile: 20px
+            - type: Button
+              link:
+                url: /download
+                target: _blank
+                text: Baixar o aplicativo da Documental
+              icon: ''
+              size: wide
+        column2:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '##### Aberta e totalmente customizável, você adapta ao seu projeto sem precisar de programação avançada.'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: '##### Ela combina scrollytelling – técnica de web design para criar histórias multimídia que se desenrolam à medida que o usuário percorre a página – com a navegação em dados GIS (Sistema de Informação Geográfica). Na interface, você monta os conteúdos e controla a dinâmica do scroll, integrados à visualização de dados em mapas interativos.'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: '##### Com parâmetros facilmente customizáveis, a plataforma permite que o usuário tenha total controle sobre o design do conteúdo, oferecendo um recurso poderoso para criar narrativas visuais nos mais diversos formatos.'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Text
+              hasDropCap: false
+              content: '##### A edição acontece no nosso aplicativo: nele você cria seu usuário, monta o ambiente de trabalho e edita o projeto mesmo sem internet, o que amplia o acesso a comunidades isoladas ou a quem não tem uma conexão contínua ou estável.'
+  - type: Group
+    id: 3 formas de publicar
+    shortTitle: 3 formas de publicar
+    longTitle: ''
+    description: ''
+    showInMenu: false
+    animations: true
+    txtColor: Primary
+    customTxtColor: ''
+    bgColor: Secondary
+    customBgColor: ''
+    backgroundMedia: []
+    overlay: ''
+    components:
+      - type: Columns
+        paddingTop: true
+        paddingBottom: true
         invertOnMobile: false
         columnsAlign: 66-33
         column1:
           components:
             - type: Text
               hasDropCap: false
-              content: '# COMO USAR A PLATAFORMA?'
+              content: '# Como começar: 3 formas de publicar'
             - type: Spacer
-              desktop: 150px
+              desktop: 50px
               tablet: ''
               mobile: ''
             - type: Timeline
               components:
                 - type: TimelineBullet
-                  text: NO SEU SERVIDOR
-                  content: '##### Instale a plataforma em seu servidor usando o código base da Documental disponível no repositório do Github. A integração com o seu servidor requer conhecimento técnico avançado. A arquitetura de instalação está detalhada na documentação oficial da Documental.'
+                  text: 1. GitHub Pages
+                  content: '###### Para histórias simples, você publica de forma gratuita usando o próprio GitHub Pages, sem precisar de servidor.'
                 - type: Spacer
                   desktop: 50px
                   tablet: ''
                   mobile: ''
                 - type: TimelineBullet
-                  text: EM NOSSO SERVIDOR
-                  content: |-
-                    Seu projeto pode utilizar a plataforma em nosso servidor, sem necessidade de instalação. Oferecemos infraestrutura e suporte técnico para a implementação e utilização da plataforma para movimentos sociais e entidades de defesa de direitos humanos e ambientais.
-
-                    Projetos podem ser submetidos através do email **contato@documental.xyz**
+                  text: 2. No seu próprio servidor
+                  content: '###### Copie o código do GitHub e instale a plataforma no servidor da sua organização, com controle total sobre os dados.'
                 - type: Spacer
                   desktop: 50px
                   tablet: ''
                   mobile: ''
                 - type: TimelineBullet
-                  text: NO GITHUB PAGES
-                  content: Documental.xyz roda diretamente no GitHub pages, sem necessidade de servidor.  O passo a passo para a clonagem do repositório base da Documental e publicação no GitHub pages está detalhado na documentação oficial da Documental.
+                  text: 3. Em nosso servidor
+                  content: '###### Seu projeto pode utilizar a plataforma em nosso servidor, sem necessidade de instalação. Oferecemos infraestrutura e suporte técnico para a implementação e utilização da plataforma para movimentos sociais e entidades de defesa de direitos humanos e ambientais. Projetos podem ser submetidos através do email autonoma@autonoma.xyz.'
         column2:
           components:
             - type: Spacer
@@ -324,40 +401,40 @@ components:
               cardsArr:
                 - Card:
                     type: Card
-                    title: Github
-                    text: Código aberto e livre para uso. Você pode baixar o código em nosso repositório github e instalar Documental.xxyz em seu servidor
+                    title: GitHub
+                    text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a Documental no seu servidor.
                     link:
-                      url: https://www.advocacia.autonoma.xyz/
-                      target: ''
+                      url: https://github.com/Documental-xyz/
+                      target: _blank
                       customTarget: ''
-                      text: Acesse aqui
+                      text: Acesse o repositório
                     icon: ''
                 - Card:
                     type: Card
-                    title: Documentação
-                    text: Documentação completa sobre como instalar e usar o Documental.xyz. Baixe o código e verifique o repositório de documentação para obter informações detalhadas.
+                    title: Guia de instalação e uso
+                    text: Documentação completa de como instalar e usar a Documental, com informações detalhadas e passo a passo.
                     link:
-                      url: https://www.advocacia.autonoma.xyz/
-                      target: ''
+                      url: /docs
+                      target: _blank
                       customTarget: ''
-                      text: Acesse aqui
+                      text: Acessar a documentação
                     icon: ''
                 - Card:
                     type: Card
                     title: Licença
-                    text: Aqui você encontra a licença de uso do Documental.xyz
+                    text: Termos de uso da Documental
                     link:
-                      url: https://www.advocacia.autonoma.xyz/
-                      target: ''
+                      url: /licenca
+                      target: _blank
                       customTarget: ''
-                      text: Acesse aqui
+                      text: Ver a licença
                     icon: ''
   - type: Group
-    id: Qual é o objetivo do projeto?
-    shortTitle: Qual é o objetivo do projeto?
+    id: Faça parte da comunidade
+    shortTitle: Faça parte da comunidade
     longTitle: ''
     description: ''
-    showInMenu: false
+    showInMenu: true
     animations: true
     txtColor: Secondary
     customTxtColor: ''
@@ -375,26 +452,23 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '###### Documental.xyz foi originalmente pensada e desenhada como instrumento de defesa de direitos humanos e ambientais.'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '###### O objetivo da plataforma é oferecer uma ferramenta open-source para movimentos sociais, organizações civis e jornalistas documentarem e comunicarem histórias locais para audiências globais de forma socialmente envolvente e visualmente impactante.'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '###### A plataforma busca contribuir para a construção da capacidade da sociedade civil em investigar e documentar violações de direitos cometidas por estados e corporações, empoderando atores locais para comunicarem suas histórias através de novas tecnologias de visualização e mapeamento de dados, ao mesmo tempo que ampliando o debate público sobre justiça social e ambiental.'
+              content: '# Faça parte da comunidade'
         column2:
           components:
             - type: Text
               hasDropCap: false
-              content: '# Qual é o objetivo do projeto?'
+              content: '##### A Documental é mantida por uma comunidade aberta. Participe: tire dúvidas, troque experiências e formas de fazer, faça sugestão de melhorias, traduza ou contribua com o desenvolvimento.'
+            - type: Spacer
+              desktop: 50px
+              tablet: ''
+              mobile: ''
+            - type: Button
+              link:
+                url: https://github.com/Documental-xyz/Core/issues
+                target: _blank
+                text: Participe
+              icon: ''
+              size: ''
   - type: Group
     id: Download e Documentação
     shortTitle: Download e Documentação
@@ -418,66 +492,61 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '### Download e Documentação'
+              content: '# Download e documentação'
         column2:
           components: []
       - type: Cards
         cardsArr:
           - Card:
               type: Card
-              title: Github
-              text: Código aberto e livre para uso. Você pode baixar o código em nosso repositório github e instalar Documental.xxyz em seu servidor
+              title: Aplicativo Documental
+              text: Aplicativo para criar suas geo-histórias, inclusive em modo offline. Baixe, produza no seu computador e publique quando tiver conexão.
               link:
-                url: https://www.advocacia.autonoma.xyz/
-                target: ''
+                url: /download
+                target: _blank
+                customTarget: ''
+                text: Baixar o app
+              icon: ''
+          - Card:
+              type: Card
+              title: GitHub
+              text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a Documental no seu servidor.
+              link:
+                url: https://github.com/Documental-xyz/
+                target: _blank
                 customTarget: ''
                 text: Acesse aqui
               icon: ''
           - Card:
               type: Card
-              title: Documentação
-              text: Documentação completa sobre como instalar e usar o Documental.xyz. Baixe o código e verifique o repositório de documentação para obter informações detalhadas.
+              title: Guia de instalação e uso
+              text: Documentação completa de como instalar e usar a Documental, com informações detalhadas e passo a passo.
               link:
-                url: https://www.advocacia.autonoma.xyz/
-                target: ''
+                url: /docs
+                target: _blank
                 customTarget: ''
                 text: Acesse aqui
               icon: ''
           - Card:
               type: Card
               title: Licença
-              text: Aqui você encontra a licença de uso do Documental.xyz
+              text: Termos de uso da Documental
               link:
-                url: https://www.advocacia.autonoma.xyz/
-                target: ''
+                url: /licenca
+                target: _blank
                 customTarget: ''
                 text: Acesse aqui
               icon: ''
-      - type: Columns
-        paddingTop: false
-        paddingBottom: false
-        invertOnMobile: false
-        columnsAlign: 66-33
-        column1:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '### Arquitetura técnica do back end'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: Documental.xyz é baseada na integração de recursos do sistema de publicação Sveltia com o serviço de mapas online Mapbox. A plataforma é rodada através de uma arquitetura leve e facilmente compreensíve. Esta arquitetura é ampliada para outras possíveis utilidades, tornando-se o projeto BASE Document.you
-        column2:
-          components: []
+      - type: Spacer
+        desktop: 100px
+        tablet: ''
+        mobile: ''
   - type: Group
     id: Créditos
     shortTitle: Créditos
     longTitle: ''
     description: ''
-    showInMenu: false
+    showInMenu: true
     animations: true
     txtColor: Primary
     customTxtColor: ''
@@ -486,53 +555,29 @@ components:
     backgroundMedia: []
     overlay: ''
     components:
-      - type: Columns
+      - type: Column
         paddingTop: false
         paddingBottom: false
-        invertOnMobile: false
-        columnsAlign: 66-33
-        column1:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '**Documental.xyz** foi originalmente desenvolvida em 2019 pela agência **Autônoma** e pelo **MediaLab UFRJ**, em colaboração com a **Rede LAVITS**.'
-            - type: LogosGroup
-              logos:
-                - image: /uploads/autonoma-black-redim.png
-                  link:
-                    url: https://www.advocacia.autonoma.xyz/
-                    target: ''
-                    customTarget: ''
-                    title: ''
-                - image: /uploads/medialab-redim-semfundo.png
-                  link:
-                    url: https://medialabufrj.net/
-                    target: ''
-                    customTarget: ''
-                    title: ''
-                - image: /uploads/logo-2.png
-                  link:
-                    url: https://lavits.org/
-                    target: ''
-                    customTarget: ''
-                    title: ''
-        column2:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '#### CRÉDITOS'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: |-
-                Coordenação: **Paulo Tavares, Fernanda Bruno e Paula Marujo**
-
-                Design e front end: **atonal.studio**
-
-                Back end e documentação: **Thiago Paixão**
-
-                Implementação e documentação:**&#32;Julia Veras**
+        components:
+          - type: Text
+            hasDropCap: false
+            content: '##### A plataforma web Documental é desenvolvida pela agência autônoma: cidades territórios e direitos, laboratório de justiça espacial da FAU-UnB e pelo MediaLab (UFRJ)'
+          - type: Spacer
+            desktop: 20px
+            tablet: 20px
+            mobile: 20px
+          - type: LogosGroup
+            logos:
+              - image: /uploads/autonoma-black-redim.png
+                link:
+                  url: https://autonoma.xyz
+                  target: _blank
+                  customTarget: ''
+                  title: Autonoma
+              - image: /uploads/media-lab-novo-logo.png
+                link:
+                  url: https://medialabufrj.net
+                  target: _blank
+                  customTarget: ''
+                  title: Media Lab UFRJ
 ---
