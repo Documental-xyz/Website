@@ -56,7 +56,7 @@ components:
     customBgColor: '#1691c5ff'
     backgroundMedia:
       - type: backgroundImage
-        imgSrc: /uploads/territorios-de-excecao.jpg
+        imgSrc: /uploads/capa_projeto_memoria-da-terra.png
     overlay: ''
     components:
       - type: Columns
@@ -555,57 +555,29 @@ components:
     backgroundMedia: []
     overlay: ''
     components:
-      - type: Columns
+      - type: Column
         paddingTop: false
         paddingBottom: false
-        invertOnMobile: false
-        columnsAlign: 66-33
-        column1:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: Documental.xyz é desenvolvida pela agência autônoma em colaboração com o MediaLab da Universidade Federal do Rio de Janeiro (UFRJ).
-            - type: Spacer
-              desktop: 40px
-              tablet: 40px
-              mobile: 40px
-            - type: LogosGroup
-              logos:
-                - image: /uploads/autonoma-black-redim.png
-                  link:
-                    url: https://www.advocacia.autonoma.xyz/
-                    target: ''
-                    customTarget: ''
-                    title: ''
-                - image: /uploads/medialab.png
-                  link:
-                    url: https://medialabufrj.net/
-                    target: ''
-                    customTarget: ''
-                    title: ''
-                - image: /uploads/logo-2.png
-                  link:
-                    url: https://lavits.org/
-                    target: ''
-                    customTarget: ''
-                    title: ''
-        column2:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: '#### CRÉDITOS'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: |-
-                Coordenação: **Paulo Tavares e Fernanda Bruno**
-
-                Pesquisadores e designers: **Adriano Belisário, Ana Altberg, Julia Veras, Marlus Araújo, Paula Marujo e Rafael Bantu**
-
-                Design e front end: **Atonal Studio**
-
-                Back end e documentação: **Thiago Paixão**
+        components:
+          - type: Text
+            hasDropCap: false
+            content: '##### A plataforma web Documental é desenvolvida pela agência autônoma: cidades territórios e direitos, laboratório de justiça espacial da FAU-UnB e pelo MediaLab (UFRJ)'
+          - type: Spacer
+            desktop: 20px
+            tablet: 20px
+            mobile: 20px
+          - type: LogosGroup
+            logos:
+              - image: /uploads/autonoma-black-redim.png
+                link:
+                  url: https://autonoma.xyz
+                  target: _blank
+                  customTarget: ''
+                  title: Autonoma
+              - image: /uploads/media-lab-novo-logo.png
+                link:
+                  url: https://medialabufrj.net
+                  target: _blank
+                  customTarget: ''
+                  title: Media Lab UFRJ
 ---
