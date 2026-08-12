@@ -2,7 +2,7 @@
 standalone: true
 title: Exemplo
 slug: exemplo
-projeto: ''
+projeto: Landing Page
 pageSettings:
   language: pt-BR
   link_pt_br: /layout
