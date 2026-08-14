@@ -44,7 +44,7 @@ components:
         wideHtml: false
         htmlCode: |-
           <script>
-          window.location.href = "https://github.com/Documental-xyz/Docs";
+          window.location.href = "https://github.com/Documental-xyz/Docs/blob/main/LICENSE.md";
           </script>
         htmlCaption: ''
 ---
