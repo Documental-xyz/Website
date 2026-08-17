@@ -93,9 +93,9 @@ components:
               mobile: ''
             - type: Button
               link:
-                url: /download
-                target: _blank
-                text: Baixar no GitHub
+                url: '#Downloads'
+                target: _self
+                text: Baixar App
               icon: ''
               size: ''
             - type: Spacer
@@ -313,7 +313,7 @@ components:
               mobile: 20px
             - type: Button
               link:
-                url: /download
+                url: '#Downloads'
                 target: _blank
                 text: Baixar o aplicativo da Documental
               icon: ''
@@ -470,8 +470,8 @@ components:
               icon: ''
               size: ''
   - type: Group
-    id: Download e Documentação
-    shortTitle: Download e Documentação
+    id: Downloads
+    shortTitle: Downloads
     longTitle: ''
     description: ''
     showInMenu: true
@@ -492,21 +492,83 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '# Download e documentação'
+              content: '# Downloads'
         column2:
           components: []
       - type: Cards
         cardsArr:
           - Card:
               type: Card
-              title: Aplicativo Documental
-              text: Aplicativo para criar suas geo-histórias, inclusive em modo offline. Baixe, produza no seu computador e publique quando tiver conexão.
+              title: Linux
+              text: Download do app versão Desktop para Linux x64 no formato AppImage.
               link:
-                url: /download
+                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.90.0/Documental-0.90.0.AppImage
                 target: _blank
                 customTarget: ''
                 text: Baixar o app
               icon: ''
+          - Card:
+              type: Card
+              title: Windows
+              text: Download do instalador do app versão Desktop para Windows x64.
+              link:
+                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.90.0/Documental-Setup-0.90.0.exe
+                target: _blank
+                customTarget: ''
+                text: Acesse aqui
+              icon: ''
+          - Card:
+              type: Card
+              title: MacOSX
+              text: Download do app versão Desktop para MacOSX x64 no formato .dmg
+              link:
+                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.90.0/Documental-0.90.0.dmg
+                target: _blank
+                customTarget: ''
+                text: Acesse aqui
+              icon: ''
+          - Card:
+              type: Card
+              title: Outras versões
+              text: Para outros formatos e versões de download do app, acesse a aba releases GitHub.
+              link:
+                url: /licenca
+                target: _blank
+                customTarget: ''
+                text: Acesse aqui
+              icon: ''
+      - type: Spacer
+        desktop: 100px
+        tablet: ''
+        mobile: ''
+  - type: Group
+    id: Documentação
+    shortTitle: Documentação
+    longTitle: ''
+    description: ''
+    showInMenu: true
+    animations: true
+    txtColor: Primary
+    customTxtColor: ''
+    bgColor: Secondary
+    customBgColor: ''
+    backgroundMedia: []
+    overlay: ''
+    components:
+      - type: Columns
+        paddingTop: false
+        paddingBottom: false
+        invertOnMobile: false
+        columnsAlign: 66-33
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '# Documentação'
+        column2:
+          components: []
+      - type: Cards
+        cardsArr:
           - Card:
               type: Card
               title: GitHub

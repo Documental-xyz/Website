@@ -47,7 +47,7 @@ components:
         wideHtml: false
         htmlCode: |-
           <script>
-          window.location.href = "https://github.com/Documental-xyz/App-Desktop/releases";
+          window.location.href = "/#Downloads";
           </script>
         htmlCaption: ''
 ---
