@@ -93,9 +93,9 @@ components:
               mobile: ''
             - type: Button
               link:
-                url: /download
-                target: _blank
-                text: Baixar no GitHub
+                url: '#Downloads'
+                target: _self
+                text: Baixar App
               icon: ''
               size: ''
             - type: Spacer
@@ -313,7 +313,7 @@ components:
               mobile: 20px
             - type: Button
               link:
-                url: /download
+                url: '#Downloads'
                 target: _blank
                 text: Baixar o aplicativo da Documental
               icon: ''
@@ -502,7 +502,7 @@ components:
               title: Linux
               text: Download do app versão Desktop para Linux x64 no formato AppImage.
               link:
-                url: /download
+                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.90.0/Documental-0.90.0.AppImage
                 target: _blank
                 customTarget: ''
                 text: Baixar o app
@@ -512,7 +512,7 @@ components:
               title: Windows
               text: Download do instalador do app versão Desktop para Windows x64.
               link:
-                url: https://github.com/Documental-xyz/
+                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.90.0/Documental-Setup-0.90.0.exe
                 target: _blank
                 customTarget: ''
                 text: Acesse aqui
@@ -522,7 +522,7 @@ components:
               title: MacOSX
               text: Download do app versão Desktop para MacOSX x64 no formato .dmg
               link:
-                url: /docs
+                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.90.0/Documental-0.90.0.dmg
                 target: _blank
                 customTarget: ''
                 text: Acesse aqui
