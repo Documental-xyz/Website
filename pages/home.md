@@ -470,8 +470,8 @@ components:
               icon: ''
               size: ''
   - type: Group
-    id: Download e Documentação
-    shortTitle: Download e Documentação
+    id: Downloads
+    shortTitle: Downloads
     longTitle: ''
     description: ''
     showInMenu: true
@@ -492,21 +492,83 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '# Download e documentação'
+              content: '# Downloads'
         column2:
           components: []
       - type: Cards
         cardsArr:
           - Card:
               type: Card
-              title: Aplicativo Documental
-              text: Aplicativo para criar suas geo-histórias, inclusive em modo offline. Baixe, produza no seu computador e publique quando tiver conexão.
+              title: Linux
+              text: Download do app versão Desktop para Linux x64 no formato AppImage.
               link:
                 url: /download
                 target: _blank
                 customTarget: ''
                 text: Baixar o app
               icon: ''
+          - Card:
+              type: Card
+              title: Windows
+              text: Download do instalador do app versão Desktop para Windows x64.
+              link:
+                url: https://github.com/Documental-xyz/
+                target: _blank
+                customTarget: ''
+                text: Acesse aqui
+              icon: ''
+          - Card:
+              type: Card
+              title: MacOSX
+              text: Download do app versão Desktop para MacOSX x64 no formato .dmg
+              link:
+                url: /docs
+                target: _blank
+                customTarget: ''
+                text: Acesse aqui
+              icon: ''
+          - Card:
+              type: Card
+              title: Outras versões
+              text: Para outros formatos e versões de download do app, acesse a aba releases GitHub.
+              link:
+                url: /licenca
+                target: _blank
+                customTarget: ''
+                text: Acesse aqui
+              icon: ''
+      - type: Spacer
+        desktop: 100px
+        tablet: ''
+        mobile: ''
+  - type: Group
+    id: Documentação
+    shortTitle: Documentação
+    longTitle: ''
+    description: ''
+    showInMenu: true
+    animations: true
+    txtColor: Primary
+    customTxtColor: ''
+    bgColor: Secondary
+    customBgColor: ''
+    backgroundMedia: []
+    overlay: ''
+    components:
+      - type: Columns
+        paddingTop: false
+        paddingBottom: false
+        invertOnMobile: false
+        columnsAlign: 66-33
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '# Documentação'
+        column2:
+          components: []
+      - type: Cards
+        cardsArr:
           - Card:
               type: Card
               title: GitHub
