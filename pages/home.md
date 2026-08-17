@@ -532,7 +532,7 @@ components:
               title: Outras versões
               text: Para outros formatos e versões de download do app, acesse a aba releases GitHub.
               link:
-                url: /licenca
+                url: https://github.com/Documental-xyz/App-Desktop/releases/
                 target: _blank
                 customTarget: ''
                 text: Acesse aqui
