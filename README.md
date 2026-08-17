@@ -57,9 +57,9 @@ A Documental é composta por diferentes projetos que trabalham em conjunto.
 
 A plataforma para criação e publicação de narrativas digitais.
 
-### Documental Desktop
+### Aplicativo Documental para Desktop
 
-Aplicação que facilita a criação, edição e publicação de projetos utilizando a plataforma.
+Aplicativo que facilita a criação, edição e publicação de projetos utilizando a plataforma.
 
 ### Documental Template
 
