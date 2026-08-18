@@ -1,4 +1,5 @@
 ---
+standalone: true
 title: Home
 slug: home
 projeto: Landing Page
@@ -20,7 +21,7 @@ pageSettings:
 pageTheme:
   primaryColor: ''
   secondaryColor: '#ffffff'
-  highlightColor: '#3c8bc8'
+  highlightColor: '#005aa9'
   auxiliaryColor: '#000000'
   displayFont: https://fonts.googleapis.com/css2?family=Roboto&display=swap
   textFont: https://fonts.googleapis.com/css2?family=Roboto&display=swap
@@ -53,10 +54,10 @@ components:
     txtColor: Secondary
     customTxtColor: ''
     bgColor: Custom
-    customBgColor: '#1691c5ff'
+    customBgColor: '#005aa9ff'
     backgroundMedia:
-      - type: backgroundImage
-        imgSrc: /uploads/capa_projeto_memoria-da-terra.png
+      - type: backgroundVideo
+        videoSrc: /uploads/usar-esse.mp4
     overlay: ''
     components:
       - type: Columns
@@ -79,14 +80,14 @@ components:
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: '## uma plataforma digital de livre uso e código aberto para criação e publicação de narrativas cartográficas multimídia'
+              content: '## plataforma open source para construção e publicação de narrativas de dados e cartografias multimídia'
             - type: Spacer
               desktop: 50px
               tablet: ''
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: A Documental apoia investigações baseadas em dados geoespaciais sobre violações de direitos humanos, territoriais e ambientais, para fins de advocacia e reparação histórica.
+              content: '**DOCUMENTAL é uma ferramenta desenvolvida para fortalecer direitos humanos, territoriais e ambientais na esfera pública utilizando o poder das novas mídias digitais.**'
             - type: Spacer
               desktop: 50px
               tablet: ''
@@ -95,7 +96,7 @@ components:
               link:
                 url: '#Downloads'
                 target: _self
-                text: Baixar App
+                text: Baixar o aplicativo da DOCUMENTAL
               icon: ''
               size: ''
             - type: Spacer
@@ -106,7 +107,7 @@ components:
               link:
                 url: /docs
                 target: _blank
-                text: Guia de Instalação e Uso
+                text: Guia de instalação e uso
               icon: ''
               size: ''
   - type: Group
@@ -125,47 +126,19 @@ components:
     components:
       - type: Columns
         paddingTop: true
-        paddingBottom: false
+        paddingBottom: true
         invertOnMobile: false
         columnsAlign: 33-66
         column1:
           components:
             - type: Text
               hasDropCap: false
-              content: '# Por que usar a Documental?'
+              content: '## **O poder da visualização de dados nas mãos de ativistas, comunidades e organizações civis para a defesa de direitos humanos e ambientais.**'
         column2:
           components:
             - type: Text
               hasDropCap: false
-              content: '##### Organizar dados no espaço e no tempo traz força, clareza e credibilidade a uma investigação. Com uma interface intuitiva, a Documental combina código, imagem e cartografia para transformar conjuntos complexos de dados – textos, fotos, vídeos, imagens de satélite e mapas – em narrativas visuais interativas, em que episódios de violência aparecem como evidências conectadas, e não como casos isolados.'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '##### Desenhada para a realidade de movimentos sociais e organizações de defesa de direitos, a Documental é gratuita e não exige conhecimento técnico avançado: qualquer pessoa pode criar e publicar uma investigação visual, sem saber programar.'
-  - type: Group
-    id: Destaque
-    shortTitle: Destaque
-    longTitle: ''
-    description: ''
-    showInMenu: false
-    animations: true
-    txtColor: Highlight
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
-    components:
-      - type: Column
-        paddingTop: false
-        paddingBottom: false
-        components:
-          - type: Text
-            hasDropCap: false
-            content: '### Documental é um software livre: não tem custos de instalação ou atualização, e pode ser usado, copiado, estudado, modificado e redistribuído sem quaisquer restrições.'
+              content: '##### Através de um aplicativo de fácil manipulação e interface intuitiva, DOCUMENTAL permite combinar um conjuntos complexos de informações – dados, textos, fotos, vídeos, imagens de satélite, mapas – em narrativas digitais geolocalizadas. Desenvolvida principalmente para movimentos sociais e organizações civis, DOCUMENTAL é gratuita e não exige conhecimentos de programação complexos.'
   - type: Group
     id: Qual o objetivo da plataforma?
     shortTitle: Qual o objetivo da plataforma?
@@ -176,8 +149,10 @@ components:
     txtColor: Secondary
     customTxtColor: ''
     bgColor: Highlight
-    customBgColor: ''
-    backgroundMedia: []
+    customBgColor: '#005aa9ff'
+    backgroundMedia:
+      - type: backgroundImage
+        imgSrc: /uploads/zoomout3_1953_1-35000.png
     overlay: ''
     components:
       - type: Columns
@@ -194,7 +169,7 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '##### Pensada como instrumento de defesa de direitos humanos e ambientais, a Documental opera como uma ferramenta open-source para que movimentos sociais, organizações civis e jornalistas documentem e comuniquem histórias locais a audiências globais, de forma envolvente e visualmente impactante.'
+              content: '##### Desenhada como instrumento de defesa de direitos humanos e ambientais, DOCUMENTAL é uma ferramenta open-source para que movimentos sociais, organizações civis, jornalistas e pesquisadores documentem e comuniquem histórias locais a audiências globais de forma envolvente e visualmente impactante.'
             - type: Spacer
               desktop: 50px
               tablet: ''
@@ -294,7 +269,9 @@ components:
     customTxtColor: ''
     bgColor: Highlight
     customBgColor: ''
-    backgroundMedia: []
+    backgroundMedia:
+      - type: backgroundImage
+        imgSrc: /uploads/vlcsnap-2020-05-16-18h10m59s612.png
     overlay: ''
     components:
       - type: Columns
@@ -315,35 +292,21 @@ components:
               link:
                 url: '#Downloads'
                 target: _blank
-                text: Baixar o aplicativo da Documental
+                text: Baixar o aplicativo da DOCUMENTAL
               icon: ''
               size: wide
         column2:
           components:
             - type: Text
               hasDropCap: false
-              content: '##### Aberta e totalmente customizável, você adapta ao seu projeto sem precisar de programação avançada.'
+              content: '##### DOCUMENTAL combina _scrollytelling_ – técnica de _web design_ para criar histórias multimídia que se desenrolam à medida que o usuário percorre a página – com a navegação em dados GIS (Sistema de Informação Geográfica). Na interface do aplicativo, o usuário monta os conteúdos e controla a dinâmica do _scroll_, integrando visualização de dados em mapas interativos. Com parâmetros facilmente customizáveis, a plataforma permite que o usuário tenha controle sobre o design do conteúdo, oferecendo um recurso poderoso para criar narrativas visuais nos mais diversos formatos.'
             - type: Spacer
               desktop: 50px
               tablet: ''
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: '##### Ela combina scrollytelling – técnica de web design para criar histórias multimídia que se desenrolam à medida que o usuário percorre a página – com a navegação em dados GIS (Sistema de Informação Geográfica). Na interface, você monta os conteúdos e controla a dinâmica do scroll, integrados à visualização de dados em mapas interativos.'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '##### Com parâmetros facilmente customizáveis, a plataforma permite que o usuário tenha total controle sobre o design do conteúdo, oferecendo um recurso poderoso para criar narrativas visuais nos mais diversos formatos.'
-            - type: Spacer
-              desktop: 50px
-              tablet: ''
-              mobile: ''
-            - type: Text
-              hasDropCap: false
-              content: '##### A edição acontece no nosso aplicativo: nele você cria seu usuário, monta o ambiente de trabalho e edita o projeto mesmo sem internet, o que amplia o acesso a comunidades isoladas ou a quem não tem uma conexão contínua ou estável.'
+              content: '##### A edição acontece através de um aplicativo: nele você cria seu usuário, monta o ambiente de trabalho, e edita o projeto para publicação online. O aplicativo foi desenhado para funcionar mesmo sem conexão direta com a internet, ampliando a acesso a comunidades em áreas sem conexão contínua.'
   - type: Group
     id: 3 formas de publicar
     shortTitle: 3 formas de publicar
@@ -367,7 +330,17 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '# Como começar: 3 formas de publicar'
+              content: '# Como utilizar a DOCUMENTAL: 3 formas de publicar'
+            - type: Spacer
+              desktop: 20px
+              tablet: 20px
+              mobile: 20px
+            - type: Text
+              hasDropCap: false
+              content: |-
+                ##### O código da DOCUMENTAL está no GitHub. A partir dele, você escolhe como colocar sua história no ar:
+
+                #####
             - type: Spacer
               desktop: 50px
               tablet: ''
@@ -402,7 +375,7 @@ components:
                 - Card:
                     type: Card
                     title: GitHub
-                    text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a Documental no seu servidor.
+                    text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a DOCUMENTAL no seu servidor.
                     link:
                       url: https://github.com/Documental-xyz/
                       target: _blank
@@ -412,7 +385,7 @@ components:
                 - Card:
                     type: Card
                     title: Guia de instalação e uso
-                    text: Documentação completa de como instalar e usar a Documental, com informações detalhadas e passo a passo.
+                    text: Documentação completa de como instalar e usar a DOCUMENTAL, com informações detalhadas e passo a passo.
                     link:
                       url: /docs
                       target: _blank
@@ -422,7 +395,7 @@ components:
                 - Card:
                     type: Card
                     title: Licença
-                    text: Termos de uso da Documental
+                    text: Termos de uso da DOCUMENTAL.
                     link:
                       url: /licenca
                       target: _blank
@@ -572,7 +545,7 @@ components:
           - Card:
               type: Card
               title: GitHub
-              text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a Documental no seu servidor.
+              text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a DOCUMENTAL no seu servidor.
               link:
                 url: https://github.com/Documental-xyz/
                 target: _blank
@@ -582,7 +555,7 @@ components:
           - Card:
               type: Card
               title: Guia de instalação e uso
-              text: Documentação completa de como instalar e usar a Documental, com informações detalhadas e passo a passo.
+              text: Documentação completa de como instalar e usar a DOCUMENTAL, com informações detalhadas e passo a passo.
               link:
                 url: /docs
                 target: _blank
@@ -592,7 +565,7 @@ components:
           - Card:
               type: Card
               title: Licença
-              text: Termos de uso da Documental
+              text: Termos de uso da DOCUMENTAL.
               link:
                 url: /licenca
                 target: _blank
@@ -623,14 +596,14 @@ components:
         components:
           - type: Text
             hasDropCap: false
-            content: '##### A plataforma web Documental é desenvolvida pela agência autônoma: cidades territórios e direitos, laboratório de justiça espacial da FAU-UnB e pelo MediaLab (UFRJ)'
+            content: '#### A DOCUMENTAL é desenvolvida pela agência autônoma: cidades territórios e direitos – laboratório de justiça espacial da FAU-UnB, e pelo MediaLab (UFRJ).'
           - type: Spacer
             desktop: 20px
             tablet: 20px
             mobile: 20px
           - type: LogosGroup
             logos:
-              - image: /uploads/autonoma-black-redim.png
+              - image: /uploads/logo_autonoma_advocacia_BLACK.png
                 link:
                   url: https://autonoma.xyz
                   target: _blank
