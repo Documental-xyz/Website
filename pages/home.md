@@ -152,7 +152,7 @@ components:
     customBgColor: '#005aa9ff'
     backgroundMedia:
       - type: backgroundImage
-        imgSrc: /uploads/captura-de-tela-2026-08-19-às-12.10.11.png
+        imgSrc: /uploads/captura-de-tela-2026-08-19-as-12.10.11.png
     overlay: ''
     components:
       - type: Columns
@@ -230,7 +230,7 @@ components:
               target: ''
               customTarget: ''
             img:
-              src: /uploads/captura-de-tela-2026-08-18-às-16.08-copiar.jpg
+              src: /uploads/captura-de-tela-2026-08-18-as-16.08-copiar.jpg
               alt: ''
             title: Expulsões
             text: 'Mineração na Cordilheira do Condor (Amazônia equatoriana): despossessão de povos indígenas, desmatamento e destruição de sítios arqueológicos.'
@@ -250,7 +250,7 @@ components:
               target: ''
               customTarget: ''
             img:
-              src: /uploads/captura-de-tela-2026-08-18-às-16.07-copiar.jpg
+              src: /uploads/captura-de-tela-2026-08-18-as-16.07-copiar.jpg
               alt: ''
             title: Territórios de Exceção
             text: Investigação sobre helicópteros como plataforma de disparos da polícia nas favelas do Rio, com dados, campo e arquitetura forense em 3D.
@@ -460,7 +460,7 @@ components:
         paddingTop: true
         paddingBottom: true
         invertOnMobile: false
-        columnsAlign: 66-33
+        columnsAlign: 33-66
         column1:
           components:
             - type: Text
@@ -653,9 +653,9 @@ components:
 
                 ##### Desenvolvimento front-end: atonal.studio 
 
-                ##### Programação: Thiago Paixão 
+                ##### Desenvolviment backend e app: Thiago Paixão 
 
-                ##### A [primeira versão da plataforma](http://asd) foi desenvolvida em 2019 com a participação dos pesquisadores e designers Marlus Araújo, Adriano Belisário e Rafael Bantu
+                ##### A [primeira versão da plataforma](http://v1.documental.xyz) foi desenvolvida em 2019 com a participação dos pesquisadores e designers Marlus Araújo, Adriano Belisário e Rafael Bantu
       - type: LogosGroup
         logos:
           - image: /uploads/logo_autonoma_advocacia_BLACK.png
