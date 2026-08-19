@@ -84,5 +84,5 @@ Contribuições, melhorias e novos usos fazem parte da evolução do projeto.
 
 ---
 
-**A Documental**
-Criando novas possibilidades para narrativas digitais, documentação e memória.
+**Documental**
+O poder da visualização de dados nas mãos de ativistas, comunidades e organizações civis para a defesa de direitos humanos e ambientais
