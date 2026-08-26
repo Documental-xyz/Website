@@ -116,7 +116,7 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '##### Através de um aplicativo de fácil manipulação e interface intuitiva, DOCUMENTAL permite combinar um conjuntos complexos de informações – dados, textos, fotos, vídeos, imagens de satélite, mapas – em narrativas digitais geolocalizadas. Desenvolvida principalmente para movimentos sociais e organizações civis, DOCUMENTAL é gratuita e não exige conhecimentos de programação complexos.'
+              content: '##### Através de um aplicativo de fácil manipulação e interface intuitiva, DOCUMENTAL permite combinar um conjuntos complexos de informações – dados, textos, fotos, vídeos, imagens de satélite, mapas – em histórias digitais geolocalizadas. Desenvolvida principalmente para movimentos sociais e organizações civis, DOCUMENTAL é gratuita e não exige conhecimentos de programação complexos.'
             - type: Spacer
               desktop: 50px
               tablet: ''
@@ -224,7 +224,7 @@ components:
               src: /uploads/imagem-jaragua_original-copiar.jpg
               alt: ''
             title: Nhanderekoa
-            text: 'Cartografia da Terra Indígena Guarani do Jaraguá (SP) na sua demarcação: defesa, cuidado e reparação da floresta.'
+            text: Cartografia da Terra Indígena Guarani do Jaraguá. Defesa, cuidado e reparação pelo modo de vida guarani. Uma parceria entre pesquisadores e líderes da TI Jaraguá, Agência Autônoma, Chão Coletivo e Plataforma Práticas Espaciais (Escola da Cidade).
           - link:
               url: https://documental.xyz/expulsions/
               target: ''
@@ -233,7 +233,7 @@ components:
               src: /uploads/captura-de-tela-2026-08-18-as-16.08-copiar.jpg
               alt: ''
             title: Expulsões
-            text: 'Mineração na Cordilheira do Condor (Amazônia equatoriana): despossessão de povos indígenas, desmatamento e destruição de sítios arqueológicos.'
+            text: Investigação sobre violações de direitos humanos e ambientais decorrentes da implantação de um megaprojeto de mineração na Amazônia equatoriana. Realizado através da parceria entre a Agência Autônoma e o Forensic Architecture.
       - type: CardsCall
         cardsCallArr:
           - link:
@@ -253,7 +253,7 @@ components:
               src: /uploads/captura-de-tela-2026-08-18-as-16.07-copiar.jpg
               alt: ''
             title: Territórios de Exceção
-            text: Investigação sobre helicópteros como plataforma de disparos da polícia nas favelas do Rio, com dados, campo e arquitetura forense em 3D.
+            text: Mapeamento e análise do uso de helicópteros como plataforma de disparos em ações policiais nas favelas do Rio de Janeiro. Uma parceria entre agência autônoma, MediaLab e Redes da Maré.
       - type: Spacer
         desktop: 100px
         tablet: ''
@@ -645,17 +645,17 @@ components:
             - type: Text
               hasDropCap: false
               content: |-
-                ##### Direção: Paulo Tavares e Fernanda Bruno
+                ###### Direção: Paulo Tavares e Fernanda Bruno
 
-                ##### Coordenação: Paula Marujo
+                ###### Coordenação: Paula Marujo
 
-                ##### Implementação: Julia Veras
+                ###### Implementação: Julia Veras
 
-                ##### Desenvolvimento front-end: atonal.studio 
+                ###### Desenvolvimento front-end: atonal.studio 
 
-                ##### Desenvolviment backend e app: Thiago Paixão 
+                ###### Desenvolviment backend e app: Thiago Paixão 
 
-                ##### A [primeira versão da plataforma](http://v1.documental.xyz) foi desenvolvida em 2019 com a participação dos pesquisadores e designers Marlus Araújo, Adriano Belisário e Rafael Bantu
+                ###### A [primeira versão da plataforma](http://v1.documental.xyz) foi desenvolvida em 2019 com a participação dos pesquisadores e designers Marlus Araújo, Adriano Belisário e Rafael Bantu
       - type: LogosGroup
         logos:
           - image: /uploads/logo_autonoma_advocacia_BLACK.png
