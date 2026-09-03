@@ -515,7 +515,7 @@ components:
               title: Linux
               text: Download do app versão Desktop para Linux x64 no formato AppImage.
               link:
-                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.90.0/Documental-0.90.0.AppImage
+                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.91.0/Documental-0.91.0.AppImage
                 target: _blank
                 customTarget: ''
                 text: Baixar o app para Linux
