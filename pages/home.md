@@ -525,7 +525,7 @@ components:
               title: Windows
               text: Download do instalador do app versão Desktop para Windows x64.
               link:
-                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.90.0/Documental-Setup-0.90.0.exe
+                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.91.0/Documental-Setup-0.91.0.exe
                 target: _blank
                 customTarget: ''
                 text: Baixar o app para Windows
