@@ -535,7 +535,7 @@ components:
               title: MacOSX
               text: Download do app versão Desktop para MacOSX x64 no formato .dmg
               link:
-                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.90.0/Documental-0.90.0.dmg
+                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.91.0/Documental-0.91.0.dmg
                 target: _blank
                 customTarget: ''
                 text: Baixar o app para Mac
