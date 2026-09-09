@@ -233,7 +233,7 @@ components:
             img:
               src: /uploads/captura-de-tela-2026-08-18-as-16.08-copiar.jpg
               alt: ''
-            title: Expulsões
+            title: Expulsions
             text: Investigation into the human and environmental rights violations resulting from the implementation of a large-scale mining project in the Ecuadorian Amazon. Carried out through a partnership between Autônoma and Forensic Architecture.
       - type: CardsCall
         cardsCallArr:
@@ -244,7 +244,7 @@ components:
             img:
               src: /uploads/usaressamemoria.jpg
               alt: ''
-            title: Memória da Terra
+            title: Memory of the Earth
             text: Mapping of the Xavante Archaeological Complex through 3D modeling, satellite image analysis and walks with elders, for the defense and preservation of their territory.
           - link:
               url: https://documental.xyz/territorios-de-excecao/
@@ -253,7 +253,7 @@ components:
             img:
               src: /uploads/captura-de-tela-2026-08-18-as-16.07-copiar.jpg
               alt: ''
-            title: Territórios de Exceção
+            title: Territories of Exception
             text: Mapping and analysis of the use of helicopters as shooting platforms in police operations in the favelas of Rio de Janeiro. A partnership between Autônoma, MediaLab and Redes da Maré.
       - type: Spacer
         desktop: 100px
