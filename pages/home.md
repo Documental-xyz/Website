@@ -640,7 +640,7 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '#### A DOCUMENTAL é desenvolvida pela agência autônoma: cidades territórios e direitos – laboratório de justiça espacial da FAU-UnB, e pelo MediaLab (UFRJ).'
+              content: '##### A DOCUMENTAL é desenvolvida pela agência autônoma: cidades territórios e direitos – laboratório de justiça espacial da FAU-UnB, e pelo MediaLab (UFRJ)'
         column2:
           components:
             - type: InnerColumns
@@ -669,18 +669,18 @@ components:
             - type: Text
               hasDropCap: false
               content: A [**primeira versão da plataforma**](http://v1.documental.xyz) foi desenvolvida em 2019 com a participação dos pesquisadores e designers Marlus Araújo, Adriano Belisário e Rafael Bantu
-      - type: LogosGroup
-        logos:
-          - image: /uploads/logo_autonoma_advocacia_BLACK.png
-            link:
-              url: https://www.advocacia.autonoma.xyz/
-              target: ''
-              customTarget: ''
-              title: ''
-          - image: /uploads/logo-novo-medialab_escuro-1.png
-            link:
-              url: https://medialabufrj.net/
-              target: ''
-              customTarget: ''
-              title: ''
+            - type: LogosGroup
+              logos:
+                - image: /uploads/logo_autonoma_advocacia_BLACK.png
+                  link:
+                    url: https://www.advocacia.autonoma.xyz/
+                    target: ''
+                    customTarget: ''
+                    title: ''
+                - image: /uploads/logo-novo-medialab_escuro-1.png
+                  link:
+                    url: https://medialabufrj.net/
+                    target: ''
+                    customTarget: ''
+                    title: ''
 ---
