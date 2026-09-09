@@ -30,6 +30,7 @@ pageTheme:
       mobile: 10px
       tablet: 10px
       desktop: 10px
+pageInclude: null
 modules:
   - type: MapBox
     style: mapbox://styles/studio-autonoma/cmdgcs27u019101sa29ytbsps
@@ -93,7 +94,7 @@ components:
     shortTitle: Por que usar a Documental?
     longTitle: ''
     description: ''
-    showInMenu: false
+    showInMenu: true
     animations: true
     txtColor: Primary
     customTxtColor: ''
@@ -352,7 +353,7 @@ components:
     shortTitle: Como publicar com a DOCUMENTAL
     longTitle: ''
     description: ''
-    showInMenu: false
+    showInMenu: true
     animations: true
     txtColor: Primary
     customTxtColor: ''
