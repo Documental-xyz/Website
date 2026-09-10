@@ -623,81 +623,94 @@ components:
     longTitle: ''
     description: ''
     showInMenu: true
-    animations: true
-    txtColor: Custom
+    animations: false
+    txtColor: Secondary
     customTxtColor: '#ffffffff'
     bgColor: Highlight
     customBgColor: ''
     backgroundMedia: []
-    overlay: ''
+    overlay: dark
     components:
       - type: Columns
         paddingTop: false
         paddingBottom: false
         invertOnMobile: false
-        columnsAlign: 33-66
+        columnsAlign: 66-33
         column1:
           components:
             - type: Text
-              hasDropCap: false
-              content: '### A DOCUMENTAL é desenvolvida pela agência autônoma: cidades territórios e direitos – laboratório de justiça espacial da FAU-UnB, em parceria com o MediaLab da UFRJ.'
-        column2:
-          components:
+              hasDropCap: true
+              content: '##### A DOCUMENTAL é desenvolvida pela agência autônoma: cidades territórios e direitos – laboratório de justiça espacial da FAU-UnB, em parceria com o MediaLab da UFRJ.'
+            - type: Spacer
+              desktop: 80px
+              tablet: 80px
+              mobile: 40px
             - type: InnerColumns
               column1:
                 components:
                   - type: Text
                     hasDropCap: false
                     content: |-
-                      **Direção:** 
+                      **Direção:**
 
                       Paulo Tavares e Fernanda Bruno
 
-                      **Coordenação:** 
+                      **Coordenação:**
 
                       Paula Marujo
 
-                      **Implementação:** 
+                      **Implementação:**
 
                       Julia Veras
-
-                      Desenvolvimento front-end: 
+              column2:
+                components:
+                  - type: Text
+                    hasDropCap: false
+                    content: |-
+                      **Desenvolvimento front-end:**
 
                       atonal.studio 
 
-                      Desenvolviment backend e app: 
+                      **Desenvolvimento backend e app:**
 
-                      Thiago Paixão 
+                      Thiago Paixão
 
-                      A [primeira versão da plataforma](http://v1.documental.xyz) foi desenvolvida em 2019 com a participação dos pesquisadores e designers Marlus Araújo, Adriano Belisário e Rafael Bantu
+                      **Colaboradores Versão 1.0**
+
+
+                      Marlus Araújo, Adriano Belisário e Rafael Bantu
+        column2:
+          components:
+            - type: InnerColumns
+              column1:
+                components:
+                  - type: LogosGroup
+                    logos:
+                      - image: /uploads/logo_autonoma_advocacia_WHITE.png
+                        link:
+                          url: https://www.advocacia.autonoma.xyz/
+                          target: ''
+                          customTarget: ''
+                          title: ''
               column2:
                 components:
                   - type: LogosGroup
                     logos:
-                      - image: /uploads/logo_autonoma_advocacia_BLACK.png
-                        link:
-                          url: https://advocacia.autonoma.xyz
-                          target: ''
-                          customTarget: ''
-                          title: ''
-                      - image: /uploads/logo-novo-medialab_escuro-1.png
+                      - image: /uploads/logo-novo-medialab_vetor-copy-branco.png
                         link:
                           url: https://medialabufrj.net/
                           target: ''
                           customTarget: ''
                           title: ''
-      - type: LogosGroup
-        logos:
-          - image: /uploads/logo_autonoma_advocacia_BLACK.png
-            link:
-              url: https://www.advocacia.autonoma.xyz/
-              target: ''
-              customTarget: ''
-              title: ''
-          - image: /uploads/logo-novo-medialab_escuro-1.png
-            link:
-              url: https://medialabufrj.net/
-              target: ''
-              customTarget: ''
-              title: ''
+            - type: Spacer
+              desktop: 80px
+              tablet: 80px
+              mobile: 40px
+            - type: Button
+              link:
+                url: mailto:documental@autonoma.xyz
+                target: _self
+                text: entre em contato
+              icon: ''
+              size: wide
 ---
