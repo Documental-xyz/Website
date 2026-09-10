@@ -154,7 +154,7 @@ components:
     backgroundMedia:
       - type: backgroundImage
         imgSrc: /uploads/captura-de-tela-2026-08-19-as-12.10.11.png
-    overlay: ''
+    overlay: light
     components:
       - type: Columns
         paddingTop: true
