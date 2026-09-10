@@ -59,7 +59,7 @@ components:
     backgroundMedia:
       - type: backgroundVideo
         videoSrc: /uploads/usar-esse.mp4
-    overlay: ''
+    overlay: light
     components:
       - type: Columns
         paddingTop: true
