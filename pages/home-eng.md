@@ -1,12 +1,12 @@
 ---
 standalone: true
-title: Home
-slug: home
+title: Home-ENG
+slug: homeeng
 projeto: Landing Page
 pageSettings:
-  language: pt-BR
-  link_pt_br: '#'
-  link_en: homeeng
+  language: en
+  link_pt_br: home
+  link_en: '#'
   link_es: '#'
   animations: enable_all
   direction: left
@@ -47,19 +47,19 @@ modules:
 components:
   - type: Group
     id: Capa
-    shortTitle: Capa
-    longTitle: Home
+    shortTitle: Documental
+    longTitle: Documental
     description: ''
     showInMenu: true
     animations: true
     txtColor: Secondary
     customTxtColor: ''
-    bgColor: Highlight
+    bgColor: Custom
     customBgColor: '#005aa9ff'
     backgroundMedia:
       - type: backgroundVideo
         videoSrc: /uploads/usar-esse.mp4
-    overlay: light
+    overlay: ''
     components:
       - type: Columns
         paddingTop: true
@@ -81,17 +81,17 @@ components:
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: '## **plataforma open source para construção e publicação de histórias com dados e cartografias multimídia**'
+              content: '## **Open-source platform for building and publishing stories with data and multimedia cartographies**'
             - type: Spacer
               desktop: 50px
               tablet: ''
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: '#### **DOCUMENTAL é uma ferramenta desenvolvida para fortalecer direitos humanos, territoriais e ambientais na esfera pública utilizando o poder das novas mídias digitais.**'
+              content: '#### DOCUMENTAL is a tool developed to strengthen human, territorial and environmental rights in the public sphere, harnessing the power of new digital media'
   - type: Group
-    id: Por que usar a Documental?
-    shortTitle: Por que usar a Documental?
+    id: Why use Documental?
+    shortTitle: Why use Documental?
     longTitle: ''
     description: ''
     showInMenu: true
@@ -112,12 +112,12 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '## O poder da visualização de dados nas mãos de ativistas, comunidades e organizações civis para a defesa de direitos humanos e ambientais'
+              content: '## **The power of data visualization in the hands of activists, communities and civil-society organizations for the defense of human and environmental rights**'
         column2:
           components:
             - type: Text
               hasDropCap: false
-              content: '##### Através de um aplicativo de fácil manipulação e interface intuitiva, DOCUMENTAL permite combinar um conjuntos complexos de informações – dados, textos, fotos, vídeos, imagens de satélite, mapas – em histórias digitais geolocalizadas. Desenvolvida principalmente para movimentos sociais e organizações civis, DOCUMENTAL é gratuita e não exige conhecimentos de programação complexos.'
+              content: '##### Through an easy-to-use app with an intuitive interface, DOCUMENTAL brings together complex sets of information – data, texts, photos, videos, satellite imagery, maps – into geolocated digital stories. Developed primarily for social movements and civil-society organizations, DOCUMENTAL is free and requires no advanced programming knowledge.'
             - type: Spacer
               desktop: 50px
               tablet: ''
@@ -126,7 +126,7 @@ components:
               link:
                 url: '#Downloads'
                 target: _self
-                text: Baixar app DOCUMENTAL
+                text: Download the DOCUMENTAL app
               icon: ''
               size: ''
             - type: Spacer
@@ -137,12 +137,12 @@ components:
               link:
                 url: /docs
                 target: _self
-                text: Guia de Instalação e uso
+                text: Installation and use guide
               icon: ''
               size: ''
   - type: Group
-    id: Qual o objetivo da plataforma?
-    shortTitle: Qual o objetivo da plataforma?
+    id: What is the platform's goal?
+    shortTitle: What is the platform's goal?
     longTitle: ''
     description: ''
     showInMenu: true
@@ -165,29 +165,29 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '# Qual o objetivo da plataforma?'
+              content: "# **What is the platform's goal?**"
         column2:
           components:
             - type: Text
               hasDropCap: false
-              content: '##### Desenhada como instrumento de defesa de direitos humanos e ambientais, DOCUMENTAL é uma ferramenta open-source para que movimentos sociais, organizações civis, jornalistas e pesquisadores documentem e comuniquem histórias locais para audiências globais de forma envolvente e visualmente impactante.'
+              content: '##### Designed as an instrument for the defense of human and environmental rights, DOCUMENTAL is an open-source tool for social movements, civil-society organizations, journalists and researchers to document and communicate local stories to global audiences in an engaging and visually striking way.'
             - type: Spacer
               desktop: 50px
               tablet: ''
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: '##### Em um cenário de excesso de informação e desinformação, reunir dados verificados e georreferenciados é cada vez mais importante.'
+              content: '##### In a landscape of information overload and disinformation, bringing together verified and georeferenced data is increasingly important in the context of public and media advocacy.'
             - type: Spacer
               desktop: 50px
               tablet: ''
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: '##### A plataforma busca fortalecer a capacidade da sociedade civil de investigar e documentar violações cometidas por Estados e corporações, empoderando atores locais para comunicarem suas histórias através de novas tecnologias de visualização e mapeamento de dados, e ampliando o debate públicos sobre justiça social e ambiental.'
+              content: "##### The platform seeks to strengthen civil society's capacity to investigate and document violations committed by states and corporations, empowering local actors to communicate their stories through new technologies of data visualization and mapping — thereby broadening public debate on social and environmental justice."
   - type: Group
-    id: Projetos realizados com a DOCUMENTAL
-    shortTitle: Projetos realizados com a DOCUMENTAL
+    id: Projects made with DOCUMENTAL
+    shortTitle: Projects made with DOCUMENTAL
     longTitle: ''
     description: ''
     showInMenu: true
@@ -208,7 +208,7 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '# Projetos realizados com a DOCUMENTAL'
+              content: '# **Projects made with DOCUMENTAL**'
         column2:
           components:
             - type: Spacer
@@ -225,7 +225,7 @@ components:
               src: /uploads/imagem-jaragua_original-copiar.jpg
               alt: ''
             title: Nhanderekoa
-            text: Cartografia da Terra Indígena Guarani do Jaraguá. Defesa, cuidado e reparação pelo modo de vida guarani. Uma parceria entre pesquisadores e líderes da TI Jaraguá, Agência Autônoma, Chão Coletivo e Plataforma Práticas Espaciais (Escola da Cidade).
+            text: Cartography of the Guarani Indigenous Land of Jaraguá. Defense, care and reparation grounded in the Guarani way of life. A partnership between researchers and leaders of the Jaraguá Indigenous Land, Autônoma , Chão Coletivo and Plataforma Práticas Espaciais (Escola da Cidade).
           - link:
               url: https://documental.xyz/expulsions/
               target: ''
@@ -233,8 +233,8 @@ components:
             img:
               src: /uploads/captura-de-tela-2026-08-18-as-16.08-copiar.jpg
               alt: ''
-            title: Expulsões
-            text: Investigação sobre violações de direitos humanos e ambientais decorrentes da implantação de um megaprojeto de mineração na Amazônia equatoriana. Realizado através da parceria entre a Agência Autônoma e o Forensic Architecture.
+            title: Expulsions
+            text: Investigation into the human and environmental rights violations resulting from the implementation of a large-scale mining project in the Ecuadorian Amazon. Carried out through a partnership between Autônoma and Forensic Architecture.
       - type: CardsCall
         cardsCallArr:
           - link:
@@ -244,8 +244,8 @@ components:
             img:
               src: /uploads/usaressamemoria.jpg
               alt: ''
-            title: Memória da Terra
-            text: Mapeamento do Complexo Arqueológico Xavante através de modelagem 3D, análise de imagens de satélite e caminhadas com anciãos, pela defesa e preservação de seu território.
+            title: Memory of the Earth
+            text: Mapping of the Xavante Archaeological Complex through 3D modeling, satellite image analysis and walks with elders, for the defense and preservation of their territory.
           - link:
               url: https://documental.xyz/territorios-de-excecao/
               target: ''
@@ -253,27 +253,27 @@ components:
             img:
               src: /uploads/captura-de-tela-2026-08-18-as-16.07-copiar.jpg
               alt: ''
-            title: Territórios de Exceção
-            text: Mapeamento e análise do uso de helicópteros como plataforma de disparos em ações policiais nas favelas do Rio de Janeiro. Uma parceria entre agência autônoma, MediaLab e Redes da Maré.
+            title: Territories of Exception
+            text: Mapping and analysis of the use of helicopters as shooting platforms in police operations in the favelas of Rio de Janeiro. A partnership between Autônoma, MediaLab and Redes da Maré.
       - type: Spacer
         desktop: 100px
         tablet: ''
         mobile: ''
   - type: Group
-    id: Como a plataforma funciona?
-    shortTitle: Como a plataforma funciona?
+    id: How does the platform work?
+    shortTitle: How does the platform work?
     longTitle: ''
     description: ''
     showInMenu: true
     animations: true
     txtColor: Secondary
     customTxtColor: ''
-    bgColor: Custom
-    customBgColor: '#005aa9ff'
+    bgColor: Highlight
+    customBgColor: ''
     backgroundMedia:
       - type: backgroundImage
         imgSrc: /uploads/memoria-capa.jpg
-    overlay: light
+    overlay: ''
     components:
       - type: Columns
         paddingTop: true
@@ -284,7 +284,7 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '# Como a plataforma funciona?'
+              content: '# **How does the platform work?**'
             - type: Spacer
               desktop: 20px
               tablet: 20px
@@ -293,38 +293,38 @@ components:
               link:
                 url: '#Downloads'
                 target: _blank
-                text: Baixar app DOCUMENTAL
+                text: Download the DOCUMENTAL app
               icon: ''
               size: wide
         column2:
           components:
             - type: Text
               hasDropCap: false
-              content: '##### DOCUMENTAL combina _scrollytelling_ – técnica de _web design_ para criar histórias multimídia que se desenrolam à medida que o usuário percorre a página – com a navegação em dados georreferenciados em sistema GIS.'
+              content: '##### DOCUMENTAL combines scrollytelling – a web-design technique for creating multimedia stories that unfold as the user scrolls through the page – with navigation through georeferenced data in a GIS system.'
             - type: Spacer
               desktop: 50px
               tablet: ''
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: '##### A plataforma monta os conteúdos e controla a dinâmica do _scroll_, integrando visualização de dados em mapas interativos. Com parâmetros facilmente customizáveis, a plataforma permite total controle sobre o design do conteúdo, oferecendo um recurso poderoso para criar histórias visuais nos mais diversos formatos.'
+              content: "##### The platform assembles the content and controls the scroll dynamics, integrating data visualization into interactive maps. With easily customizable parameters, it allows full control over the content's design, offering a powerful resource to create visual stories in a wide range of formats."
             - type: Spacer
               desktop: 50px
               tablet: ''
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: '##### A edição acontece através de um aplicativo intuitivo e de fácil utilização: nele você cria seu usuário, monta o ambiente de trabalho, e edita o projeto para publicação online.'
+              content: '##### Editing happens through an intuitive, easy-to-use app: in it you create your account, set up your workspace, and edit the project for online publication.'
             - type: Spacer
               desktop: 50px
               tablet: ''
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: '##### O aplicativo foi desenhado para funcionar mesmo sem conexão direta com a internet, ampliando o acesso a comunidades em áreas sem conexão estável.'
+              content: '##### The app was designed to work even without a direct internet connection, expanding access for communities in areas without stable connectivity.'
   - type: Group
-    id: Documental é software livre
-    shortTitle: Documental é software livre
+    id: DOCUMENTAL is free software
+    shortTitle: DOCUMENTAL is free software
     longTitle: ''
     description: ''
     showInMenu: false
@@ -345,12 +345,12 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '## Documental é software livre: não tem custos de instalação ou atualização, e pode ser usada, copiada, modificada e redistribuída sem restrições.'
+              content: '## DOCUMENTAL is free software: it has no installation or update costs, and can be used, copied, modified and redistributed without restrictions.'
         column2:
           components: []
   - type: Group
-    id: Como publicar com a DOCUMENTAL
-    shortTitle: Como publicar com a DOCUMENTAL
+    id: How to publish with DOCUMENTAL
+    shortTitle: How to publish with DOCUMENTAL
     longTitle: ''
     description: ''
     showInMenu: true
@@ -371,17 +371,14 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '# **Como publicar com a DOCUMENTAL**'
+              content: '# **How to publish with DOCUMENTAL**'
             - type: Spacer
               desktop: 20px
               tablet: 20px
               mobile: 20px
             - type: Text
               hasDropCap: false
-              content: |-
-                ##### O código da DOCUMENTAL está no GitHub. A partir dele, você escolhe como colocar sua história no ar:
-
-                #####
+              content: "##### DOCUMENTAL's code is on GitHub. From there, you choose how to put your story online:"
             - type: Spacer
               desktop: 50px
               tablet: ''
@@ -390,21 +387,21 @@ components:
               components:
                 - type: TimelineBullet
                   text: 1. GitHub Pages
-                  content: '###### Para histórias simples, você publica de forma gratuita usando o próprio GitHub Pages, sem precisar de servidor.'
+                  content: '###### For simple stories, you publish using GitHub Pages without needing a server.'
                 - type: Spacer
                   desktop: 50px
                   tablet: ''
                   mobile: ''
                 - type: TimelineBullet
-                  text: 2. No seu próprio servidor
-                  content: '###### Copie o código do GitHub e instale a plataforma no servidor da sua organização, com controle total sobre os dados.'
+                  text: 2. On your own server.
+                  content: "###### Copy the code from GitHub and install the platform on your organization's server, with full control over the data."
                 - type: Spacer
                   desktop: 50px
                   tablet: ''
                   mobile: ''
                 - type: TimelineBullet
-                  text: 3. Em nosso servidor
-                  content: '###### Seu projeto pode utilizar a plataforma em nosso servidor, sem necessidade de instalação. Oferecemos infraestrutura e suporte técnico para a implementação e utilização da plataforma para movimentos sociais e entidades de defesa de direitos humanos e ambientais. Projetos podem ser submetidos através do email documental@autonoma.xyz.'
+                  text: 3. On our server
+                  content: '###### Your project can use the platform on our server. The DOCUMENTAL project offers infrastructure and technical support for implementing and using the platform for social movements and organizations defending human and environmental rights. Projects can be submitted at documental@autonoma.xyz.'
         column2:
           components:
             - type: Spacer
@@ -416,36 +413,36 @@ components:
                 - Card:
                     type: Card
                     title: GitHub
-                    text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a DOCUMENTAL no seu servidor.
+                    text: Open source and free to use. Download the code from our repository and install DOCUMENTAL on your server.
                     link:
                       url: https://github.com/Documental-xyz/
                       target: _blank
                       customTarget: ''
-                      text: Acessar o repositório
+                      text: Access the repository
                     icon: ''
                 - Card:
                     type: Card
-                    title: Guia de instalação e uso
-                    text: Documentação completa de como instalar e usar a DOCUMENTAL, com informações detalhadas e passo a passo.
+                    title: Installation and use guide
+                    text: Complete documentation on how to install and use DOCUMENTAL, with detailed, step-by-step information.
                     link:
                       url: /docs
                       target: _blank
                       customTarget: ''
-                      text: Acessar a documentação
+                      text: Access the documentation
                     icon: ''
                 - Card:
                     type: Card
-                    title: Licença
-                    text: Termos de uso da DOCUMENTAL.
+                    title: License
+                    text: DOCUMENTAL's terms of use.
                     link:
                       url: /licenca
                       target: _blank
                       customTarget: ''
-                      text: Ver a licença
+                      text: View the license
                     icon: ''
   - type: Group
-    id: Faça parte da comunidade
-    shortTitle: Faça parte da comunidade
+    id: Join the community
+    shortTitle: Join the community
     longTitle: ''
     description: ''
     showInMenu: true
@@ -466,12 +463,12 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '# Faça parte da comunidade'
+              content: '# **Join the community**'
         column2:
           components:
             - type: Text
               hasDropCap: false
-              content: '##### A Documental é mantida por uma comunidade aberta. Participe: tire dúvidas, troque experiências e formas de fazer, faça sugestões de melhorias, traduza ou contribua com o desenvolvimento.'
+              content: '##### DOCUMENTAL is maintained by an open community. Take part: ask questions, share experiences and ways of doing, suggest improvements, translate, or contribute to development.'
             - type: Spacer
               desktop: 50px
               tablet: ''
@@ -480,7 +477,7 @@ components:
               link:
                 url: https://github.com/Documental-xyz/Core/issues
                 target: _blank
-                text: Participe
+                text: Get involved
               icon: ''
               size: ''
   - type: Group
@@ -514,42 +511,42 @@ components:
           - Card:
               type: Card
               title: Linux
-              text: Download do app versão Desktop para Linux x64 no formato AppImage.
+              text: Download the Desktop app for Linux x64 in AppImage format.
               link:
                 url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.91.0/Documental-0.91.0.AppImage
                 target: _blank
                 customTarget: ''
-                text: Baixar o app para Linux
+                text: Download the app for Linux
               icon: ''
           - Card:
               type: Card
               title: Windows
-              text: Download do instalador do app versão Desktop para Windows x64.
+              text: Download the Desktop app installer for Windows x64.
               link:
                 url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.91.0/Documental-Setup-0.91.0.exe
                 target: _blank
                 customTarget: ''
-                text: Baixar o app para Windows
+                text: Download the app for Windows
               icon: ''
           - Card:
               type: Card
               title: MacOSX
-              text: Download do app versão Desktop para MacOSX x64 no formato .dmg
+              text: Download the Desktop app for macOS x64 in .dmg format.
               link:
                 url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.91.0/Documental-0.91.0.dmg
                 target: _blank
                 customTarget: ''
-                text: Baixar o app para Mac
+                text: Download the app for Mac
               icon: ''
           - Card:
               type: Card
-              title: Outras versões
-              text: Para outros formatos e versões de download do app, acesse a aba releases GitHub.
+              title: Other versions
+              text: For other formats and versions of the app, visit the GitHub releases tab.
               link:
                 url: https://github.com/Documental-xyz/App-Desktop/releases/
                 target: _blank
                 customTarget: ''
-                text: Acesse aqui
+                text: Access here
               icon: ''
       - type: Spacer
         desktop: 100px
@@ -557,7 +554,7 @@ components:
         mobile: ''
   - type: Group
     id: Documentação
-    shortTitle: Documentação
+    shortTitle: Documentation
     longTitle: ''
     description: ''
     showInMenu: true
@@ -578,7 +575,7 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '# Documentação'
+              content: '# Documentation'
         column2:
           components: []
       - type: Cards
@@ -586,131 +583,101 @@ components:
           - Card:
               type: Card
               title: GitHub
-              text: Código aberto e livre para uso. Baixe o código no nosso repositório e instale a DOCUMENTAL no seu servidor.
+              text: Open source and free to use. Download the code from our repository and install DOCUMENTAL on your server.
               link:
                 url: https://github.com/Documental-xyz/
                 target: _blank
                 customTarget: ''
-                text: Acesse aqui
+                text: Access here
               icon: ''
           - Card:
               type: Card
-              title: Guia de instalação e uso
-              text: Documentação completa de como instalar e usar a DOCUMENTAL, com informações detalhadas e passo a passo.
+              title: Installation and use guide
+              text: Complete documentation on how to install and use DOCUMENTAL, with detailed, step-by-step information.
               link:
                 url: /docs
                 target: _blank
                 customTarget: ''
-                text: Acesse aqui
+                text: Access here
               icon: ''
           - Card:
               type: Card
-              title: Licença
-              text: Termos de uso da DOCUMENTAL.
+              title: License
+              text: DOCUMENTAL's terms of use.
               link:
                 url: /licenca
                 target: _blank
                 customTarget: ''
-                text: Acesse aqui
+                text: Access here
               icon: ''
       - type: Spacer
         desktop: 100px
         tablet: ''
         mobile: ''
   - type: Group
-    id: Créditos
-    shortTitle: Créditos
+    id: About DOCUMENTAL
+    shortTitle: About DOCUMENTAL
     longTitle: ''
     description: ''
     showInMenu: true
-    animations: false
-    txtColor: Secondary
-    customTxtColor: '#ffffffff'
+    animations: true
+    txtColor: Primary
+    customTxtColor: ''
     bgColor: Highlight
     customBgColor: ''
     backgroundMedia: []
-    overlay: dark
+    overlay: ''
     components:
       - type: Columns
         paddingTop: false
         paddingBottom: false
         invertOnMobile: false
-        columnsAlign: 66-33
+        columnsAlign: 33-66
         column1:
           components:
             - type: Text
-              hasDropCap: true
-              content: '##### A DOCUMENTAL é desenvolvida pela agência autônoma: cidades territórios e direitos – laboratório de justiça espacial da FAU-UnB, em parceria com o MediaLab da UFRJ.'
-            - type: Spacer
-              desktop: 80px
-              tablet: 80px
-              mobile: 40px
-            - type: InnerColumns
-              column1:
-                components:
-                  - type: Text
-                    hasDropCap: false
-                    content: |-
-                      **Direção:**
-
-                      Paulo Tavares e Fernanda Bruno
-
-                      **Coordenação:**
-
-                      Paula Marujo
-
-                      **Implementação:**
-
-                      Julia Veras
-              column2:
-                components:
-                  - type: Text
-                    hasDropCap: false
-                    content: |-
-                      **Desenvolvimento front-end:**
-
-                      atonal.studio 
-
-                      **Desenvolvimento backend e app:**
-
-                      Thiago Paixão
-
-                      **Colaboradores Versão 1.0**
-
-
-                      Marlus Araújo, Adriano Belisário e Rafael Bantu
+              hasDropCap: false
+              content: '##### DOCUMENTAL is developed by Agência Autônoma: cidades, territórios e direitos, a spatial justice laboratory at FAU-UnB, and by MediaLab (UFRJ).'
         column2:
           components:
             - type: InnerColumns
               column1:
                 components:
-                  - type: LogosGroup
-                    logos:
-                      - image: /uploads/logo_autonoma_advocacia_WHITE.png
-                        link:
-                          url: https://www.advocacia.autonoma.xyz/
-                          target: ''
-                          customTarget: ''
-                          title: ''
+                  - type: Text
+                    hasDropCap: false
+                    content: |-
+                      **Direction** Paulo Tavares e Fernanda Bruno
+
+                      **Coordination** Paula Marujo
+
+                      **Implementation** Julia Veras
               column2:
                 components:
-                  - type: LogosGroup
-                    logos:
-                      - image: /uploads/logo-novo-medialab_vetor-copy-branco.png
-                        link:
-                          url: https://medialabufrj.net/
-                          target: ''
-                          customTarget: ''
-                          title: ''
+                  - type: Text
+                    hasDropCap: false
+                    content: |-
+                      **Front-end** **Development** atonal.studio 
+
+                      **Programming and app development** Thiago Paixão
             - type: Spacer
-              desktop: 80px
-              tablet: 80px
-              mobile: 40px
-            - type: Button
-              link:
-                url: mailto:documental@autonoma.xyz
-                target: _self
-                text: entre em contato
-              icon: ''
-              size: wide
+              desktop: 50px
+              tablet: 25px
+              mobile: 25px
+            - type: Text
+              hasDropCap: false
+              content: '**The** [**first version of the platform**](http://v1.documental.xyz) was developed in 2019 with the participation of researchers and designers Marlus Araújo, Adriano Belisário and Rafael Bantu.'
+            - type: LogosGroup
+              logos:
+                - image: /uploads/logo_autonoma_advocacia_BLACK.png
+                  link:
+                    url: https://www.advocacia.autonoma.xyz/
+                    target: ''
+                    customTarget: ''
+                    title: ''
+                - image: /uploads/logo-novo-medialab_escuro-1.png
+                  link:
+                    url: https://medialabufrj.net/
+                    target: ''
+                    customTarget: ''
+                    title: ''
 ---
