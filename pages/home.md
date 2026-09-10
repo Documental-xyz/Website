@@ -149,12 +149,12 @@ components:
     animations: true
     txtColor: Secondary
     customTxtColor: ''
-    bgColor: Highlight
+    bgColor: Custom
     customBgColor: '#005aa9ff'
     backgroundMedia:
       - type: backgroundImage
         imgSrc: /uploads/captura-de-tela-2026-08-19-as-12.10.11.png
-    overlay: ''
+    overlay: dark
     components:
       - type: Columns
         paddingTop: true
