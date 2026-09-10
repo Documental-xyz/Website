@@ -54,8 +54,8 @@ components:
     animations: true
     txtColor: Secondary
     customTxtColor: ''
-    bgColor: Highlight
-    customBgColor: '#4cde0dff'
+    bgColor: Custom
+    customBgColor: '#005aa9ff'
     backgroundMedia:
       - type: backgroundVideo
         videoSrc: /uploads/usar-esse.mp4
