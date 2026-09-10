@@ -149,7 +149,7 @@ components:
     animations: true
     txtColor: Secondary
     customTxtColor: ''
-    bgColor: Highlight
+    bgColor: Custom
     customBgColor: '#005aa9ff'
     backgroundMedia:
       - type: backgroundImage
@@ -268,8 +268,8 @@ components:
     animations: true
     txtColor: Secondary
     customTxtColor: ''
-    bgColor: Highlight
-    customBgColor: ''
+    bgColor: Custom
+    customBgColor: '#005aa9ff'
     backgroundMedia:
       - type: backgroundImage
         imgSrc: /uploads/memoria-capa.jpg
