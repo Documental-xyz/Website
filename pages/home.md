@@ -623,8 +623,8 @@ components:
     description: ''
     showInMenu: true
     animations: true
-    txtColor: Primary
-    customTxtColor: ''
+    txtColor: Custom
+    customTxtColor: '#ffffffff'
     bgColor: Highlight
     customBgColor: ''
     backgroundMedia: []
@@ -639,23 +639,52 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '#### A DOCUMENTAL é desenvolvida pela agência autônoma: cidades territórios e direitos – laboratório de justiça espacial da FAU-UnB, e pelo MediaLab (UFRJ).'
+              content: '### A DOCUMENTAL é desenvolvida pela agência autônoma: cidades territórios e direitos – laboratório de justiça espacial da FAU-UnB, em parceria com o MediaLab da UFRJ.'
         column2:
           components:
-            - type: Text
-              hasDropCap: false
-              content: |-
-                ###### Direção: Paulo Tavares e Fernanda Bruno
+            - type: InnerColumns
+              column1:
+                components:
+                  - type: Text
+                    hasDropCap: false
+                    content: |-
+                      **Direção:** 
 
-                ###### Coordenação: Paula Marujo
+                      Paulo Tavares e Fernanda Bruno
 
-                ###### Implementação: Julia Veras
+                      **Coordenação:** 
 
-                ###### Desenvolvimento front-end: atonal.studio 
+                      Paula Marujo
 
-                ###### Desenvolviment backend e app: Thiago Paixão 
+                      **Implementação:** 
 
-                ###### A [primeira versão da plataforma](http://v1.documental.xyz) foi desenvolvida em 2019 com a participação dos pesquisadores e designers Marlus Araújo, Adriano Belisário e Rafael Bantu
+                      Julia Veras
+
+                      Desenvolvimento front-end: 
+
+                      atonal.studio 
+
+                      Desenvolviment backend e app: 
+
+                      Thiago Paixão 
+
+                      A [primeira versão da plataforma](http://v1.documental.xyz) foi desenvolvida em 2019 com a participação dos pesquisadores e designers Marlus Araújo, Adriano Belisário e Rafael Bantu
+              column2:
+                components:
+                  - type: LogosGroup
+                    logos:
+                      - image: /uploads/logo_autonoma_advocacia_BLACK.png
+                        link:
+                          url: https://advocacia.autonoma.xyz
+                          target: ''
+                          customTarget: ''
+                          title: ''
+                      - image: /uploads/logo-novo-medialab_escuro-1.png
+                        link:
+                          url: https://medialabufrj.net/
+                          target: ''
+                          customTarget: ''
+                          title: ''
       - type: LogosGroup
         logos:
           - image: /uploads/logo_autonoma_advocacia_BLACK.png
