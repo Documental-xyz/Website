@@ -54,7 +54,7 @@ components:
     animations: true
     txtColor: Secondary
     customTxtColor: ''
-    bgColor: Custom
+    bgColor: Highlight
     customBgColor: '#4cde0dff'
     backgroundMedia:
       - type: backgroundVideo
