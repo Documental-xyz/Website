@@ -55,11 +55,11 @@ components:
     txtColor: Secondary
     customTxtColor: ''
     bgColor: Custom
-    customBgColor: '#005aa9ff'
+    customBgColor: '#00a832ff'
     backgroundMedia:
       - type: backgroundVideo
         videoSrc: /uploads/usar-esse.mp4
-    overlay: light
+    overlay: ''
     components:
       - type: Columns
         paddingTop: true
@@ -154,7 +154,7 @@ components:
     backgroundMedia:
       - type: backgroundImage
         imgSrc: /uploads/captura-de-tela-2026-08-19-as-12.10.11.png
-    overlay: light
+    overlay: ''
     components:
       - type: Columns
         paddingTop: true
