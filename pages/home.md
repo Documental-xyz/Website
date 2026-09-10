@@ -55,11 +55,11 @@ components:
     txtColor: Secondary
     customTxtColor: ''
     bgColor: Custom
-    customBgColor: '#005aa9ff'
+    customBgColor: '#0bb5cbff'
     backgroundMedia:
       - type: backgroundVideo
         videoSrc: /uploads/usar-esse.mp4
-    overlay: dark
+    overlay: light
     components:
       - type: Columns
         paddingTop: true
