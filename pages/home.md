@@ -18,18 +18,7 @@ pageSettings:
     - keyword: agência autônoma
     - keyword: autônoma advocacy
   seoImage: ''
-pageTheme:
-  primaryColor: ''
-  secondaryColor: '#ffffff'
-  highlightColor: '#005aa9'
-  auxiliaryColor: '#000000'
-  displayFont: https://fonts.googleapis.com/css2?family=Roboto&display=swap
-  textFont: https://fonts.googleapis.com/css2?family=Roboto&display=swap
-  spacingPatterns:
-    - name: default
-      mobile: 10px
-      tablet: 10px
-      desktop: 10px
+pageTheme: null
 pageInclude: null
 modules:
   - type: MapBox
@@ -55,7 +44,7 @@ components:
     txtColor: Secondary
     customTxtColor: ''
     bgColor: Custom
-    customBgColor: '#0bb5cbff'
+    customBgColor: '#005aa9ff'
     backgroundMedia:
       - type: backgroundVideo
         videoSrc: /uploads/usar-esse.mp4
@@ -273,7 +262,7 @@ components:
     backgroundMedia:
       - type: backgroundImage
         imgSrc: /uploads/memoria-capa.jpg
-    overlay: light
+    overlay: dark
     components:
       - type: Columns
         paddingTop: true
