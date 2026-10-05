@@ -59,7 +59,7 @@ components:
     backgroundMedia:
       - type: backgroundVideo
         videoSrc: /uploads/usar-esse.mp4
-    overlay: ''
+    overlay: none
     components:
       - type: Columns
         paddingTop: true
@@ -101,7 +101,7 @@ components:
     bgColor: Secondary
     customBgColor: ''
     backgroundMedia: []
-    overlay: ''
+    overlay: none
     components:
       - type: Columns
         paddingTop: false
@@ -154,7 +154,7 @@ components:
     backgroundMedia:
       - type: backgroundImage
         imgSrc: /uploads/captura-de-tela-2026-08-19-as-12.10.11.png
-    overlay: ''
+    overlay: none
     components:
       - type: Columns
         paddingTop: true
@@ -197,7 +197,7 @@ components:
     bgColor: Secondary
     customBgColor: ''
     backgroundMedia: []
-    overlay: ''
+    overlay: none
     components:
       - type: Columns
         paddingTop: false
@@ -273,7 +273,7 @@ components:
     backgroundMedia:
       - type: backgroundImage
         imgSrc: /uploads/memoria-capa.jpg
-    overlay: ''
+    overlay: none
     components:
       - type: Columns
         paddingTop: true
@@ -334,7 +334,7 @@ components:
     bgColor: Secondary
     customBgColor: ''
     backgroundMedia: []
-    overlay: ''
+    overlay: none
     components:
       - type: Columns
         paddingTop: false
@@ -360,7 +360,7 @@ components:
     bgColor: Secondary
     customBgColor: ''
     backgroundMedia: []
-    overlay: ''
+    overlay: none
     components:
       - type: Columns
         paddingTop: true
@@ -452,7 +452,7 @@ components:
     bgColor: Highlight
     customBgColor: ''
     backgroundMedia: []
-    overlay: ''
+    overlay: none
     components:
       - type: Columns
         paddingTop: true
@@ -492,7 +492,7 @@ components:
     bgColor: Secondary
     customBgColor: ''
     backgroundMedia: []
-    overlay: ''
+    overlay: none
     components:
       - type: Columns
         paddingTop: false
@@ -564,7 +564,7 @@ components:
     bgColor: Secondary
     customBgColor: ''
     backgroundMedia: []
-    overlay: ''
+    overlay: none
     components:
       - type: Columns
         paddingTop: false
@@ -621,12 +621,12 @@ components:
     description: ''
     showInMenu: true
     animations: true
-    txtColor: Primary
+    txtColor: Secondary
     customTxtColor: ''
     bgColor: Highlight
     customBgColor: ''
     backgroundMedia: []
-    overlay: ''
+    overlay: none
     components:
       - type: Columns
         paddingTop: false
