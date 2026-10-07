@@ -516,7 +516,7 @@ components:
               title: Linux
               text: Download do app versão Desktop para Linux x64 no formato AppImage.
               link:
-                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.92.0/Documental-0.92.0.AppImage
+                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.92.1/Documental-0.92.1.AppImage
                 target: _blank
                 customTarget: ''
                 text: Baixar o app para Linux
@@ -526,7 +526,7 @@ components:
               title: Windows
               text: Download do instalador do app versão Desktop para Windows x64.
               link:
-                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.92.0/Documental-Setup-0.92.0.exe
+                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.92.1/Documental-Setup-0.92.1.exe
                 target: _blank
                 customTarget: ''
                 text: Baixar o app para Windows
@@ -536,7 +536,7 @@ components:
               title: MacOSX
               text: Download do app versão Desktop para MacOSX x64 no formato .dmg
               link:
-                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.92.0/Documental-0.92.0.dmg
+                url: https://github.com/Documental-xyz/App-Desktop/releases/download/v0.92.1/Documental-0.92.1.dmg
                 target: _blank
                 customTarget: ''
                 text: Baixar o app para Mac
